@@ -1,0 +1,52 @@
+[
+  {
+    "id": "loc_mcd_sunway",
+    "name": "McDonald's Sunway Pyramid",
+    "chain": "mcdonalds",
+    "position": {
+      "latitude": 3.072433,
+      "longitude": 101.607735
+    },
+    "address": "Lot LG2.45, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_kfc_sunway",
+    "name": "KFC Sunway Pyramid",
+    "chain": "kfc",
+    "position": {
+      "latitude": 3.0725,
+      "longitude": 101.6078
+    },
+    "address": "Lot LG2.52, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_burger_king_sunway",
+    "name": "Burger King Sunway Pyramid",
+    "chain": "burger_king",
+    "position": {
+      "latitude": 3.0726,
+      "longitude": 101.6079
+    },
+    "address": "Lot LG2.89, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_marrybrown_sunway",
+    "name": "Marrybrown Sunway Pyramid",
+    "chain": "marrybrown",
+    "position": {
+      "latitude": 3.0727,
+      "longitude": 101.608
+    },
+    "address": "Lot LG2.12, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_4fingers_sunway",
+    "name": "4Fingers Crispy Chicken Sunway Pyramid",
+    "chain": "4fingers",
+    "position": {
+      "latitude": 3.0728,
+      "longitude": 101.6081
+    },
+    "address": "Lot F1.32, First Floor, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  }
+]

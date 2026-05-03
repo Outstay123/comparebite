@@ -1,0 +1,581 @@
+[
+  {
+    "id": "item_chicken_chop_mcd",
+    "location_id": "loc_mcd_sunway",
+    "seller_name": "McDonald's Sunway Pyramid",
+    "chain": "mcdonalds",
+    "name": "Crispy Chicken Chop",
+    "description": "Juicy chicken thigh coated in crispy breadcrumbs, served with mashed potatoes and coleslaw",
+    "categories": ["chicken_chop", "western", "chicken", "main_course"],
+    "product_type": "food",
+    "price": 18.99,
+    "currency": "MYR",
+    "ingredients": ["chicken thigh", "breadcrumbs", "mashed potatoes", "coleslaw"],
+    "options": {
+      "sauce": ["mushroom", "black pepper", "bbq"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mcd_001",
+        "user": "John D.",
+        "rating": 4.2,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Good portion size, crispy coating but sauce could be better",
+        "created_at": "2026-04-15"
+      },
+      {
+        "id": "rev_mcd_002",
+        "user": "Sarah M.",
+        "rating": 3.8,
+        "portion_score": 3,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Tasty but portion felt smaller than expected for the price",
+        "created_at": "2026-04-20"
+      }
+    ],
+    "average_rating": 4.0,
+    "review_count": 2,
+    "portion_score": 3.5,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [
+      {
+        "id": "offer_mcd_001",
+        "title": "Student Discount",
+        "type": "discount",
+        "value": 15,
+        "description": "15% off with valid student ID"
+      }
+    ],
+    "image_url": "/images/placeholders/chicken-chop.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_chicken_chop_kfc",
+    "location_id": "loc_kfc_sunway",
+    "seller_name": "KFC Sunway Pyramid",
+    "chain": "kfc",
+    "name": "Original Chicken Chop",
+    "description": "Signature fried chicken chop with secret recipe herbs and spices, served with whipped potatoes and coleslaw",
+    "categories": ["chicken_chop", "western", "chicken", "main_course"],
+    "product_type": "food",
+    "price": 16.99,
+    "currency": "MYR",
+    "ingredients": ["chicken", "herbs", "spices", "whipped potatoes", "coleslaw"],
+    "options": {
+      "sauce": ["original", "spicy", "black pepper"]
+    },
+    "reviews": [
+      {
+        "id": "rev_kfc_001",
+        "user": "Ahmad K.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Best chicken chop in town! Generous portion and amazing flavor",
+        "created_at": "2026-04-10"
+      },
+      {
+        "id": "rev_kfc_002",
+        "user": "Lisa T.",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "Great value for money. Crispy and well-seasoned",
+        "created_at": "2026-04-18"
+      },
+      {
+        "id": "rev_kfc_003",
+        "user": "Mike R.",
+        "rating": 4.0,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Good but sometimes inconsistent quality",
+        "created_at": "2026-04-22"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 3,
+    "portion_score": 4.0,
+    "taste_score": 4.3,
+    "value_score": 4.7,
+    "offers": [
+      {
+        "id": "offer_kfc_001",
+        "title": "Student Discount",
+        "type": "discount",
+        "value": 10,
+        "description": "10% off with valid student ID"
+      },
+      {
+        "id": "offer_kfc_002",
+        "title": "Lunch Combo Deal",
+        "type": "bundle",
+        "value": 20,
+        "description": "Add a drink and dessert for only RM5 more"
+      }
+    ],
+    "image_url": "/images/placeholders/chicken-chop.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_chicken_chop_mb",
+    "location_id": "loc_marrybrown_sunway",
+    "seller_name": "Marrybrown Sunway Pyramid",
+    "chain": "marrybrown",
+    "name": "Chicken Maryland",
+    "description": "Classic fried chicken chop with mushroom sauce, served with fries and coleslaw",
+    "categories": ["chicken_chop", "western", "chicken", "main_course"],
+    "product_type": "food",
+    "price": 19.50,
+    "currency": "MYR",
+    "ingredients": ["chicken", "mushroom sauce", "fries", "coleslaw"],
+    "options": {
+      "sauce": ["mushroom", "black pepper", "cheese"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mb_001",
+        "user": "Fatimah H.",
+        "rating": 3.5,
+        "portion_score": 3,
+        "taste_score": 3,
+        "value_score": 3,
+        "comment": "Overpriced for the portion size. Taste is average",
+        "created_at": "2026-04-12"
+      },
+      {
+        "id": "rev_mb_002",
+        "user": "David L.",
+        "rating": 3.0,
+        "portion_score": 2,
+        "taste_score": 3,
+        "value_score": 3,
+        "comment": "Not worth the price. Small portion and dry chicken",
+        "created_at": "2026-04-25"
+      }
+    ],
+    "average_rating": 3.3,
+    "review_count": 2,
+    "portion_score": 2.5,
+    "taste_score": 3.0,
+    "value_score": 3.0,
+    "offers": [],
+    "image_url": "/images/placeholders/chicken-chop.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_burger_mcd",
+    "location_id": "loc_mcd_sunway",
+    "seller_name": "McDonald's Sunway Pyramid",
+    "chain": "mcdonalds",
+    "name": "Big Mac",
+    "description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun",
+    "categories": ["burger", "beef", "main_course"],
+    "product_type": "food",
+    "price": 12.50,
+    "currency": "MYR",
+    "ingredients": ["beef patties", "sesame bun", "special sauce", "lettuce", "cheese", "pickles", "onions"],
+    "options": {
+      "size": ["regular", "large"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mcd_burger_001",
+        "user": "Ali R.",
+        "rating": 4.0,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Classic taste, consistent quality",
+        "created_at": "2026-04-05"
+      },
+      {
+        "id": "rev_mcd_burger_002",
+        "user": "Emily W.",
+        "rating": 3.5,
+        "portion_score": 3,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Good but getting smaller over the years",
+        "created_at": "2026-04-15"
+      }
+    ],
+    "average_rating": 3.8,
+    "review_count": 2,
+    "portion_score": 3.5,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [
+      {
+        "id": "offer_mcd_burger",
+        "title": "Meal Upgrade",
+        "type": "bundle",
+        "value": 15,
+        "description": "Upgrade to meal with fries and drink for RM5"
+      }
+    ],
+    "image_url": "/images/placeholders/burger.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy", "sesame"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_burger_bk",
+    "location_id": "loc_burger_king_sunway",
+    "seller_name": "Burger King Sunway Pyramid",
+    "chain": "burger_king",
+    "name": "Whopper",
+    "description": "Flame-grilled beef patty with fresh tomatoes, lettuce, pickles, onions, mayo, and ketchup",
+    "categories": ["burger", "beef", "main_course"],
+    "product_type": "food",
+    "price": 14.90,
+    "currency": "MYR",
+    "ingredients": ["beef patty", "tomatoes", "lettuce", "pickles", "onions", "mayo", "ketchup", "sesame bun"],
+    "options": {
+      "size": ["regular", "double"]
+    },
+    "reviews": [
+      {
+        "id": "rev_bk_001",
+        "user": "Sam K.",
+        "rating": 4.5,
+        "portion_score": 5,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Huge portion! Best value burger around",
+        "created_at": "2026-04-08"
+      },
+      {
+        "id": "rev_bk_002",
+        "user": "Nina P.",
+        "rating": 4.2,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Great flame-grilled taste, satisfying size",
+        "created_at": "2026-04-16"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 2,
+    "portion_score": 4.5,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [
+      {
+        "id": "offer_bk_001",
+        "title": "Burger King App Deal",
+        "type": "discount",
+        "value": 20,
+        "description": "20% off when ordering through BK app"
+      }
+    ],
+    "image_url": "/images/placeholders/burger.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy", "sesame", "egg"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_fried_chicken_kfc",
+    "location_id": "loc_kfc_sunway",
+    "seller_name": "KFC Sunway Pyramid",
+    "chain": "kfc",
+    "name": "2pc Original Recipe Chicken",
+    "description": "2 pieces of our signature Original Recipe fried chicken with secret blend of 11 herbs and spices",
+    "categories": ["fried_chicken", "chicken", "main_course"],
+    "product_type": "food",
+    "price": 15.99,
+    "currency": "MYR",
+    "ingredients": ["chicken", "herbs", "spices", "flour"],
+    "options": {
+      "pieces": ["2pc", "3pc", "5pc"]
+    },
+    "reviews": [
+      {
+        "id": "rev_kfc_chicken_001",
+        "user": "Kumar S.",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Perfectly crispy and juicy. Best fried chicken ever!",
+        "created_at": "2026-04-03"
+      },
+      {
+        "id": "rev_kfc_chicken_002",
+        "user": "Jessica M.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Classic KFC taste, never disappoints",
+        "created_at": "2026-04-14"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 2,
+    "portion_score": 4.5,
+    "taste_score": 5.0,
+    "value_score": 4.0,
+    "offers": [
+      {
+        "id": "offer_kfc_chicken",
+        "title": "Wednesday Bucket Deal",
+        "type": "discount",
+        "value": 25,
+        "description": "25% off bucket meals every Wednesday"
+      }
+    ],
+    "image_url": "/images/placeholders/fried-chicken.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_fried_chicken_4fingers",
+    "location_id": "loc_4fingers_sunway",
+    "seller_name": "4Fingers Crispy Chicken Sunway Pyramid",
+    "chain": "4fingers",
+    "name": "6pcs Crispy Chicken Combo",
+    "description": "6 pieces of crispy fried chicken with soy garlic or hot sauce, served with fries and drink",
+    "categories": ["fried_chicken", "chicken", "combo_meal", "main_course"],
+    "product_type": "food",
+    "price": 28.90,
+    "currency": "MYR",
+    "ingredients": ["chicken", "soy garlic sauce", "fries"],
+    "options": {
+      "sauce": ["soy garlic", "hot", "mixed"]
+    },
+    "reviews": [
+      {
+        "id": "rev_4f_001",
+        "user": "Rachel T.",
+        "rating": 4.6,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Amazing soy garlic flavor! Great for sharing",
+        "created_at": "2026-04-07"
+      },
+      {
+        "id": "rev_4f_002",
+        "user": "Jason H.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 3,
+        "comment": "Delicious but expensive. Good for special occasions",
+        "created_at": "2026-04-19"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 2,
+    "portion_score": 4.5,
+    "taste_score": 5.0,
+    "value_score": 3.5,
+    "offers": [
+      {
+        "id": "offer_4f_001",
+        "title": "Student Meal",
+        "type": "bundle",
+        "value": 15,
+        "description": "3pc combo with drink for RM18.90"
+      }
+    ],
+    "image_url": "/images/placeholders/fried-chicken.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "soy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_nuggets_mcd",
+    "location_id": "loc_mcd_sunway",
+    "seller_name": "McDonald's Sunway Pyramid",
+    "chain": "mcdonalds",
+    "name": "6pc Chicken McNuggets",
+    "description": "Tender chicken nuggets made with white meat, served with your choice of sauce",
+    "categories": ["nuggets", "chicken", "side"],
+    "product_type": "food",
+    "price": 8.50,
+    "currency": "MYR",
+    "ingredients": ["chicken", "breading"],
+    "options": {
+      "dipping_sauce": ["bbq", "sweet_sour", "ketchup"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mcd_nuggets_001",
+        "user": "Tom B.",
+        "rating": 4.0,
+        "portion_score": 3,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Classic nuggets, good snack but not filling",
+        "created_at": "2026-04-11"
+      }
+    ],
+    "average_rating": 4.0,
+    "review_count": 1,
+    "portion_score": 3.0,
+    "taste_score": 4.0,
+    "value_score": 3.0,
+    "offers": [
+      {
+        "id": "offer_mcd_nuggets",
+        "title": "20pc Share Box",
+        "type": "bundle",
+        "value": 20,
+        "description": "20 nuggets for RM25 (save RM9)"
+      }
+    ],
+    "image_url": "/images/placeholders/nuggets.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_fries_mcd",
+    "location_id": "loc_mcd_sunway",
+    "seller_name": "McDonald's Sunway Pyramid",
+    "chain": "mcdonalds",
+    "name": "French Fries Large",
+    "description": "Golden crispy fries, world-famous",
+    "categories": ["fries", "sides"],
+    "product_type": "side",
+    "price": 5.50,
+    "currency": "MYR",
+    "ingredients": ["potatoes", "oil", "salt"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_mcd_fries_001",
+        "user": "Amy C.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Best fast food fries, always crispy",
+        "created_at": "2026-04-09"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/fries.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_fries_bk",
+    "location_id": "loc_burger_king_sunway",
+    "seller_name": "Burger King Sunway Pyramid",
+    "chain": "burger_king",
+    "name": "Onion Rings Large",
+    "description": "Crispy battered onion rings",
+    "categories": ["sides", "onion_rings"],
+    "product_type": "side",
+    "price": 6.90,
+    "currency": "MYR",
+    "ingredients": ["onions", "batter", "oil"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_bk_onion_001",
+        "user": "Chris L.",
+        "rating": 4.0,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Good alternative to fries, crispy",
+        "created_at": "2026-04-13"
+      }
+    ],
+    "average_rating": 4.0,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 3.0,
+    "offers": [],
+    "image_url": "/images/placeholders/onion-rings.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_combo_mb",
+    "location_id": "loc_marrybrown_sunway",
+    "seller_name": "Marrybrown Sunway Pyramid",
+    "chain": "marrybrown",
+    "name": "2pc Chicken Combo",
+    "description": "2 pieces fried chicken with fries and drink",
+    "categories": ["combo_meal", "fried_chicken", "chicken", "main_course"],
+    "product_type": "food",
+    "price": 17.90,
+    "currency": "MYR",
+    "ingredients": ["chicken", "fries", "bun"],
+    "options": {
+      "drink": ["coke", "sprite", "fanta"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mb_combo_001",
+        "user": "Linda G.",
+        "rating": 3.5,
+        "portion_score": 3,
+        "taste_score": 3,
+        "value_score": 4,
+        "comment": "Decent combo but chicken is oily",
+        "created_at": "2026-04-17"
+      }
+    ],
+    "average_rating": 3.5,
+    "review_count": 1,
+    "portion_score": 3.0,
+    "taste_score": 3.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  }
+]
