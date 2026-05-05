@@ -48,5 +48,155 @@
       "longitude": 101.6081
     },
     "address": "Lot F1.32, First Floor, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_zus_coffee_sunway",
+    "name": "ZUS Coffee Sunway Pyramid",
+    "chain": "zus_coffee",
+    "position": {
+      "latitude": 3.0729,
+      "longitude": 101.6082
+    },
+    "address": "Lot LG2.55, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_starbucks_sunway",
+    "name": "Starbucks Sunway Pyramid",
+    "chain": "starbucks",
+    "position": {
+      "latitude": 3.073,
+      "longitude": 101.6083
+    },
+    "address": "Lot LG2.88, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_tealive_sunway",
+    "name": "Tealive Sunway Pyramid",
+    "chain": "tealive",
+    "position": {
+      "latitude": 3.0731,
+      "longitude": 101.6084
+    },
+    "address": "Lot LG2.99, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_familymart_sunway",
+    "name": "FamilyMart Sunway Pyramid",
+    "chain": "familymart",
+    "position": {
+      "latitude": 3.0732,
+      "longitude": 101.6085
+    },
+    "address": "Lot LG2.77, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_subway_sunway",
+    "name": "Subway Sunway Pyramid",
+    "chain": "subway",
+    "position": {
+      "latitude": 3.0733,
+      "longitude": 101.6086
+    },
+    "address": "Lot LG2.66, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_pizza_hut_sunway",
+    "name": "Pizza Hut Sunway Pyramid",
+    "chain": "pizza_hut",
+    "position": {
+      "latitude": 3.0734,
+      "longitude": 101.6087
+    },
+    "address": "Lot LG2.44, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_texas_chicken_sunway",
+    "name": "Texas Chicken Sunway Pyramid",
+    "chain": "texas_chicken",
+    "position": {
+      "latitude": 3.0735,
+      "longitude": 101.6088
+    },
+    "address": "Lot LG2.33, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_warung_kak_ani",
+    "name": "Warung Kak Ani",
+    "chain": "warung_kak_ani",
+    "position": {
+      "latitude": 3.074,
+      "longitude": 101.609
+    },
+    "address": "Jalan PJS 11/28, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_uncle_lim_kopitiam",
+    "name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "position": {
+      "latitude": 3.0742,
+      "longitude": 101.6092
+    },
+    "address": "Jalan SS15/4D, Subang Jaya, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_mak_cik_nasi_lemak",
+    "name": "Mak Cik Nasi Lemak",
+    "chain": "mak_cik_nasi_lemak",
+    "position": {
+      "latitude": 3.0744,
+      "longitude": 101.6094
+    },
+    "address": "Jalan Universiti, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_roti_canai_corner",
+    "name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "position": {
+      "latitude": 3.0746,
+      "longitude": 101.6096
+    },
+    "address": "Jalan PJS 10/11, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_char_kuey_teow_abang_din",
+    "name": "Char Kuey Teow Abang Din",
+    "chain": "char_kuey_teow_abang_din",
+    "position": {
+      "latitude": 3.0748,
+      "longitude": 101.6098
+    },
+    "address": "Jalan SS15/4B, Subang Jaya, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_teh_ais_bistro",
+    "name": "Teh Ais Bistro",
+    "chain": "teh_ais_bistro",
+    "position": {
+      "latitude": 3.075,
+      "longitude": 101.61
+    },
+    "address": "Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_ayam_gepuk_station",
+    "name": "Ayam Gepuk Station",
+    "chain": "ayam_gepuk_station",
+    "position": {
+      "latitude": 3.0752,
+      "longitude": 101.6102
+    },
+    "address": "Jalan Universiti, Bandar Sunway, 47500 Petaling Jaya, Selangor"
+  },
+  {
+    "id": "loc_chatime_sunway",
+    "name": "Chatime Sunway Pyramid",
+    "chain": "chatime",
+    "position": {
+      "latitude": 3.0736,
+      "longitude": 101.6089
+    },
+    "address": "Lot LG2.101, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor"
   }
 ]

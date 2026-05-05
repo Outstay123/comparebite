@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#fee2e2"/>
+  <circle cx="200" cy="150" r="70" fill="#fca5a5" stroke="#f87171" stroke-width="3"/>
+  <circle cx="200" cy="150" r="50" fill="#fecaca"/>
+  <ellipse cx="170" cy="140" rx="15" ry="10" fill="#fcd34d"/>
+  <ellipse cx="230" cy="155" rx="12" ry="8" fill="#fcd34d"/>
+  <circle cx="190" cy="165" r="8" fill="#16a34a"/>
+  <circle cx="215" cy="135" r="6" fill="#16a34a"/>
+  <text x="200" y="240" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#991b1b">Laksa</text>
+</svg>

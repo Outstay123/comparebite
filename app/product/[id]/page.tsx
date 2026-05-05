@@ -49,15 +49,15 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
   return (
     <main className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 py-4">
-          <Link href="/" className="flex items-center text-gray-600 hover:text-gray-900">
-            <ChevronLeft className="w-5 h-5 mr-1" />
-            Back to Search
+      {/* Breadcrumb - simplified since Navbar handles navigation */}
+      <div className="bg-white border-b border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 py-3">
+          <Link href="/" className="flex items-center text-sm text-gray-600 hover:text-gray-900 w-fit">
+            <ChevronLeft className="w-4 h-4 mr-1" />
+            Back to Home
           </Link>
         </div>
-      </header>
+      </div>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

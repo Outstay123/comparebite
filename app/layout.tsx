@@ -1,9 +1,12 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import './globals.css';
+import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'CompareBite - Find the Best Value Food',
-  description: 'Compare food prices, ratings, and value across restaurants. Find the best deals on your favorite dishes.',
+  description: 'Compare food prices, ratings, and deals across restaurants. Find the best deals on your favorite dishes.',
 };
 
 export default function RootLayout({
@@ -13,8 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gray-50">
+      <body className="min-h-screen bg-gray-50 flex flex-col">
+        <Suspense fallback={<div className="h-16 bg-white border-b border-gray-200" />}>
+          <Navbar />
+        </Suspense>
         {children}
+        <Footer />
       </body>
     </html>
   );

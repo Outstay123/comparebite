@@ -1,30 +1,98 @@
 'use client';
 
-import { useState, useMemo, Suspense } from 'react';
+import { useState, useMemo, Suspense, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { SearchBar } from '@/components/search/SearchBar';
 import { FilterPanel } from '@/components/search/FilterPanel';
 import { ProductList } from '@/components/product/ProductList';
 import { Button } from '@/components/ui/Button';
+import { Badge } from '@/components/ui/Badge';
 import { loadProducts, enrichProductsWithBestValue } from '@/lib/utils/data';
 import { searchProducts, sortProducts } from '@/lib/utils/search';
 import { SearchFilters, SortOption } from '@/lib/types';
-import { SlidersHorizontal, ArrowUpDown } from 'lucide-react';
+import { filterProducts, getCategoryDisplayName } from '@/lib/product-filters';
+import { getSellerType } from '@/lib/local-boost';
+import { SlidersHorizontal, ArrowUpDown, X } from 'lucide-react';
 
 function SearchContent() {
   const searchParams = useSearchParams();
   const query = searchParams.get('q') || '';
+  const categoryParam = searchParams.get('category');
+  const sellerTypeParam = searchParams.get('sellerType');
+  const maxPriceParam = searchParams.get('maxPrice');
 
+  // Parse URL filters
   const [filters, setFilters] = useState<SearchFilters>({});
+  const [activeFilters, setActiveFilters] = useState<{type: string; value: string; label: string}[]>([]);
   const [sortBy, setSortBy] = useState<SortOption>('best_value');
   const [showFilters, setShowFilters] = useState(false);
 
   const allProducts = useMemo(() => enrichProductsWithBestValue(loadProducts()), []);
 
+  // Build active filters from URL params
+  useEffect(() => {
+    const newFilters: SearchFilters = {};
+    const newActiveFilters: {type: string; value: string; label: string}[] = [];
+
+    if (categoryParam) {
+      newFilters.categories = [categoryParam];
+      newActiveFilters.push({
+        type: 'category',
+        value: categoryParam,
+        label: `Category: ${getCategoryDisplayName(categoryParam)}`
+      });
+    }
+
+    if (maxPriceParam) {
+      const maxPrice = parseFloat(maxPriceParam);
+      newFilters.maxPrice = maxPrice;
+      newActiveFilters.push({
+        type: 'maxPrice',
+        value: maxPriceParam,
+        label: `Under RM${maxPrice}`
+      });
+    }
+
+    setFilters(newFilters);
+    setActiveFilters(newActiveFilters);
+  }, [categoryParam, maxPriceParam]);
+
+  // Apply seller type filter separately (not part of SearchFilters)
   const filteredProducts = useMemo(() => {
-    const searched = searchProducts(allProducts, query, filters);
+    let products = allProducts;
+
+    // Apply seller type filter first
+    if (sellerTypeParam) {
+      products = products.filter(p => getSellerType(p) === sellerTypeParam);
+    }
+
+    // Apply other filters and search
+    const searched = searchProducts(products, query, filters);
     return sortProducts(searched, sortBy);
-  }, [allProducts, query, filters, sortBy]);
+  }, [allProducts, query, filters, sortBy, sellerTypeParam]);
+
+  // Add seller type to active filters display
+  const allActiveFilters = useMemo(() => {
+    const filters = [...activeFilters];
+    if (sellerTypeParam) {
+      filters.push({
+        type: 'sellerType',
+        value: sellerTypeParam,
+        label: sellerTypeParam === 'local' ? 'Local Sellers' : 'Chain Brands'
+      });
+    }
+    return filters;
+  }, [activeFilters, sellerTypeParam]);
+
+  // Clear a filter by navigating without the param
+  const clearFilter = (type: string) => {
+    const url = new URL(window.location.href);
+    if (type === 'category') url.searchParams.delete('category');
+    if (type === 'sellerType') url.searchParams.delete('sellerType');
+    if (type === 'maxPrice') url.searchParams.delete('maxPrice');
+    window.history.pushState({}, '', url);
+    window.location.reload();
+  };
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -62,6 +130,26 @@ function SearchContent() {
                   <p className="text-gray-500">
                     {filteredProducts.length} products found
                   </p>
+                  {/* Active Filter Badges */}
+                  {allActiveFilters.length > 0 && (
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {allActiveFilters.map((filter) => (
+                        <Badge
+                          key={filter.type}
+                          variant="primary"
+                          className="flex items-center gap-1"
+                        >
+                          {filter.label}
+                          <button
+                            onClick={() => clearFilter(filter.type)}
+                            className="ml-1 hover:text-primary-800"
+                          >
+                            <X className="w-3 h-3" />
+                          </button>
+                        </Badge>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
                 <div className="flex items-center gap-2">

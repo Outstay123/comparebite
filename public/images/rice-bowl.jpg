@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f5f5f4"/>
+  <ellipse cx="200" cy="160" rx="90" ry="50" fill="#e5e5e5" stroke="#d4d4d4" stroke-width="3"/>
+  <ellipse cx="200" cy="150" rx="70" ry="35" fill="#fefce8"/>
+  <ellipse cx="170" cy="145" rx="20" ry="12" fill="#f59e0b"/>
+  <ellipse cx="230" cy="150" rx="18" ry="10" fill="#f59e0b"/>
+  <circle cx="200" cy="140" r="8" fill="#dc2626"/>
+  <rect x="185" y="165" width="30" height="8" rx="2" fill="#16a34a"/>
+  <text x="200" y="240" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#57534e">Rice Bowl</text>
+</svg>

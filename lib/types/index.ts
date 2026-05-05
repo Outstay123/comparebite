@@ -52,6 +52,7 @@ export interface Product {
   portion_score: number;
   taste_score: number;
   value_score: number;
+  best_value_score?: number; // Added by enrichProductsWithBestValue
   offers: Offer[];
   image_url?: string;
   is_halal: boolean;
@@ -59,7 +60,6 @@ export interface Product {
   allergens: string[];
   created_at: string;
   updated_at: string;
-  best_value_score?: number;
 }
 
 // Category metadata

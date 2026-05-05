@@ -9,7 +9,7 @@ import { getProductsByLocation, loadProducts, loadLocations, getLocationById, en
 import { getSellerStats, getTopRatedProducts, getWorstRatedProducts, getBestValueProducts, getProductsNeedingImprovement } from '@/lib/utils/seller';
 import { calculateReadinessScore } from '@/lib/utils/readiness';
 import { getCategoryAveragePrice } from '@/lib/utils/bestValue';
-import { ArrowLeft, MapPin, PieChart } from 'lucide-react';
+import { ArrowLeft, MapPin, PieChart, Beaker, TrendingUp } from 'lucide-react';
 
 // Generate static paths for all locations at build time
 export function generateStaticParams() {
@@ -67,25 +67,37 @@ export default async function SellerDashboardPage({ params }: SellerDashboardPag
 
   return (
     <main className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 py-4">
-          <Link href="/" className="flex items-center text-gray-600 hover:text-gray-900 mb-4">
-            <ArrowLeft className="w-5 h-5 mr-2" />
-            Back to Home
-          </Link>
-          <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-primary-100 rounded-xl flex items-center justify-center">
-              <span className="text-2xl font-bold text-primary-600">
-                {location.name.charAt(0)}
-              </span>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900">{location.name}</h1>
-              <div className="flex items-center text-gray-600">
-                <MapPin className="w-4 h-4 mr-1" />
-                {location.address}
+      {/* Seller Header - Simplified without back button (Navbar handles navigation) */}
+      <header className="bg-white border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 py-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 bg-primary-100 rounded-xl flex items-center justify-center">
+                <span className="text-2xl font-bold text-primary-600">
+                  {location.name.charAt(0)}
+                </span>
               </div>
+              <div>
+                <h1 className="text-2xl font-bold text-gray-900">{location.name}</h1>
+                <div className="flex items-center text-gray-600">
+                  <MapPin className="w-4 h-4 mr-1" />
+                  {location.address}
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <Link href={`/seller/insights?sellerId=${id}`}>
+                <Button variant="outline" className="flex items-center gap-2">
+                  <TrendingUp className="w-4 h-4" />
+                  View Seller Insights
+                </Button>
+              </Link>
+              <Link href="/seller/test-product">
+                <Button variant="primary" className="flex items-center gap-2">
+                  <Beaker className="w-4 h-4" />
+                  Test New Product
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -96,6 +108,29 @@ export default async function SellerDashboardPage({ params }: SellerDashboardPag
         <div className="mb-8">
           <SellerStats stats={stats} />
         </div>
+
+        {/* Empty State - No Products */}
+        {sellerProducts.length === 0 && (
+          <Card className="mb-8">
+            <CardBody className="p-12 text-center">
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Beaker className="w-8 h-8 text-gray-400" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                No products found for this seller yet.
+              </h3>
+              <p className="text-gray-500 max-w-md mx-auto mb-6">
+                This seller dashboard will display products once they are added to the system.
+              </p>
+              <Link href="/seller/test-product">
+                <Button>
+                  <Beaker className="w-4 h-4 mr-2" />
+                  Test a Product
+                </Button>
+              </Link>
+            </CardBody>
+          </Card>
+        )}
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -123,7 +158,7 @@ export default async function SellerDashboardPage({ params }: SellerDashboardPag
                         href={`/product/${product.id}`}
                         className="flex items-center justify-between p-4 hover:bg-gray-50"
                       >
-                        <div>
+                        <div className="flex-1">
                           <div className="font-medium text-gray-900">{product.name}</div>
                           <div className="text-sm text-gray-500">Rating: {product.average_rating}/5</div>
                         </div>
@@ -148,6 +183,7 @@ export default async function SellerDashboardPage({ params }: SellerDashboardPag
                 ))}
               </div>
             </div>
+
           </div>
 
           {/* Sidebar */}
@@ -191,6 +227,27 @@ export default async function SellerDashboardPage({ params }: SellerDashboardPag
             </Card>
 
             {/* Quick Actions */}
+            <Card>
+              <CardHeader>
+                <h3 className="font-semibold text-gray-900">Quick Actions</h3>
+              </CardHeader>
+              <CardBody className="space-y-3">
+                <Link href="/seller/insights">
+                  <Button variant="primary" className="w-full">
+                    <TrendingUp className="w-4 h-4 mr-2" />
+                    View Profit Insights
+                  </Button>
+                </Link>
+                <Link href="/seller/test-product">
+                  <Button variant="outline" className="w-full">
+                    <Beaker className="w-4 h-4 mr-2" />
+                    Test Product
+                  </Button>
+                </Link>
+              </CardBody>
+            </Card>
+
+            {/* Seller Strategy */}
             <Card>
               <CardHeader>
                 <h3 className="font-semibold text-gray-900">Seller Strategy</h3>

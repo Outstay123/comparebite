@@ -577,5 +577,1914 @@
     "allergens": ["gluten"],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_chicken_chop_local_cafe",
+    "location_id": "loc_local_cafe_sunway",
+    "seller_name": "Local Cafe Sunway",
+    "chain": "local_cafe_sunway",
+    "name": "Signature Chicken Chop",
+    "description": "Juicy grilled chicken with homemade mushroom sauce, served with fresh salad and mashed potatoes. Family recipe passed down for generations.",
+    "categories": ["chicken_chop", "western", "local"],
+    "product_type": "food",
+    "price": 12.90,
+    "currency": "MYR",
+    "ingredients": ["chicken breast", "mushroom sauce", "salad", "mashed potatoes"],
+    "options": {
+      "sauce": ["mushroom", "black pepper", "bbq"],
+      "side": ["mashed potatoes", "fries", "rice"]
+    },
+    "reviews": [
+      {
+        "id": "rev_local_cafe_001",
+        "user": "Fatima H.",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Amazing value! Better than chains at half the price. Owner is so friendly too.",
+        "created_at": "2026-04-12"
+      },
+      {
+        "id": "rev_local_cafe_002",
+        "user": "Kevin L.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Hidden gem! Crispy outside, juicy inside. RM12.90 is a steal.",
+        "created_at": "2026-04-22"
+      }
+    ],
+    "average_rating": 4.65,
+    "review_count": 2,
+    "portion_score": 4.5,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [
+      {
+        "id": "offer_local_cafe_001",
+        "title": "Student Deal",
+        "type": "discount",
+        "value": 10,
+        "description": "10% off with student ID, includes free drink"
+      }
+    ],
+    "image_url": "/images/placeholders/chicken-chop.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_nasi_lemak_uncle_lim",
+    "location_id": "loc_uncle_lim_sunway",
+    "seller_name": "Uncle Lim Nasi Lemak",
+    "chain": "uncle_lim_sunway",
+    "name": "Special Nasi Lemak Ayam Goreng",
+    "description": "Fragrant coconut rice with crispy fried chicken, sambal, peanuts, ikan bilis, egg, and cucumber. Authentic Malaysian breakfast favorite.",
+    "categories": ["nasi_lemak", "malaysian", "breakfast", "local"],
+    "product_type": "food",
+    "price": 8.50,
+    "currency": "MYR",
+    "ingredients": ["coconut rice", "fried chicken", "sambal", "peanuts", "ikan bilis", "egg", "cucumber"],
+    "options": {
+      "spice_level": ["mild", "medium", "spicy"],
+      "extra_sambal": ["yes", "no"]
+    },
+    "reviews": [
+      {
+        "id": "rev_uncle_lim_001",
+        "user": "Aisyah R.",
+        "rating": 4.9,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Best nasi lemak in Sunway! Uncle Lim uses fresh ingredients daily. RM8.50 for this quality is unbeatable.",
+        "created_at": "2026-04-08"
+      }
+    ],
+    "average_rating": 4.9,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/nasi-lemak.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["peanuts", "fish"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_latte_sunway_kopitiam",
+    "location_id": "loc_sunway_kopitiam",
+    "seller_name": "Sunway Kopitiam",
+    "chain": "sunway_kopitiam",
+    "name": "Traditional Kopi Latte",
+    "description": "Rich and aromatic Malaysian-style coffee with condensed milk. Brewed using traditional sock filter method for authentic flavor.",
+    "categories": ["coffee", "drinks", "local"],
+    "product_type": "drink",
+    "price": 4.50,
+    "currency": "MYR",
+    "ingredients": ["coffee", "condensed milk", "water"],
+    "options": {
+      "sweetness": ["less sweet", "normal", "extra sweet"],
+      "ice": ["hot", "iced"]
+    },
+    "reviews": [
+      {
+        "id": "rev_kopitiam_001",
+        "user": "Jason T.",
+        "rating": 4.6,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Better than Starbucks at 1/3 the price! Authentic kopitiam taste.",
+        "created_at": "2026-04-19"
+      },
+      {
+        "id": "rev_kopitiam_002",
+        "user": "Mei Ling C.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "Strong coffee, great value. Aunty remembers my order every time!",
+        "created_at": "2026-04-25"
+      }
+    ],
+    "average_rating": 4.55,
+    "review_count": 2,
+    "portion_score": 4.0,
+    "taste_score": 4.5,
+    "value_score": 5.0,
+    "offers": [
+      {
+        "id": "offer_kopitiam_001",
+        "title": "Morning Special",
+        "type": "bundle",
+        "value": 20,
+        "description": "Kopi + Kaya Toast for RM7 (save RM2)"
+      }
+    ],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_fried_chicken_warung",
+    "location_id": "loc_warung_spicy_sunway",
+    "seller_name": "Warung Spicy Fried Chicken",
+    "chain": "warung_spicy_sunway",
+    "name": "Ayam Goreng Berempah",
+    "description": "Crispy fried chicken with aromatic Malaysian spices. Marinated overnight for maximum flavor. Served with sambal belacan.",
+    "categories": ["fried_chicken", "malaysian", "spicy", "local"],
+    "product_type": "food",
+    "price": 10.90,
+    "currency": "MYR",
+    "ingredients": ["chicken", "spices", "sambal belacan", "rice"],
+    "options": {
+      "spice_level": ["medium", "spicy", "extra spicy"],
+      "part": ["drumstick", "thigh", "breast", "mix"]
+    },
+    "reviews": [
+      {
+        "id": "rev_warung_001",
+        "user": "Hakim M.",
+        "rating": 4.7,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Spicy, crispy, delicious! Way better than fast food chains. The rempah is authentic.",
+        "created_at": "2026-04-14"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/fried-chicken.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_burger_campus_stall",
+    "location_id": "loc_campus_burger_sunway",
+    "seller_name": "Campus Burger Stall",
+    "chain": "campus_burger_sunway",
+    "name": "Classic Beef Burger",
+    "description": "Juicy beef patty with fresh lettuce, tomato, cheese, and special sauce. Grilled to order. Popular with students for 10 years.",
+    "categories": ["burger", "western", "local"],
+    "product_type": "food",
+    "price": 7.90,
+    "currency": "MYR",
+    "ingredients": ["beef patty", "bun", "lettuce", "tomato", "cheese", "special sauce"],
+    "options": {
+      "cheese": ["cheddar", "mozzarella", "none"],
+      "addons": ["extra patty", "bacon", "egg"]
+    },
+    "reviews": [
+      {
+        "id": "rev_campus_burger_001",
+        "user": "Nadia K.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM7.90 for a proper beef burger? Amazing! Tastes homemade, not factory-made like fast food.",
+        "created_at": "2026-04-16"
+      },
+      {
+        "id": "rev_campus_burger_002",
+        "user": "Wei J.",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "Go-to lunch spot. Abang always remembers 'extra sauce' request. Great value!",
+        "created_at": "2026-04-23"
+      }
+    ],
+    "average_rating": 4.35,
+    "review_count": 2,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [
+      {
+        "id": "offer_campus_001",
+        "title": "Student Combo",
+        "type": "bundle",
+        "value": 15,
+        "description": "Burger + Fries + Drink for RM10 (save RM3)"
+      }
+    ],
+    "image_url": "/images/placeholders/burger.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_zus_latte",
+    "location_id": "loc_zus_coffee_sunway",
+    "seller_name": "ZUS Coffee Sunway Pyramid",
+    "chain": "zus_coffee",
+    "name": "CEO Latte",
+    "description": "Signature creamy latte with smooth espresso and fresh milk. ZUS's bestseller.",
+    "categories": ["coffee", "latte", "drink"],
+    "product_type": "drink",
+    "price": 8.90,
+    "currency": "MYR",
+    "ingredients": ["espresso", "fresh milk", "foam"],
+    "options": {
+      "size": ["small", "regular", "large"],
+      "temperature": ["hot", "iced"]
+    },
+    "reviews": [
+      {
+        "id": "rev_zus_latte_001",
+        "user": "Nina R.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Great value at RM8.90! Smooth and creamy, better than Starbucks at half the price.",
+        "created_at": "2026-04-10"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [
+      {
+        "id": "offer_zus_001",
+        "title": "Buy 2 Free 1",
+        "type": "bundle",
+        "value": 33,
+        "description": "Buy 2 drinks, get 1 free on Wednesdays"
+      }
+    ],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_starbucks_latte",
+    "location_id": "loc_starbucks_sunway",
+    "seller_name": "Starbucks Sunway Pyramid",
+    "chain": "starbucks",
+    "name": "Caffè Latte",
+    "description": "Rich espresso balanced with steamed milk and a light layer of foam.",
+    "categories": ["coffee", "latte", "drink"],
+    "product_type": "drink",
+    "price": 14.50,
+    "currency": "MYR",
+    "ingredients": ["espresso", "steamed milk", "milk foam"],
+    "options": {
+      "size": ["tall", "grande", "venti"],
+      "milk": ["whole", "low_fat", "oat", "almond"]
+    },
+    "reviews": [
+      {
+        "id": "rev_sb_latte_001",
+        "user": "Jason M.",
+        "rating": 4.2,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Good coffee but pricey at RM14.50. Quality is consistent though.",
+        "created_at": "2026-04-15"
+      }
+    ],
+    "average_rating": 4.2,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 3.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_tealive_milk_tea",
+    "location_id": "loc_tealive_sunway",
+    "seller_name": "Tealive Sunway Pyramid",
+    "chain": "tealive",
+    "name": "Bang Bang Fresh Milk Tea",
+    "description": "Signature black tea with fresh milk and chewy pearls.",
+    "categories": ["milk_tea", "drink", "beverage"],
+    "product_type": "drink",
+    "price": 8.50,
+    "currency": "MYR",
+    "ingredients": ["black tea", "fresh milk", "pearls"],
+    "options": {
+      "size": ["regular", "large"],
+      "sugar": ["0%", "30%", "50%", "70%", "100%"],
+      "ice": ["no ice", "less ice", "normal"]
+    },
+    "reviews": [
+      {
+        "id": "rev_tealive_001",
+        "user": "Amanda T.",
+        "rating": 4.6,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM8.50 for large size with pearls is great value! Tastes fresh, not too sweet.",
+        "created_at": "2026-04-18"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [
+      {
+        "id": "offer_tealive_001",
+        "title": "Student Price",
+        "type": "discount",
+        "value": 15,
+        "description": "15% off with student ID"
+      }
+    ],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_familymart_onigiri",
+    "location_id": "loc_familymart_sunway",
+    "seller_name": "FamilyMart Sunway Pyramid",
+    "chain": "familymart",
+    "name": "Salmon Onigiri Set",
+    "description": "Fresh salmon onigiri with miso soup. Perfect quick meal.",
+    "categories": ["rice_bowl", "japanese", "main_course"],
+    "product_type": "food",
+    "price": 9.90,
+    "currency": "MYR",
+    "ingredients": ["rice", "salmon", "seaweed", "sesame", "miso soup"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_fm_001",
+        "user": "Kenji L.",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM9.90 for salmon onigiri + soup is decent. Good for a quick lunch.",
+        "created_at": "2026-04-20"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["fish", "soy", "sesame"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_subway_tuna",
+    "location_id": "loc_subway_sunway",
+    "seller_name": "Subway Sunway Pyramid",
+    "chain": "subway",
+    "name": "Tuna Sub 6-inch",
+    "description": "Flaked tuna mixed with creamy mayo, topped with fresh vegetables on freshly baked bread.",
+    "categories": ["sandwich", "healthy", "main_course"],
+    "product_type": "food",
+    "price": 13.90,
+    "currency": "MYR",
+    "ingredients": ["tuna", "mayonnaise", "bread", "lettuce", "tomato", "cucumber"],
+    "options": {
+      "bread": ["italian_white", "whole_wheat", "honey_oat"],
+      "toasted": ["yes", "no"]
+    },
+    "reviews": [
+      {
+        "id": "rev_subway_001",
+        "user": "Sarah K.",
+        "rating": 4.1,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Fresh ingredients but RM13.90 is quite expensive for a 6-inch sub.",
+        "created_at": "2026-04-22"
+      }
+    ],
+    "average_rating": 4.1,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 3.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "fish", "egg"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_pizza_hut_pepperoni",
+    "location_id": "loc_pizza_hut_sunway",
+    "seller_name": "Pizza Hut Sunway Pyramid",
+    "chain": "pizza_hut",
+    "name": "Pepperoni Lover's Pizza Regular",
+    "description": "Classic pizza loaded with pepperoni and mozzarella cheese.",
+    "categories": ["pizza", "italian", "main_course"],
+    "product_type": "food",
+    "price": 32.90,
+    "currency": "MYR",
+    "ingredients": ["dough", "tomato sauce", "mozzarella", "pepperoni"],
+    "options": {
+      "crust": ["classic", "cheesy_bites", "stuffed"],
+      "size": ["regular", "large"]
+    },
+    "reviews": [
+      {
+        "id": "rev_ph_001",
+        "user": "Mike T.",
+        "rating": 4.0,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Good pizza but RM32.90 is pricey. Better value with their lunch deals.",
+        "created_at": "2026-04-25"
+      }
+    ],
+    "average_rating": 4.0,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 3.0,
+    "offers": [
+      {
+        "id": "offer_ph_001",
+        "title": "Lunch Special",
+        "type": "bundle",
+        "value": 30,
+        "description": "Personal pizza + drink for RM18 (11am-3pm)"
+      }
+    ],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_texas_chicken_2pc",
+    "location_id": "loc_texas_chicken_sunway",
+    "seller_name": "Texas Chicken Sunway Pyramid",
+    "chain": "texas_chicken",
+    "name": "2pc Fried Chicken Combo",
+    "description": "Crispy golden fried chicken with honey butter biscuit, fries and drink.",
+    "categories": ["fried_chicken", "combo_meal", "main_course"],
+    "product_type": "food",
+    "price": 19.90,
+    "currency": "MYR",
+    "ingredients": ["chicken", "biscuit", "fries", "coleslaw"],
+    "options": {
+      "spicy_level": ["original", "spicy"],
+      "drink": ["coke", "sprite", "iced_tea"]
+    },
+    "reviews": [
+      {
+        "id": "rev_texas_001",
+        "user": "Ahmad F.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Juicy chicken and great honey biscuit! RM19.90 is fair for the portion.",
+        "created_at": "2026-04-28"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/fried-chicken.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_warung_kak_ani_nasi_campur",
+    "location_id": "loc_warung_kak_ani",
+    "seller_name": "Warung Kak Ani",
+    "chain": "warung_kak_ani",
+    "name": "Nasi Campur Ayam Goreng",
+    "description": "Fragrant rice with 2 side dishes and fried chicken. Authentic Malay home cooking.",
+    "categories": ["nasi_campur", "malaysian", "local", "main_course"],
+    "product_type": "food",
+    "price": 9.50,
+    "currency": "MYR",
+    "ingredients": ["rice", "fried chicken", "sambal", "vegetables", "egg"],
+    "options": {
+      "side_1": ["sambal sotong", "ayam goreng", "daging masak merah"],
+      "side_2": ["sayur campur", "telur masin", "ikan bilis"]
+    },
+    "reviews": [
+      {
+        "id": "rev_warung_kak_ani_001",
+        "user": "Lina M.",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM9.50 for nasi campur with 2 lauk is amazing! Tastes like home cooking.",
+        "created_at": "2026-04-12"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_mak_cik_nasi_lemak_special",
+    "location_id": "loc_mak_cik_nasi_lemak",
+    "seller_name": "Mak Cik Nasi Lemak",
+    "chain": "mak_cik_nasi_lemak",
+    "name": "Nasi Lemak Special Rendang",
+    "description": "Coconut rice with beef rendang, sambal, egg, peanuts and ikan bilis. Family recipe.",
+    "categories": ["nasi_lemak", "malaysian", "local", "breakfast"],
+    "product_type": "food",
+    "price": 12.50,
+    "currency": "MYR",
+    "ingredients": ["coconut rice", "beef rendang", "sambal", "egg", "peanuts", "ikan bilis"],
+    "options": {
+      "spicy_level": ["mild", "spicy"],
+      "add_egg": ["yes", "no"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mak_cik_001",
+        "user": "Rozita H.",
+        "rating": 4.9,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "The rendang is amazing! RM12.50 for this quality is worth every sen.",
+        "created_at": "2026-04-15"
+      }
+    ],
+    "average_rating": 4.9,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/nasi-lemak.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["peanuts"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_roti_canai_telur",
+    "location_id": "loc_roti_canai_corner",
+    "seller_name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "name": "Roti Canai Telur + Dal",
+    "description": "Fluffy crispy roti with egg served with dhal curry and sambal. Mamak classic.",
+    "categories": ["roti_canai", "mamak", "malaysian", "breakfast", "local"],
+    "product_type": "food",
+    "price": 3.50,
+    "currency": "MYR",
+    "ingredients": ["flour", "egg", "dhal curry", "sambal"],
+    "options": {
+      "cooking": ["crispy", "soft"],
+      "extras": ["none", "double_egg", "bawang"]
+    },
+    "reviews": [
+      {
+        "id": "rev_roti_001",
+        "user": "Raj K.",
+        "rating": 4.7,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM3.50 for roti telur with dal? Best value breakfast in town! Crispy and delicious.",
+        "created_at": "2026-04-18"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "egg"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_char_kuey_teow",
+    "location_id": "loc_char_kuey_teow_abang_din",
+    "seller_name": "Char Kuey Teow Abang Din",
+    "chain": "char_kuey_teow_abang_din",
+    "name": "Char Kuey Teow Special",
+    "description": "Wok-fried flat noodles with prawns, cockles, egg and Chinese sausage. Penang style.",
+    "categories": ["char_kuey_teow", "noodles", "malaysian", "local"],
+    "product_type": "food",
+    "price": 11.90,
+    "currency": "MYR",
+    "ingredients": ["flat noodles", "prawns", "cockles", "egg", "chinese sausage", "bean sprouts"],
+    "options": {
+      "spicy_level": ["no spicy", "mild", "spicy", "extra_spicy"],
+      "extras": ["extra prawns", "extra egg"]
+    },
+    "reviews": [
+      {
+        "id": "rev_ckt_001",
+        "user": "Tan W.",
+        "rating": 4.9,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Authentic Penang taste! Wok hei is perfect. RM11.90 for special with prawns is fair.",
+        "created_at": "2026-04-20"
+      }
+    ],
+    "average_rating": 4.9,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "shellfish", "egg", "soy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_teh_ais_bistro_teh_tarik",
+    "location_id": "loc_teh_ais_bistro",
+    "seller_name": "Teh Ais Bistro",
+    "chain": "teh_ais_bistro",
+    "name": "Teh Tarik Kurang Manis",
+    "description": "Traditional pulled tea with less sugar. Creamy and frothy.",
+    "categories": ["teh_tarik", "drink", "malaysian", "local"],
+    "product_type": "drink",
+    "price": 3.00,
+    "currency": "MYR",
+    "ingredients": ["black tea", "condensed milk", "evaporated milk"],
+    "options": {
+      "temperature": ["hot", "cold"],
+      "sugar": ["kurang manis", "normal", "manis"]
+    },
+    "reviews": [
+      {
+        "id": "rev_teh_ais_001",
+        "user": "Kamal H.",
+        "rating": 4.6,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM3.00 for authentic teh tarik! Better than mamak chains at half the price.",
+        "created_at": "2026-04-22"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_ayam_gepuk",
+    "location_id": "loc_ayam_gepuk_station",
+    "seller_name": "Ayam Gepuk Station",
+    "chain": "ayam_gepuk_station",
+    "name": "Ayam Gepuk Sambal Korek",
+    "description": "Smashed fried chicken with explosive sambal korek. Indonesian-Malaysian fusion.",
+    "categories": ["ayam_gepuk", "fried_chicken", "spicy", "malaysian", "local"],
+    "product_type": "food",
+    "price": 10.50,
+    "currency": "MYR",
+    "ingredients": ["chicken", "rice", "sambal korek", "cabbage", "tofu"],
+    "options": {
+      "spicy_level": ["original", "spicy", "pedas_gila"],
+      "portion": ["regular", "large"]
+    },
+    "reviews": [
+      {
+        "id": "rev_ayam_gepuk_001",
+        "user": "Haziq R.",
+        "rating": 4.7,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "The sambal is legendary! RM10.50 for this flavour bomb is amazing value.",
+        "created_at": "2026-04-25"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/fried-chicken.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_mee_goreng_mamak",
+    "location_id": "loc_roti_canai_corner",
+    "seller_name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "name": "Mee Goreng Mamak",
+    "description": "Stir-fried yellow noodles with egg, vegetables, tofu and spicy sambal.",
+    "categories": ["mee_goreng", "noodles", "mamak", "malaysian", "local"],
+    "product_type": "food",
+    "price": 7.50,
+    "currency": "MYR",
+    "ingredients": ["yellow noodles", "egg", "tofu", "vegetables", "sambal", "soy sauce"],
+    "options": {
+      "spicy_level": ["no spicy", "mild", "spicy"],
+      "extras": ["none", "extra egg", "ayam goreng"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mee_goreng_001",
+        "user": "Arjun S.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "Classic mamak mee goreng at RM7.50! Generous portion and proper wok flavour.",
+        "created_at": "2026-04-28"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "egg", "soy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_uncle_lim_kopi",
+    "location_id": "loc_uncle_lim_kopitiam",
+    "seller_name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "name": "Kopi O Kaw",
+    "description": "Strong traditional Malaysian black coffee. Brewed with premium beans using sock filter.",
+    "categories": ["coffee", "kopi", "drink", "malaysian", "local"],
+    "product_type": "drink",
+    "price": 2.80,
+    "currency": "MYR",
+    "ingredients": ["coffee beans", "water", "sugar"],
+    "options": {
+      "temperature": ["hot", "cold"],
+      "sugar": ["kosong", "kurang manis", "manis"]
+    },
+    "reviews": [
+      {
+        "id": "rev_uncle_lim_kopi_001",
+        "user": "Wong L.",
+        "rating": 4.8,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM2.80 for kopi kaw! Strong and aromatic. Uncle Lim has been brewing for 30 years.",
+        "created_at": "2026-04-30"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_teh_ais",
+    "location_id": "loc_teh_ais_bistro",
+    "seller_name": "Teh Ais Bistro",
+    "chain": "teh_ais_bistro",
+    "name": "Teh Ais Limau",
+    "description": "Refreshing iced tea with lime. Perfect for hot Malaysian weather.",
+    "categories": ["teh_ais", "drink", "malaysian", "local"],
+    "product_type": "drink",
+    "price": 3.50,
+    "currency": "MYR",
+    "ingredients": ["black tea", "lime", "sugar", "ice"],
+    "options": {
+      "sugar": ["kurang manis", "normal"],
+      "lime": ["less lime", "normal", "extra lime"]
+    },
+    "reviews": [
+      {
+        "id": "rev_teh_ais_limau_001",
+        "user": "Siti A.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "So refreshing! RM3.50 for big glass of teh ais limau beats bubble tea prices.",
+        "created_at": "2026-05-01"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_zus_matcha",
+    "location_id": "loc_zus_coffee_sunway",
+    "seller_name": "ZUS Coffee Sunway Pyramid",
+    "chain": "zus_coffee",
+    "name": "Matcha Latte",
+    "description": "Premium Japanese matcha with fresh milk. Earthy and creamy.",
+    "categories": ["matcha", "drink", "green_tea"],
+    "product_type": "drink",
+    "price": 10.90,
+    "currency": "MYR",
+    "ingredients": ["matcha powder", "fresh milk", "sugar"],
+    "options": {
+      "size": ["regular", "large"],
+      "temperature": ["hot", "iced"],
+      "sugar": ["0%", "50%", "100%"]
+    },
+    "reviews": [
+      {
+        "id": "rev_zus_matcha_001",
+        "user": "Emily C.",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Good matcha quality for RM10.90. Not too sweet, proper matcha taste.",
+        "created_at": "2026-05-02"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_starbucks_chocolate",
+    "location_id": "loc_starbucks_sunway",
+    "seller_name": "Starbucks Sunway Pyramid",
+    "chain": "starbucks",
+    "name": "Signature Hot Chocolate",
+    "description": "Rich chocolate with steamed milk, topped with whipped cream.",
+    "categories": ["chocolate_drink", "drink", "hot"],
+    "product_type": "drink",
+    "price": 15.50,
+    "currency": "MYR",
+    "ingredients": ["chocolate", "milk", "whipped cream"],
+    "options": {
+      "size": ["tall", "grande", "venti"],
+      "milk": ["whole", "low_fat", "oat"],
+      "whip": ["with whip", "no whip"]
+    },
+    "reviews": [
+      {
+        "id": "rev_sb_choc_001",
+        "user": "Amira K.",
+        "rating": 4.1,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Very chocolatey but RM15.50 is expensive. Good as occasional treat.",
+        "created_at": "2026-05-03"
+      }
+    ],
+    "average_rating": 4.1,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 3.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_mcd_coke",
+    "location_id": "loc_mcd_sunway",
+    "seller_name": "McDonald's Sunway Pyramid",
+    "chain": "mcdonalds",
+    "name": "Coca-Cola Large",
+    "description": "Refreshing Coca-Cola served ice cold.",
+    "categories": ["soft_drink", "drink", "beverage"],
+    "product_type": "drink",
+    "price": 5.50,
+    "currency": "MYR",
+    "ingredients": ["carbonated water", "sugar", "caramel", "caffeine"],
+    "options": {
+      "size": ["medium", "large"],
+      "ice": ["less ice", "normal"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mcd_coke_001",
+        "user": "David L.",
+        "rating": 3.8,
+        "portion_score": 4,
+        "taste_score": 3,
+        "value_score": 2,
+        "comment": "RM5.50 for soft drink is overpriced. Better to get from grocery store.",
+        "created_at": "2026-05-04"
+      }
+    ],
+    "average_rating": 3.8,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 3.0,
+    "value_score": 2.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_teh_ais_bistro_smoothie",
+    "location_id": "loc_teh_ais_bistro",
+    "seller_name": "Teh Ais Bistro",
+    "chain": "teh_ais_bistro",
+    "name": "Mango Smoothie",
+    "description": "Fresh mango blended with ice. No added sugar.",
+    "categories": ["smoothie", "drink", "fruit", "healthy"],
+    "product_type": "drink",
+    "price": 8.00,
+    "currency": "MYR",
+    "ingredients": ["fresh mango", "ice", "water"],
+    "options": {
+      "size": ["regular", "large"],
+      "add_milk": ["no", "yes"]
+    },
+    "reviews": [
+      {
+        "id": "rev_smoothie_001",
+        "user": "Lisa M.",
+        "rating": 4.7,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Real mango taste! RM8.00 for fresh smoothie is great value. No artificial sugar.",
+        "created_at": "2026-05-05"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_warung_satay",
+    "location_id": "loc_warung_kak_ani",
+    "seller_name": "Warung Kak Ani",
+    "chain": "warung_kak_ani",
+    "name": "Satay Ayam 10 Cucuk",
+    "description": "Grilled chicken satay with peanut sauce, cucumber and ketupat. 10 sticks.",
+    "categories": ["satay", "malaysian", "grill", "local"],
+    "product_type": "food",
+    "price": 12.00,
+    "currency": "MYR",
+    "ingredients": ["chicken", "satay sauce", "cucumber", "onion", "ketupat"],
+    "options": {
+      "meat": ["ayam", "daging", "mix"],
+      "spicy": ["no", "yes"]
+    },
+    "reviews": [
+      {
+        "id": "rev_satay_001",
+        "user": "Farid H.",
+        "rating": 4.6,
+        "portion_score": 5,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM12 for 10 sticks with ketupat! Authentic charcoal-grilled satay.",
+        "created_at": "2026-05-06"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["peanuts"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_mak_cik_laksa",
+    "location_id": "loc_mak_cik_nasi_lemak",
+    "seller_name": "Mak Cik Nasi Lemak",
+    "chain": "mak_cik_nasi_lemak",
+    "name": "Laksa Penang",
+    "description": "Tangy and spicy rice noodles in tamarind-based fish broth with prawns and fish cake.",
+    "categories": ["laksa", "noodles", "malaysian", "spicy", "local"],
+    "product_type": "food",
+    "price": 10.00,
+    "currency": "MYR",
+    "ingredients": ["rice noodles", "fish broth", "tamarind", "prawns", "fish cake", "cucumber", "mint"],
+    "options": {
+      "spicy_level": ["mild", "spicy", "extra_spicy"],
+      "extras": ["none", "extra prawns", "extra egg"]
+    },
+    "reviews": [
+      {
+        "id": "rev_laksa_001",
+        "user": "Puan Marina",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Authentic Penang laksa! Sour, spicy and full of flavour. RM10 only!",
+        "created_at": "2026-05-07"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["fish", "shellfish", "gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_roti_tisu",
+    "location_id": "loc_roti_canai_corner",
+    "seller_name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "name": "Roti Tisu",
+    "description": "Crispy thin stretched bread with sugar. Sweet mamak delight.",
+    "categories": ["roti_canai", "dessert", "mamak", "malaysian", "local"],
+    "product_type": "food",
+    "price": 5.00,
+    "currency": "MYR",
+    "ingredients": ["flour", "sugar", "ghee", "condensed milk"],
+    "options": {
+      "topping": ["sugar only", "with condensed milk"],
+      "size": ["regular", "large"]
+    },
+    "reviews": [
+      {
+        "id": "rev_roti_tisu_001",
+        "user": "Ali R.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Crispy and sweet! Perfect for supper. RM5.00 is reasonable for this treat.",
+        "created_at": "2026-05-08"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_tealive_fruit_tea",
+    "location_id": "loc_tealive_sunway",
+    "seller_name": "Tealive Sunway Pyramid",
+    "chain": "tealive",
+    "name": "Sparkling Passion Fruit Tea",
+    "description": "Refreshing passion fruit tea with sparkling water and aloe vera.",
+    "categories": ["fruit_tea", "drink", "refreshing"],
+    "product_type": "drink",
+    "price": 9.50,
+    "currency": "MYR",
+    "ingredients": ["passion fruit", "tea", "sparkling water", "aloe vera"],
+    "options": {
+      "size": ["regular", "large"],
+      "sugar": ["0%", "50%", "100%"],
+      "ice": ["less", "normal"]
+    },
+    "reviews": [
+      {
+        "id": "rev_tealive_fruit_001",
+        "user": "Cynthia T.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Refreshing on hot days! RM9.50 is fair for specialty fruit tea.",
+        "created_at": "2026-05-09"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_chatime_milk_tea",
+    "location_id": "loc_chatime_sunway",
+    "seller_name": "Chatime Sunway Pyramid",
+    "chain": "chatime",
+    "name": "Roasted Milk Tea with Pearl",
+    "description": "Premium roasted milk tea with chewy tapioca pearls. Classic Chatime favorite.",
+    "categories": ["milk_tea", "drink", "beverage"],
+    "product_type": "drink",
+    "price": 9.90,
+    "currency": "MYR",
+    "ingredients": ["roasted black tea", "creamer", "pearls", "sugar"],
+    "options": {
+      "size": ["regular", "large"],
+      "sugar": ["0%", "30%", "50%", "70%", "100%"],
+      "ice": ["no ice", "less ice", "normal"]
+    },
+    "reviews": [
+      {
+        "id": "rev_chatime_001",
+        "user": "Michelle L.",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Classic roasted flavor! RM9.90 is reasonable for the quality.",
+        "created_at": "2026-05-10"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_uncle_lim_teh_ais",
+    "location_id": "loc_uncle_lim_kopitiam",
+    "seller_name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "name": "Teh Ais Kaw",
+    "description": "Strong pulled tea with ice. Refreshing and perfect for hot days.",
+    "categories": ["teh_ais", "drink", "malaysian", "local"],
+    "product_type": "drink",
+    "price": 3.20,
+    "currency": "MYR",
+    "ingredients": ["black tea", "condensed milk", "ice"],
+    "options": {
+      "sugar": ["kurang manis", "normal", "manis"]
+    },
+    "reviews": [
+      {
+        "id": "rev_uncle_lim_teh_ais_001",
+        "user": "Jamie T.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM3.20 for strong teh ais! Uncle Lim makes it perfect every time.",
+        "created_at": "2026-05-11"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_roti_canai_uncle_lim",
+    "location_id": "loc_uncle_lim_kopitiam",
+    "seller_name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "name": "Roti Canai Kosong",
+    "description": "Flaky, crispy plain roti served with dhal curry and sambal.",
+    "categories": ["roti_canai", "mamak", "malaysian", "breakfast", "local"],
+    "product_type": "food",
+    "price": 1.80,
+    "currency": "MYR",
+    "ingredients": ["flour", "ghee", "dhal curry", "sambal"],
+    "options": {
+      "cooking": ["crispy", "soft"]
+    },
+    "reviews": [
+      {
+        "id": "rev_roti_uncle_lim_001",
+        "user": "Ravi K.",
+        "rating": 4.6,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM1.80 for roti canai! Best value breakfast. Crispy and delicious.",
+        "created_at": "2026-05-12"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_char_kuey_teow_kopitiam",
+    "location_id": "loc_uncle_lim_kopitiam",
+    "seller_name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "name": "Char Kuey Teow Halal",
+    "description": "Wok-fried flat noodles with chicken, fish cake, and egg. Halal-friendly version.",
+    "categories": ["char_kuey_teow", "noodles", "malaysian", "local"],
+    "product_type": "food",
+    "price": 10.50,
+    "currency": "MYR",
+    "ingredients": ["flat noodles", "chicken", "fish cake", "egg", "bean sprouts", "chives"],
+    "options": {
+      "spicy_level": ["no spicy", "mild", "spicy"]
+    },
+    "reviews": [
+      {
+        "id": "rev_ckt_kopitiam_001",
+        "user": "Aisyah M.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Good halal CKT! RM10.50 for big portion. Nice wok hei.",
+        "created_at": "2026-05-13"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "egg", "soy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_mee_goreng_uncle_lim",
+    "location_id": "loc_uncle_lim_kopitiam",
+    "seller_name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "name": "Mee Goreng Special",
+    "description": "Yellow noodles stir-fried with egg, tofu, and vegetables in spicy sauce.",
+    "categories": ["mee_goreng", "noodles", "mamak", "malaysian", "local"],
+    "product_type": "food",
+    "price": 7.00,
+    "currency": "MYR",
+    "ingredients": ["yellow noodles", "egg", "tofu", "vegetables", "sambal"],
+    "options": {
+      "spicy_level": ["mild", "spicy", "extra_spicy"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mee_goreng_uncle_001",
+        "user": "Lee W.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM7.00 for mee goreng! Good portion and spicy enough.",
+        "created_at": "2026-05-14"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "egg", "soy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_laksa_uncle_lim",
+    "location_id": "loc_uncle_lim_kopitiam",
+    "seller_name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "name": "Curry Laksa",
+    "description": "Spicy coconut curry noodles with tofu puffs, fish balls, and bean sprouts.",
+    "categories": ["laksa", "noodles", "malaysian", "spicy", "local"],
+    "product_type": "food",
+    "price": 9.50,
+    "currency": "MYR",
+    "ingredients": ["rice noodles", "coconut curry", "tofu puffs", "fish balls", "bean sprouts"],
+    "options": {
+      "spicy_level": ["mild", "spicy"]
+    },
+    "reviews": [
+      {
+        "id": "rev_laksa_uncle_001",
+        "user": "Nurul H.",
+        "rating": 4.6,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM9.50 for curry laksa! Rich coconut broth and generous toppings.",
+        "created_at": "2026-05-15"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["fish", "soy", "gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_satay_uncle_lim",
+    "location_id": "loc_uncle_lim_kopitiam",
+    "seller_name": "Uncle Lim Kopitiam",
+    "chain": "uncle_lim_kopitiam",
+    "name": "Satay Kajang Style 8 Sticks",
+    "description": "Grilled chicken satay with rich peanut sauce, cucumber, and ketupat.",
+    "categories": ["satay", "malaysian", "grill", "local"],
+    "product_type": "food",
+    "price": 10.00,
+    "currency": "MYR",
+    "ingredients": ["chicken", "peanut sauce", "cucumber", "onion", "ketupat"],
+    "options": {
+      "meat": ["ayam", "daging"]
+    },
+    "reviews": [
+      {
+        "id": "rev_satay_uncle_001",
+        "user": "Daniel C.",
+        "rating": 4.7,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM10 for 8 sticks! Authentic Kajang style satay.",
+        "created_at": "2026-05-16"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["peanuts"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_nasi_lemak_warung",
+    "location_id": "loc_warung_kak_ani",
+    "seller_name": "Warung Kak Ani",
+    "chain": "warung_kak_ani",
+    "name": "Nasi Lemak Ayam Berempah",
+    "description": "Fragrant coconut rice with spiced fried chicken, sambal, peanuts, and egg.",
+    "categories": ["nasi_lemak", "malaysian", "breakfast", "local"],
+    "product_type": "food",
+    "price": 9.00,
+    "currency": "MYR",
+    "ingredients": ["coconut rice", "spiced chicken", "sambal", "peanuts", "ikan bilis", "egg"],
+    "options": {
+      "spicy_level": ["mild", "spicy"]
+    },
+    "reviews": [
+      {
+        "id": "rev_nasi_lemak_warung_001",
+        "user": "Fatin A.",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM9 for nasi lemak with ayam berempah! Sambal is amazing.",
+        "created_at": "2026-05-17"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/nasi-lemak.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["peanuts", "fish"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_teh_tarik_mamak",
+    "location_id": "loc_roti_canai_corner",
+    "seller_name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "name": "Teh Tarik Original",
+    "description": "Classic pulled tea with condensed milk. Sweet and creamy.",
+    "categories": ["teh_tarik", "drink", "malaysian", "local"],
+    "product_type": "drink",
+    "price": 2.50,
+    "currency": "MYR",
+    "ingredients": ["black tea", "condensed milk"],
+    "options": {
+      "temperature": ["hot", "cold"],
+      "sugar": ["kurang manis", "normal"]
+    },
+    "reviews": [
+      {
+        "id": "rev_teh_tarik_mamak_001",
+        "user": "Kumar R.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM2.50 for teh tarik! Perfect sweetness and froth.",
+        "created_at": "2026-05-18"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_milk_tea_mamak",
+    "location_id": "loc_roti_canai_corner",
+    "seller_name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "name": "Milk Tea Tarik",
+    "description": "Local style milk tea with condensed milk and evaporated milk.",
+    "categories": ["milk_tea", "drink", "malaysian", "local"],
+    "product_type": "drink",
+    "price": 3.80,
+    "currency": "MYR",
+    "ingredients": ["black tea", "condensed milk", "evaporated milk"],
+    "options": {
+      "temperature": ["hot", "iced"]
+    },
+    "reviews": [
+      {
+        "id": "rev_milk_tea_mamak_001",
+        "user": "Sarah L.",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "RM3.80 for mamak milk tea! Creamy and comforting.",
+        "created_at": "2026-05-19"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_teh_ais_zus",
+    "location_id": "loc_zus_coffee_sunway",
+    "seller_name": "ZUS Coffee Sunway Pyramid",
+    "chain": "zus_coffee",
+    "name": "Teh Ais",
+    "description": "Malaysian iced milk tea with a modern twist. Smooth and refreshing.",
+    "categories": ["teh_ais", "drink", "malaysian"],
+    "product_type": "drink",
+    "price": 7.50,
+    "currency": "MYR",
+    "ingredients": ["black tea", "fresh milk", "sugar", "ice"],
+    "options": {
+      "size": ["regular", "large"],
+      "sugar": ["0%", "50%", "100%"]
+    },
+    "reviews": [
+      {
+        "id": "rev_teh_ais_zus_001",
+        "user": "Amanda W.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "RM7.50 for modern teh ais! Good balance of tea and milk.",
+        "created_at": "2026-05-20"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/coffee.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_char_kuey_teow_street",
+    "location_id": "loc_char_kuey_teow_abang_din",
+    "seller_name": "Char Kuey Teow Abang Din",
+    "chain": "char_kuey_teow_abang_din",
+    "name": "Char Kuey Teow Basah",
+    "description": "Wet-style CKT with more gravy, perfect for those who love saucy noodles.",
+    "categories": ["char_kuey_teow", "noodles", "malaysian", "local"],
+    "product_type": "food",
+    "price": 10.00,
+    "currency": "MYR",
+    "ingredients": ["flat noodles", "egg", "prawns", "cockles", "bean sprouts"],
+    "options": {
+      "style": ["basah", "kering"],
+      "spicy_level": ["no spicy", "mild", "spicy"]
+    },
+    "reviews": [
+      {
+        "id": "rev_ckt_basah_001",
+        "user": "Ong L.",
+        "rating": 4.7,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM10 for wet CKT! Love the extra gravy. Authentic Penang style.",
+        "created_at": "2026-05-21"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "shellfish", "egg", "soy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_laksa_sarawak",
+    "location_id": "loc_mak_cik_nasi_lemak",
+    "seller_name": "Mak Cik Nasi Lemak",
+    "chain": "mak_cik_nasi_lemak",
+    "name": "Laksa Sarawak",
+    "description": "Creamy Sarawak laksa with coconut and sambal belacan broth.",
+    "categories": ["laksa", "noodles", "malaysian", "spicy", "local"],
+    "product_type": "food",
+    "price": 11.00,
+    "currency": "MYR",
+    "ingredients": ["rice vermicelli", "coconut broth", "chicken", "prawns", "egg", "bean sprouts"],
+    "options": {
+      "spicy_level": ["mild", "spicy"]
+    },
+    "reviews": [
+      {
+        "id": "rev_laksa_sarawak_001",
+        "user": "Jessica T.",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM11 for Sarawak laksa! Authentic taste from Kuching.",
+        "created_at": "2026-05-22"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["fish", "shellfish", "gluten"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_satay_mamak",
+    "location_id": "loc_roti_canai_corner",
+    "seller_name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "name": "Satay Daging 6 Sticks",
+    "description": "Grilled beef satay with peanut sauce and ketupat.",
+    "categories": ["satay", "malaysian", "grill", "local"],
+    "product_type": "food",
+    "price": 9.00,
+    "currency": "MYR",
+    "ingredients": ["beef", "peanut sauce", "cucumber", "onion", "ketupat"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_satay_daging_001",
+        "user": "Ibrahim M.",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
+        "comment": "RM9 for beef satay! Tender meat and great peanut sauce.",
+        "created_at": "2026-05-23"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["peanuts"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_roti_canai_planta",
+    "location_id": "loc_roti_canai_corner",
+    "seller_name": "Roti Canai Corner",
+    "chain": "roti_canai_corner",
+    "name": "Roti Planta",
+    "description": "Sweet roti with margarine and sugar. Popular among kids.",
+    "categories": ["roti_canai", "mamak", "malaysian", "breakfast", "local"],
+    "product_type": "food",
+    "price": 2.50,
+    "currency": "MYR",
+    "ingredients": ["flour", "margarine", "sugar"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_roti_planta_001",
+        "user": "Zara H.",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "RM2.50 for sweet roti! Kids love this for breakfast.",
+        "created_at": "2026-05-24"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": true,
+    "allergens": ["gluten", "dairy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
+  },
+  {
+    "id": "item_mee_goreng_ayam",
+    "location_id": "loc_warung_kak_ani",
+    "seller_name": "Warung Kak Ani",
+    "chain": "warung_kak_ani",
+    "name": "Mee Goreng Ayam",
+    "description": "Stir-fried noodles with chicken, egg, and vegetables. Homemade sambal.",
+    "categories": ["mee_goreng", "noodles", "malaysian", "local"],
+    "product_type": "food",
+    "price": 8.50,
+    "currency": "MYR",
+    "ingredients": ["yellow noodles", "chicken", "egg", "vegetables", "sambal"],
+    "options": {
+      "spicy_level": ["mild", "spicy"]
+    },
+    "reviews": [
+      {
+        "id": "rev_mee_goreng_ayam_001",
+        "user": "Hassan K.",
+        "rating": 4.6,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "RM8.50 with chicken! Generous portion and spicy sambal.",
+        "created_at": "2026-05-25"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/placeholders/combo.jpg",
+    "is_halal": true,
+    "is_vegetarian": false,
+    "allergens": ["gluten", "egg", "soy"],
+    "created_at": "2026-01-01",
+    "updated_at": "2026-05-01"
   }
 ]

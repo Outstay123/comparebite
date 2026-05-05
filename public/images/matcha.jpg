@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f0fdf4"/>
+  <circle cx="200" cy="140" r="50" fill="#86efac" opacity="0.6"/>
+  <path d="M 170 120 L 190 140 L 170 160" fill="#16a34a"/>
+  <path d="M 190 110 L 210 140 L 190 170" fill="#16a34a"/>
+  <path d="M 210 115 L 230 140 L 210 165" fill="#16a34a"/>
+  <rect x="170" y="180" width="60" height="40" rx="5" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+  <circle cx="200" cy="200" r="15" fill="#16a34a"/>
+  <text x="200" y="250" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#166534">Matcha</text>
+</svg>
