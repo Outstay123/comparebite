@@ -37,6 +37,7 @@ export function SearchBar({ initialValue = '', size = 'md' }: SearchBarProps) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           icon={<Search className="w-5 h-5 text-gray-400" />}
+		  style={{color: "black"}}
           className="flex-1"
         />
         <Button type="submit" size={size}>
