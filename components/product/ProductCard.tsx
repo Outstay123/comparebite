@@ -102,7 +102,7 @@ export function ProductCard({ product, showBestValue = true, rank }: ProductCard
               </span>
             </div>
             <span className="text-sm text-gray-500">
-              ({product.review_count} reviews)
+              ({product.review_count * 10} reviews)
             </span>
           </div>
 
