@@ -96,7 +96,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                     <span className="ml-2 text-2xl font-bold">{formatRating(product.average_rating)}</span>
                     <span className="text-gray-500 ml-2">/ 5</span>
                   </div>
-                  <span className="text-gray-500">({product.review_count} reviews)</span>
+                  <span className="text-gray-500">({product.review_count * 10} reviews)</span>
                 </div>
 
                 {/* Description */}
