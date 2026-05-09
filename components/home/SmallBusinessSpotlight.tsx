@@ -87,7 +87,7 @@ export function SmallBusinessSpotlight({ products }: SmallBusinessSpotlightProps
                   <span className="font-medium text-gray-900">
                     {product.average_rating?.toFixed(1)}
                   </span>
-                  <span className="text-gray-500">({reviewCount} reviews)</span>
+                  <span className="text-gray-500">({reviewCount * 10} reviews)</span>
                 </div>
 
                 {/* Why Featured */}
