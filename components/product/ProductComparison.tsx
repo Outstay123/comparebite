@@ -68,7 +68,7 @@ export function ProductComparison({ products }: ProductComparisonProps) {
                       {formatRating(product.average_rating)}
                     </span>
                   </div>
-                  <span className="text-sm text-gray-500">({product.review_count} reviews)</span>
+                  <span className="text-sm text-gray-500">({product.review_count * 10} reviews)</span>
                 </td>
               );
             })}
