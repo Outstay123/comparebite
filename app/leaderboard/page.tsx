@@ -287,7 +287,7 @@ export default function LeaderboardPage() {
                                     ? 'bg-primary-500'
                                     : 'bg-gray-400'
                                 }`}
-                                style={{ width: `${fairScore}%` }}
+                                style={{ width: `${fairScore * 100}%` }}
                               />
                             </div>
                             <span
