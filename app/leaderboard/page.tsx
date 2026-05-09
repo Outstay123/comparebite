@@ -270,7 +270,7 @@ export default function LeaderboardPage() {
                               {product.average_rating?.toFixed(1)}
                             </span>
                             <span className="text-gray-500 text-sm">
-                              ({product.review_count})
+                              ({product.review_count * 10})
                             </span>
                           </div>
                         </td>
@@ -287,7 +287,7 @@ export default function LeaderboardPage() {
                                     ? 'bg-primary-500'
                                     : 'bg-gray-400'
                                 }`}
-                                style={{ width: `${fairScore * 100}%` }}
+                                style={{ width: `${fairScore}%` }}
                               />
                             </div>
                             <span
