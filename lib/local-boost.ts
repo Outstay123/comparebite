@@ -51,13 +51,13 @@ export function isHiddenGem(product: Product): boolean {
  * Boosts visibility for strong local sellers without ranking bad products high
  */
 export function calculateFairOpportunityScore(product: Product): number {
-  const bestValueScore = product.best_value_score || 50;
+  const bestValueScore = (product.best_value_score || 0.5) * 100;
   const sellerType = getSellerType(product);
   const reviewCount = product.review_count || 0;
   
   // Only apply boost if product has decent value score
   if (bestValueScore < 70) {
-    return Math.min(bestValueScore, 100);
+    return Math.min(Math.round(bestValueScore), 100);
   }
   
   const localBoost = sellerType === 'local' ? 5 : 0;
