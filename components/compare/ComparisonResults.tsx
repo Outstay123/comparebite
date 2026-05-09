@@ -435,7 +435,7 @@ export function ComparisonResults({ products, allProducts = [], primaryCategory,
                             {formatRating(product.average_rating)}
                           </span>
                         </div>
-                        <span className="text-xs text-gray-400">({product.review_count})</span>
+                        <span className="text-xs text-gray-400">({product.review_count * 10})</span>
                       </td>
                     );
                   })}
