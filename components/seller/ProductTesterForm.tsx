@@ -79,7 +79,7 @@ export function ProductTesterForm({
           </div>
         </div>
       </CardHeader>
-      <CardBody className="p-6 space-y-6 max-h-[calc(100vh-250px)] overflow-y-auto">
+      <CardBody className="p-6 space-y-6">
         {/* Basic Info */}
         <div className="space-y-4">
           <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wide flex items-center gap-2">
