@@ -7,6 +7,9 @@ import { Footer } from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'CompareBite - Find the Best Value Food',
   description: 'Compare food prices, ratings, and deals across restaurants. Find the best deals on your favorite dishes.',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
