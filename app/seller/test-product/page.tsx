@@ -65,6 +65,8 @@ export default function TestProductPage() {
     productInput.offerValue,
     productInput.sampleRating,
     productInput.sampleReviewCount,
+    productInput.sellerName,
+    productInput.chain,
   ]);
 
   return (
