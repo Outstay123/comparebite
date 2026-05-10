@@ -73,7 +73,7 @@ export default function TestProductPage() {
     <main className="min-h-screen bg-gray-50">
       {/* Page Header - Simplified (Navbar handles navigation) */}
       <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-6">
+        <div className="max-w-[1440px] mx-auto px-4 py-4">
           <div className="flex items-center gap-3">
             <div className="p-2 bg-primary-100 rounded-lg">
               <Beaker className="w-5 h-5 text-primary-600" />
@@ -90,31 +90,31 @@ export default function TestProductPage() {
 
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 py-8">
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
-            <div className="p-3 bg-white/20 rounded-xl">
-              <Sparkles className="w-8 h-8" />
+        <div className="max-w-[1440px] mx-auto px-4 py-4">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-3">
+            <div className="p-2 bg-white/20 rounded-lg">
+              <Sparkles className="w-6 h-6" />
             </div>
             <div className="flex-1">
-              <h2 className="text-2xl font-bold mb-2">
+              <h2 className="text-xl font-bold mb-1">
                 Get Instant Product Insights
               </h2>
-              <p className="text-primary-100 max-w-2xl">
+              <p className="text-sm text-primary-100 max-w-2xl">
                 Enter your product details and receive algorithm-based analysis including readiness score,
                 predicted ranking, price competitiveness, and actionable improvement tips.
               </p>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 rounded-lg px-4 py-2">
-              <Target className="w-5 h-5" />
-              <span className="text-sm font-medium">No registration required</span>
+            <div className="flex items-center gap-2 bg-white/10 rounded-lg px-3 py-1.5">
+              <Target className="w-4 h-4" />
+              <span className="text-xs font-medium">No registration required</span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="max-w-[1440px] mx-auto px-4 py-6">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
           {/* Left: Form */}
           <div>
             <ProductTesterForm
@@ -136,34 +136,34 @@ export default function TestProductPage() {
 
         {/* How It Works */}
         {!hasAnalyzed && (
-          <div className="mt-12">
-            <h3 className="text-lg font-bold text-gray-900 mb-6 text-center">
+          <div className="mt-8">
+            <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">
               How It Works
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-xl p-6 shadow-sm text-center">
-                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-xl font-bold text-primary-600">1</span>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-white rounded-xl p-4 shadow-sm text-center">
+                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-lg font-bold text-primary-600">1</span>
                 </div>
-                <h4 className="font-semibold text-gray-900 mb-2">Enter Product Details</h4>
+                <h4 className="font-semibold text-gray-900 mb-1">Enter Product Details</h4>
                 <p className="text-sm text-gray-600">
                   Fill in your product name, price, category, and quality scores
                 </p>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm text-center">
-                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-xl font-bold text-primary-600">2</span>
+              <div className="bg-white rounded-xl p-4 shadow-sm text-center">
+                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-lg font-bold text-primary-600">2</span>
                 </div>
-                <h4 className="font-semibold text-gray-900 mb-2">Get Instant Analysis</h4>
+                <h4 className="font-semibold text-gray-900 mb-1">Get Instant Analysis</h4>
                 <p className="text-sm text-gray-600">
                   Our system calculates readiness, value score, and predicted ranking
                 </p>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm text-center">
-                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-xl font-bold text-primary-600">3</span>
+              <div className="bg-white rounded-xl p-4 shadow-sm text-center">
+                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-lg font-bold text-primary-600">3</span>
                 </div>
-                <h4 className="font-semibold text-gray-900 mb-2">Improve & List</h4>
+                <h4 className="font-semibold text-gray-900 mb-1">Improve & List</h4>
                 <p className="text-sm text-gray-600">
                   Follow personalized tips to optimize your product before listing
                 </p>
@@ -173,7 +173,7 @@ export default function TestProductPage() {
         )}
 
         {/* Scoring Explanation */}
-        <div className="mt-12 bg-white rounded-xl p-6 shadow-sm">
+        <div className="mt-8 bg-white rounded-xl p-4 shadow-sm">
           <div className="flex items-start gap-3">
             <Info className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
             <div>
