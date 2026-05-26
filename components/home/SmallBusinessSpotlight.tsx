@@ -28,10 +28,10 @@ export function SmallBusinessSpotlight({ products }: SmallBusinessSpotlightProps
   };
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-amber-50 to-white">
+    <section className="py-14 md:py-16 px-4 bg-gradient-to-b from-amber-50/90 to-white -mt-1">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-8 md:mb-10">
           <div className="flex items-center justify-center gap-2 mb-3">
             <Sparkles className="w-6 h-6 text-amber-600" />
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">

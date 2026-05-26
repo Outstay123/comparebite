@@ -5,8 +5,10 @@ import { Button } from '@/components/ui/Button';
 import { BestValueBadge } from '@/components/product/BestValueBadge';
 import { getProductById, loadProducts, enrichProductsWithBestValue } from '@/lib/utils/data';
 import { searchProducts } from '@/lib/utils/search';
-import { formatPrice, formatRating, formatDate } from '@/lib/utils/formatters';
+import { formatPrice, formatRating } from '@/lib/utils/formatters';
 import { Star, MapPin, ChevronLeft, Check, AlertCircle } from 'lucide-react';
+import { ProductReviewFlow } from '@/components/reviews/ProductReviewFlow';
+import { ProductComments } from '@/components/reviews/ProductComments';
 
 // Generate static paths for all products at build time
 export function generateStaticParams() {
@@ -128,40 +130,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               </CardBody>
             </Card>
 
-            {/* Reviews */}
-            <Card>
-              <CardHeader>
-                <h2 className="text-xl font-bold text-gray-900">Reviews</h2>
-              </CardHeader>
-              <CardBody className="p-0">
-                {product.reviews.length === 0 ? (
-                  <p className="p-6 text-gray-500">No reviews yet</p>
-                ) : (
-                  <div className="divide-y divide-gray-100">
-                    {product.reviews.map((review) => (
-                      <div key={review.id} className="p-6">
-                        <div className="flex items-start justify-between mb-2">
-                          <div>
-                            <span className="font-medium text-gray-900">{review.user}</span>
-                            <span className="text-gray-500 ml-2">{formatDate(review.created_at)}</span>
-                          </div>
-                          <div className="flex items-center">
-                            <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                            <span className="ml-1 font-medium">{review.rating}</span>
-                          </div>
-                        </div>
-                        <p className="text-gray-700 mb-3">{review.comment}</p>
-                        <div className="flex gap-4 text-sm text-gray-500">
-                          <span>Portion: {review.portion_score}/5</span>
-                          <span>Taste: {review.taste_score}/5</span>
-                          <span>Value: {review.value_score}/5</span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </CardBody>
-            </Card>
+            <ProductComments productId={product.id} initialReviews={product.reviews} />
           </div>
 
           {/* Sidebar */}
@@ -195,6 +164,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 </div>
               </CardBody>
             </Card>
+
+            <ProductReviewFlow productId={product.id} />
 
             {/* Similar Products */}
             {similarProducts.length > 0 && (
