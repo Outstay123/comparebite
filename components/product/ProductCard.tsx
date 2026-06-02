@@ -58,18 +58,30 @@ function FoodPlaceholder({ category, name }: { category: string; name: string })
 }
 
 export function ProductCard({ product, showBestValue = true, rank }: ProductCardProps) {
+  const [imageFailed, setImageFailed] = React.useState(false);
   const isBestValue = showBestValue && (product.best_value_score || 0) >= 0.7;
   
   // Get primary category for placeholder
   const primaryCategory = product.categories[0] || 'food';
+  const showImage = Boolean(product.image_url) && !imageFailed;
 
   return (
     <Link href={`/product/${product.id}`}>
       <Card hover className="h-full">
         <CardBody className="p-0">
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="w-full h-44 relative rounded-t-lg overflow-hidden bg-gray-100">
-            <FoodPlaceholder category={primaryCategory} name={product.name} />
+            {showImage ? (
+              <img
+                src={product.image_url}
+                alt={product.name}
+                className="h-full w-full object-cover"
+                loading="lazy"
+                onError={() => setImageFailed(true)}
+              />
+            ) : (
+              <FoodPlaceholder category={primaryCategory} name={product.name} />
+            )}
             
             {/* Overlay badges */}
             <div className="absolute top-2 left-2 flex flex-col gap-1">

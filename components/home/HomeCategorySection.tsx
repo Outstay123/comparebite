@@ -12,7 +12,7 @@ interface HomeCategorySectionProps {
   products: Product[];
   viewMoreLink: string;
   viewMoreLabel?: string;
-  badge?: 'local' | 'chain' | 'hidden_gem' | 'under_10' | 'drink';
+  badge?: 'local' | 'chain' | 'hidden_gem' | 'under_10' | 'drink' | 'nearby';
   maxProducts?: number;
 }
 
@@ -39,6 +39,8 @@ export function HomeCategorySection({
         return 'bg-purple-100 text-purple-700 border-purple-200';
       case 'drink':
         return 'bg-cyan-100 text-cyan-700 border-cyan-200';
+      case 'nearby':
+        return 'bg-rose-100 text-rose-700 border-rose-200';
       default:
         return 'bg-gray-100 text-gray-700 border-gray-200';
     }
@@ -56,6 +58,8 @@ export function HomeCategorySection({
         return 'Under RM10';
       case 'drink':
         return 'Drink';
+      case 'nearby':
+        return 'Nearby';
       default:
         return '';
     }

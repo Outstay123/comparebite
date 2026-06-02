@@ -16,10 +16,17 @@ import { SlidersHorizontal, ArrowUpDown, X } from 'lucide-react';
 
 function SearchContent() {
   const searchParams = useSearchParams();
-  const query = searchParams.get('q') || '';
-  const categoryParam = searchParams.get('category');
-  const sellerTypeParam = searchParams.get('sellerType');
-  const maxPriceParam = searchParams.get('maxPrice');
+  const [browserSearchParams, setBrowserSearchParams] = useState<URLSearchParams | null>(null);
+
+  useEffect(() => {
+    setBrowserSearchParams(new URLSearchParams(window.location.search));
+  }, [searchParams]);
+
+  const activeSearchParams = browserSearchParams || searchParams;
+  const query = activeSearchParams.get('q') || '';
+  const categoryParam = activeSearchParams.get('category');
+  const sellerTypeParam = activeSearchParams.get('sellerType');
+  const maxPriceParam = activeSearchParams.get('maxPrice');
 
   // Parse URL filters
   const [filters, setFilters] = useState<SearchFilters>({});

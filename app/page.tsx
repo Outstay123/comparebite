@@ -16,6 +16,7 @@ import {
   getLocalProducts,
   getChainProducts,
   getDrinkProducts,
+  getNearbyProducts,
   getProductsUnderPrice,
   getHiddenGemProducts,
   getMalaysianFoodProducts,
@@ -45,6 +46,7 @@ export default function Home() {
 
   const localProducts = getTopValueProducts(getLocalProducts(allProducts), 4);
   const chainProducts = getTopValueProducts(getChainProducts(allProducts), 4);
+  const nearbyProducts = getTopValueProducts(getNearbyProducts(allProducts), 4);
   const drinkProducts = getTopValueProducts(getDrinkProducts(allProducts), 4);
   const under10Products = getTopValueProducts(getProductsUnderPrice(allProducts, 10), 4);
   const hiddenGemProducts = getHiddenGemProducts(allProducts);
@@ -130,6 +132,15 @@ export default function Home() {
             </div>
             <ProductList products={bestValueProducts} />
           </div>
+
+          <HomeCategorySection
+            title="Foods Near You"
+            description="Nearby food picks from your provided list."
+            products={nearbyProducts}
+            viewMoreLink="/search?category=nearby"
+            viewMoreLabel="View All Nearby"
+            badge="nearby"
+          />
 
           <HomeCategorySection
             title="Best Local Picks"

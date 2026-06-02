@@ -68,8 +68,16 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             <Card>
               <CardBody className="p-6">
                 {/* Image */}
-                <div className="w-full h-64 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                  <span className="text-gray-400 text-lg">{product.name}</span>
+                <div className="w-full h-64 bg-gray-200 rounded-lg mb-6 overflow-hidden flex items-center justify-center">
+                  {product.image_url ? (
+                    <img
+                      src={product.image_url}
+                      alt={product.name}
+                      className="h-full w-full object-cover"
+                    />
+                  ) : (
+                    <span className="text-gray-400 text-lg">{product.name}</span>
+                  )}
                 </div>
 
                 {/* Title & Badges */}

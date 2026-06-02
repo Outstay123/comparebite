@@ -81,6 +81,13 @@ export function getChainProducts(products: Product[]): Product[] {
 }
 
 /**
+ * Get products marked for the Foods Near You section
+ */
+export function getNearbyProducts(products: Product[]): Product[] {
+  return getProductsByCategory(products, 'nearby');
+}
+
+/**
  * Get hidden gem products
  */
 export function getHiddenGemProducts(products: Product[]): Product[] {
@@ -218,6 +225,7 @@ export function getCategoryDisplayName(categoryId: string): string {
     'soft_drink': 'Soft Drink',
     'bottled_water': 'Bottled Water',
     'drink': 'Drinks',
+    'nearby': 'Nearby',
     'local': 'Local',
     'chain': 'Chain',
   };

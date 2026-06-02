@@ -6,13 +6,27 @@
     "chain": "mcdonalds",
     "name": "Crispy Chicken Chop",
     "description": "Juicy chicken thigh coated in crispy breadcrumbs, served with mashed potatoes and coleslaw",
-    "categories": ["chicken_chop", "western", "chicken", "main_course"],
+    "categories": [
+      "chicken_chop",
+      "western",
+      "chicken",
+      "main_course"
+    ],
     "product_type": "food",
     "price": 18.99,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "breadcrumbs", "mashed potatoes", "coleslaw"],
+    "ingredients": [
+      "chicken thigh",
+      "breadcrumbs",
+      "mashed potatoes",
+      "coleslaw"
+    ],
     "options": {
-      "sauce": ["mushroom", "black pepper", "bbq"]
+      "sauce": [
+        "mushroom",
+        "black pepper",
+        "bbq"
+      ]
     },
     "reviews": [
       {
@@ -36,11 +50,11 @@
         "created_at": "2026-04-20"
       }
     ],
-    "average_rating": 4.0,
+    "average_rating": 4,
     "review_count": 2,
     "portion_score": 3.5,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [
       {
         "id": "offer_mcd_001",
@@ -53,7 +67,10 @@
     "image_url": "/images/placeholders/chicken-chop.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -64,13 +81,28 @@
     "chain": "kfc",
     "name": "Original Chicken Chop",
     "description": "Signature fried chicken chop with secret recipe herbs and spices, served with whipped potatoes and coleslaw",
-    "categories": ["chicken_chop", "western", "chicken", "main_course"],
+    "categories": [
+      "chicken_chop",
+      "western",
+      "chicken",
+      "main_course"
+    ],
     "product_type": "food",
     "price": 16.99,
     "currency": "MYR",
-    "ingredients": ["chicken", "herbs", "spices", "whipped potatoes", "coleslaw"],
+    "ingredients": [
+      "chicken",
+      "herbs",
+      "spices",
+      "whipped potatoes",
+      "coleslaw"
+    ],
     "options": {
-      "sauce": ["original", "spicy", "black pepper"]
+      "sauce": [
+        "original",
+        "spicy",
+        "black pepper"
+      ]
     },
     "reviews": [
       {
@@ -96,7 +128,7 @@
       {
         "id": "rev_kfc_003",
         "user": "Mike R.",
-        "rating": 4.0,
+        "rating": 4,
         "portion_score": 4,
         "taste_score": 4,
         "value_score": 4,
@@ -106,7 +138,7 @@
     ],
     "average_rating": 4.3,
     "review_count": 3,
-    "portion_score": 4.0,
+    "portion_score": 4,
     "taste_score": 4.3,
     "value_score": 4.7,
     "offers": [
@@ -128,7 +160,9 @@
     "image_url": "/images/placeholders/chicken-chop.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten"],
+    "allergens": [
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -139,13 +173,27 @@
     "chain": "marrybrown",
     "name": "Chicken Maryland",
     "description": "Classic fried chicken chop with mushroom sauce, served with fries and coleslaw",
-    "categories": ["chicken_chop", "western", "chicken", "main_course"],
+    "categories": [
+      "chicken_chop",
+      "western",
+      "chicken",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 19.50,
+    "price": 19.5,
     "currency": "MYR",
-    "ingredients": ["chicken", "mushroom sauce", "fries", "coleslaw"],
+    "ingredients": [
+      "chicken",
+      "mushroom sauce",
+      "fries",
+      "coleslaw"
+    ],
     "options": {
-      "sauce": ["mushroom", "black pepper", "cheese"]
+      "sauce": [
+        "mushroom",
+        "black pepper",
+        "cheese"
+      ]
     },
     "reviews": [
       {
@@ -161,7 +209,7 @@
       {
         "id": "rev_mb_002",
         "user": "David L.",
-        "rating": 3.0,
+        "rating": 3,
         "portion_score": 2,
         "taste_score": 3,
         "value_score": 3,
@@ -172,13 +220,16 @@
     "average_rating": 3.3,
     "review_count": 2,
     "portion_score": 2.5,
-    "taste_score": 3.0,
-    "value_score": 3.0,
+    "taste_score": 3,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/placeholders/chicken-chop.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -189,19 +240,34 @@
     "chain": "mcdonalds",
     "name": "Big Mac",
     "description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun",
-    "categories": ["burger", "beef", "main_course"],
+    "categories": [
+      "burger",
+      "beef",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 12.50,
+    "price": 12.5,
     "currency": "MYR",
-    "ingredients": ["beef patties", "sesame bun", "special sauce", "lettuce", "cheese", "pickles", "onions"],
+    "ingredients": [
+      "beef patties",
+      "sesame bun",
+      "special sauce",
+      "lettuce",
+      "cheese",
+      "pickles",
+      "onions"
+    ],
     "options": {
-      "size": ["regular", "large"]
+      "size": [
+        "regular",
+        "large"
+      ]
     },
     "reviews": [
       {
         "id": "rev_mcd_burger_001",
         "user": "Ali R.",
-        "rating": 4.0,
+        "rating": 4,
         "portion_score": 4,
         "taste_score": 4,
         "value_score": 4,
@@ -222,8 +288,8 @@
     "average_rating": 3.8,
     "review_count": 2,
     "portion_score": 3.5,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [
       {
         "id": "offer_mcd_burger",
@@ -236,7 +302,11 @@
     "image_url": "/images/placeholders/burger.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy", "sesame"],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "sesame"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -247,13 +317,29 @@
     "chain": "burger_king",
     "name": "Whopper",
     "description": "Flame-grilled beef patty with fresh tomatoes, lettuce, pickles, onions, mayo, and ketchup",
-    "categories": ["burger", "beef", "main_course"],
+    "categories": [
+      "burger",
+      "beef",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 14.90,
+    "price": 14.9,
     "currency": "MYR",
-    "ingredients": ["beef patty", "tomatoes", "lettuce", "pickles", "onions", "mayo", "ketchup", "sesame bun"],
+    "ingredients": [
+      "beef patty",
+      "tomatoes",
+      "lettuce",
+      "pickles",
+      "onions",
+      "mayo",
+      "ketchup",
+      "sesame bun"
+    ],
     "options": {
-      "size": ["regular", "double"]
+      "size": [
+        "regular",
+        "double"
+      ]
     },
     "reviews": [
       {
@@ -280,8 +366,8 @@
     "average_rating": 4.4,
     "review_count": 2,
     "portion_score": 4.5,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [
       {
         "id": "offer_bk_001",
@@ -294,7 +380,12 @@
     "image_url": "/images/placeholders/burger.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy", "sesame", "egg"],
+    "allergens": [
+      "gluten",
+      "dairy",
+      "sesame",
+      "egg"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -305,13 +396,26 @@
     "chain": "kfc",
     "name": "2pc Original Recipe Chicken",
     "description": "2 pieces of our signature Original Recipe fried chicken with secret blend of 11 herbs and spices",
-    "categories": ["fried_chicken", "chicken", "main_course"],
+    "categories": [
+      "fried_chicken",
+      "chicken",
+      "main_course"
+    ],
     "product_type": "food",
     "price": 15.99,
     "currency": "MYR",
-    "ingredients": ["chicken", "herbs", "spices", "flour"],
+    "ingredients": [
+      "chicken",
+      "herbs",
+      "spices",
+      "flour"
+    ],
     "options": {
-      "pieces": ["2pc", "3pc", "5pc"]
+      "pieces": [
+        "2pc",
+        "3pc",
+        "5pc"
+      ]
     },
     "reviews": [
       {
@@ -338,8 +442,8 @@
     "average_rating": 4.7,
     "review_count": 2,
     "portion_score": 4.5,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [
       {
         "id": "offer_kfc_chicken",
@@ -352,7 +456,9 @@
     "image_url": "/images/placeholders/fried-chicken.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten"],
+    "allergens": [
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -363,13 +469,26 @@
     "chain": "4fingers",
     "name": "6pcs Crispy Chicken Combo",
     "description": "6 pieces of crispy fried chicken with soy garlic or hot sauce, served with fries and drink",
-    "categories": ["fried_chicken", "chicken", "combo_meal", "main_course"],
+    "categories": [
+      "fried_chicken",
+      "chicken",
+      "combo_meal",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 28.90,
+    "price": 28.9,
     "currency": "MYR",
-    "ingredients": ["chicken", "soy garlic sauce", "fries"],
+    "ingredients": [
+      "chicken",
+      "soy garlic sauce",
+      "fries"
+    ],
     "options": {
-      "sauce": ["soy garlic", "hot", "mixed"]
+      "sauce": [
+        "soy garlic",
+        "hot",
+        "mixed"
+      ]
     },
     "reviews": [
       {
@@ -396,7 +515,7 @@
     "average_rating": 4.5,
     "review_count": 2,
     "portion_score": 4.5,
-    "taste_score": 5.0,
+    "taste_score": 5,
     "value_score": 3.5,
     "offers": [
       {
@@ -410,7 +529,10 @@
     "image_url": "/images/placeholders/fried-chicken.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "soy"],
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -421,19 +543,30 @@
     "chain": "mcdonalds",
     "name": "6pc Chicken McNuggets",
     "description": "Tender chicken nuggets made with white meat, served with your choice of sauce",
-    "categories": ["nuggets", "chicken", "side"],
+    "categories": [
+      "nuggets",
+      "chicken",
+      "side"
+    ],
     "product_type": "food",
-    "price": 8.50,
+    "price": 8.5,
     "currency": "MYR",
-    "ingredients": ["chicken", "breading"],
+    "ingredients": [
+      "chicken",
+      "breading"
+    ],
     "options": {
-      "dipping_sauce": ["bbq", "sweet_sour", "ketchup"]
+      "dipping_sauce": [
+        "bbq",
+        "sweet_sour",
+        "ketchup"
+      ]
     },
     "reviews": [
       {
         "id": "rev_mcd_nuggets_001",
         "user": "Tom B.",
-        "rating": 4.0,
+        "rating": 4,
         "portion_score": 3,
         "taste_score": 4,
         "value_score": 3,
@@ -441,11 +574,11 @@
         "created_at": "2026-04-11"
       }
     ],
-    "average_rating": 4.0,
+    "average_rating": 4,
     "review_count": 1,
-    "portion_score": 3.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 3,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [
       {
         "id": "offer_mcd_nuggets",
@@ -458,7 +591,9 @@
     "image_url": "/images/placeholders/nuggets.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten"],
+    "allergens": [
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -469,11 +604,18 @@
     "chain": "mcdonalds",
     "name": "French Fries Large",
     "description": "Golden crispy fries, world-famous",
-    "categories": ["fries", "sides"],
+    "categories": [
+      "fries",
+      "sides"
+    ],
     "product_type": "side",
-    "price": 5.50,
+    "price": 5.5,
     "currency": "MYR",
-    "ingredients": ["potatoes", "oil", "salt"],
+    "ingredients": [
+      "potatoes",
+      "oil",
+      "salt"
+    ],
     "options": {},
     "reviews": [
       {
@@ -489,9 +631,9 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/fries.jpg",
     "is_halal": true,
@@ -507,17 +649,24 @@
     "chain": "burger_king",
     "name": "Onion Rings Large",
     "description": "Crispy battered onion rings",
-    "categories": ["sides", "onion_rings"],
+    "categories": [
+      "sides",
+      "onion_rings"
+    ],
     "product_type": "side",
-    "price": 6.90,
+    "price": 6.9,
     "currency": "MYR",
-    "ingredients": ["onions", "batter", "oil"],
+    "ingredients": [
+      "onions",
+      "batter",
+      "oil"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "rev_bk_onion_001",
         "user": "Chris L.",
-        "rating": 4.0,
+        "rating": 4,
         "portion_score": 4,
         "taste_score": 4,
         "value_score": 3,
@@ -525,16 +674,18 @@
         "created_at": "2026-04-13"
       }
     ],
-    "average_rating": 4.0,
+    "average_rating": 4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/placeholders/onion-rings.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["gluten"],
+    "allergens": [
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -545,13 +696,26 @@
     "chain": "marrybrown",
     "name": "2pc Chicken Combo",
     "description": "2 pieces fried chicken with fries and drink",
-    "categories": ["combo_meal", "fried_chicken", "chicken", "main_course"],
+    "categories": [
+      "combo_meal",
+      "fried_chicken",
+      "chicken",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 17.90,
+    "price": 17.9,
     "currency": "MYR",
-    "ingredients": ["chicken", "fries", "bun"],
+    "ingredients": [
+      "chicken",
+      "fries",
+      "bun"
+    ],
     "options": {
-      "drink": ["coke", "sprite", "fanta"]
+      "drink": [
+        "coke",
+        "sprite",
+        "fanta"
+      ]
     },
     "reviews": [
       {
@@ -567,14 +731,16 @@
     ],
     "average_rating": 3.5,
     "review_count": 1,
-    "portion_score": 3.0,
-    "taste_score": 3.0,
-    "value_score": 4.0,
+    "portion_score": 3,
+    "taste_score": 3,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten"],
+    "allergens": [
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -585,14 +751,31 @@
     "chain": "local_cafe_sunway",
     "name": "Signature Chicken Chop",
     "description": "Juicy grilled chicken with homemade mushroom sauce, served with fresh salad and mashed potatoes. Family recipe passed down for generations.",
-    "categories": ["chicken_chop", "western", "local"],
+    "categories": [
+      "chicken_chop",
+      "western",
+      "local"
+    ],
     "product_type": "food",
-    "price": 12.90,
+    "price": 12.9,
     "currency": "MYR",
-    "ingredients": ["chicken breast", "mushroom sauce", "salad", "mashed potatoes"],
+    "ingredients": [
+      "chicken breast",
+      "mushroom sauce",
+      "salad",
+      "mashed potatoes"
+    ],
     "options": {
-      "sauce": ["mushroom", "black pepper", "bbq"],
-      "side": ["mashed potatoes", "fries", "rice"]
+      "sauce": [
+        "mushroom",
+        "black pepper",
+        "bbq"
+      ],
+      "side": [
+        "mashed potatoes",
+        "fries",
+        "rice"
+      ]
     },
     "reviews": [
       {
@@ -619,8 +802,8 @@
     "average_rating": 4.65,
     "review_count": 2,
     "portion_score": 4.5,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [
       {
         "id": "offer_local_cafe_001",
@@ -633,7 +816,10 @@
     "image_url": "/images/placeholders/chicken-chop.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -644,14 +830,34 @@
     "chain": "uncle_lim_sunway",
     "name": "Special Nasi Lemak Ayam Goreng",
     "description": "Fragrant coconut rice with crispy fried chicken, sambal, peanuts, ikan bilis, egg, and cucumber. Authentic Malaysian breakfast favorite.",
-    "categories": ["nasi_lemak", "malaysian", "breakfast", "local"],
+    "categories": [
+      "nasi_lemak",
+      "malaysian",
+      "breakfast",
+      "local"
+    ],
     "product_type": "food",
-    "price": 8.50,
+    "price": 8.5,
     "currency": "MYR",
-    "ingredients": ["coconut rice", "fried chicken", "sambal", "peanuts", "ikan bilis", "egg", "cucumber"],
+    "ingredients": [
+      "coconut rice",
+      "fried chicken",
+      "sambal",
+      "peanuts",
+      "ikan bilis",
+      "egg",
+      "cucumber"
+    ],
     "options": {
-      "spice_level": ["mild", "medium", "spicy"],
-      "extra_sambal": ["yes", "no"]
+      "spice_level": [
+        "mild",
+        "medium",
+        "spicy"
+      ],
+      "extra_sambal": [
+        "yes",
+        "no"
+      ]
     },
     "reviews": [
       {
@@ -667,14 +873,17 @@
     ],
     "average_rating": 4.9,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/nasi-lemak.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts", "fish"],
+    "allergens": [
+      "peanuts",
+      "fish"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -685,14 +894,29 @@
     "chain": "sunway_kopitiam",
     "name": "Traditional Kopi Latte",
     "description": "Rich and aromatic Malaysian-style coffee with condensed milk. Brewed using traditional sock filter method for authentic flavor.",
-    "categories": ["coffee", "drinks", "local"],
+    "categories": [
+      "coffee",
+      "drinks",
+      "local"
+    ],
     "product_type": "drink",
-    "price": 4.50,
+    "price": 4.5,
     "currency": "MYR",
-    "ingredients": ["coffee", "condensed milk", "water"],
+    "ingredients": [
+      "coffee",
+      "condensed milk",
+      "water"
+    ],
     "options": {
-      "sweetness": ["less sweet", "normal", "extra sweet"],
-      "ice": ["hot", "iced"]
+      "sweetness": [
+        "less sweet",
+        "normal",
+        "extra sweet"
+      ],
+      "ice": [
+        "hot",
+        "iced"
+      ]
     },
     "reviews": [
       {
@@ -718,9 +942,9 @@
     ],
     "average_rating": 4.55,
     "review_count": 2,
-    "portion_score": 4.0,
+    "portion_score": 4,
     "taste_score": 4.5,
-    "value_score": 5.0,
+    "value_score": 5,
     "offers": [
       {
         "id": "offer_kopitiam_001",
@@ -733,7 +957,9 @@
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -744,14 +970,33 @@
     "chain": "warung_spicy_sunway",
     "name": "Ayam Goreng Berempah",
     "description": "Crispy fried chicken with aromatic Malaysian spices. Marinated overnight for maximum flavor. Served with sambal belacan.",
-    "categories": ["fried_chicken", "malaysian", "spicy", "local"],
+    "categories": [
+      "fried_chicken",
+      "malaysian",
+      "spicy",
+      "local"
+    ],
     "product_type": "food",
-    "price": 10.90,
+    "price": 10.9,
     "currency": "MYR",
-    "ingredients": ["chicken", "spices", "sambal belacan", "rice"],
+    "ingredients": [
+      "chicken",
+      "spices",
+      "sambal belacan",
+      "rice"
+    ],
     "options": {
-      "spice_level": ["medium", "spicy", "extra spicy"],
-      "part": ["drumstick", "thigh", "breast", "mix"]
+      "spice_level": [
+        "medium",
+        "spicy",
+        "extra spicy"
+      ],
+      "part": [
+        "drumstick",
+        "thigh",
+        "breast",
+        "mix"
+      ]
     },
     "reviews": [
       {
@@ -767,14 +1012,16 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/fried-chicken.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten"],
+    "allergens": [
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -785,14 +1032,33 @@
     "chain": "campus_burger_sunway",
     "name": "Classic Beef Burger",
     "description": "Juicy beef patty with fresh lettuce, tomato, cheese, and special sauce. Grilled to order. Popular with students for 10 years.",
-    "categories": ["burger", "western", "local"],
+    "categories": [
+      "burger",
+      "western",
+      "local"
+    ],
     "product_type": "food",
-    "price": 7.90,
+    "price": 7.9,
     "currency": "MYR",
-    "ingredients": ["beef patty", "bun", "lettuce", "tomato", "cheese", "special sauce"],
+    "ingredients": [
+      "beef patty",
+      "bun",
+      "lettuce",
+      "tomato",
+      "cheese",
+      "special sauce"
+    ],
     "options": {
-      "cheese": ["cheddar", "mozzarella", "none"],
-      "addons": ["extra patty", "bacon", "egg"]
+      "cheese": [
+        "cheddar",
+        "mozzarella",
+        "none"
+      ],
+      "addons": [
+        "extra patty",
+        "bacon",
+        "egg"
+      ]
     },
     "reviews": [
       {
@@ -818,9 +1084,9 @@
     ],
     "average_rating": 4.35,
     "review_count": 2,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [
       {
         "id": "offer_campus_001",
@@ -833,7 +1099,10 @@
     "image_url": "/images/placeholders/burger.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -844,14 +1113,29 @@
     "chain": "zus_coffee",
     "name": "CEO Latte",
     "description": "Signature creamy latte with smooth espresso and fresh milk. ZUS's bestseller.",
-    "categories": ["coffee", "latte", "drink"],
+    "categories": [
+      "coffee",
+      "latte",
+      "drink"
+    ],
     "product_type": "drink",
-    "price": 8.90,
+    "price": 8.9,
     "currency": "MYR",
-    "ingredients": ["espresso", "fresh milk", "foam"],
+    "ingredients": [
+      "espresso",
+      "fresh milk",
+      "foam"
+    ],
     "options": {
-      "size": ["small", "regular", "large"],
-      "temperature": ["hot", "iced"]
+      "size": [
+        "small",
+        "regular",
+        "large"
+      ],
+      "temperature": [
+        "hot",
+        "iced"
+      ]
     },
     "reviews": [
       {
@@ -867,9 +1151,9 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [
       {
         "id": "offer_zus_001",
@@ -882,7 +1166,9 @@
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -893,14 +1179,31 @@
     "chain": "starbucks",
     "name": "Caffè Latte",
     "description": "Rich espresso balanced with steamed milk and a light layer of foam.",
-    "categories": ["coffee", "latte", "drink"],
+    "categories": [
+      "coffee",
+      "latte",
+      "drink"
+    ],
     "product_type": "drink",
-    "price": 14.50,
+    "price": 14.5,
     "currency": "MYR",
-    "ingredients": ["espresso", "steamed milk", "milk foam"],
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "milk foam"
+    ],
     "options": {
-      "size": ["tall", "grande", "venti"],
-      "milk": ["whole", "low_fat", "oat", "almond"]
+      "size": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "milk": [
+        "whole",
+        "low_fat",
+        "oat",
+        "almond"
+      ]
     },
     "reviews": [
       {
@@ -916,14 +1219,16 @@
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -934,15 +1239,36 @@
     "chain": "tealive",
     "name": "Bang Bang Fresh Milk Tea",
     "description": "Signature black tea with fresh milk and chewy pearls.",
-    "categories": ["milk_tea", "drink", "beverage"],
+    "categories": [
+      "milk_tea",
+      "drink",
+      "beverage"
+    ],
     "product_type": "drink",
-    "price": 8.50,
+    "price": 8.5,
     "currency": "MYR",
-    "ingredients": ["black tea", "fresh milk", "pearls"],
+    "ingredients": [
+      "black tea",
+      "fresh milk",
+      "pearls"
+    ],
     "options": {
-      "size": ["regular", "large"],
-      "sugar": ["0%", "30%", "50%", "70%", "100%"],
-      "ice": ["no ice", "less ice", "normal"]
+      "size": [
+        "regular",
+        "large"
+      ],
+      "sugar": [
+        "0%",
+        "30%",
+        "50%",
+        "70%",
+        "100%"
+      ],
+      "ice": [
+        "no ice",
+        "less ice",
+        "normal"
+      ]
     },
     "reviews": [
       {
@@ -958,9 +1284,9 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [
       {
         "id": "offer_tealive_001",
@@ -973,7 +1299,9 @@
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -984,11 +1312,21 @@
     "chain": "familymart",
     "name": "Salmon Onigiri Set",
     "description": "Fresh salmon onigiri with miso soup. Perfect quick meal.",
-    "categories": ["rice_bowl", "japanese", "main_course"],
+    "categories": [
+      "rice_bowl",
+      "japanese",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 9.90,
+    "price": 9.9,
     "currency": "MYR",
-    "ingredients": ["rice", "salmon", "seaweed", "sesame", "miso soup"],
+    "ingredients": [
+      "rice",
+      "salmon",
+      "seaweed",
+      "sesame",
+      "miso soup"
+    ],
     "options": {},
     "reviews": [
       {
@@ -1004,14 +1342,18 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["fish", "soy", "sesame"],
+    "allergens": [
+      "fish",
+      "soy",
+      "sesame"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1022,14 +1364,32 @@
     "chain": "subway",
     "name": "Tuna Sub 6-inch",
     "description": "Flaked tuna mixed with creamy mayo, topped with fresh vegetables on freshly baked bread.",
-    "categories": ["sandwich", "healthy", "main_course"],
+    "categories": [
+      "sandwich",
+      "healthy",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 13.90,
+    "price": 13.9,
     "currency": "MYR",
-    "ingredients": ["tuna", "mayonnaise", "bread", "lettuce", "tomato", "cucumber"],
+    "ingredients": [
+      "tuna",
+      "mayonnaise",
+      "bread",
+      "lettuce",
+      "tomato",
+      "cucumber"
+    ],
     "options": {
-      "bread": ["italian_white", "whole_wheat", "honey_oat"],
-      "toasted": ["yes", "no"]
+      "bread": [
+        "italian_white",
+        "whole_wheat",
+        "honey_oat"
+      ],
+      "toasted": [
+        "yes",
+        "no"
+      ]
     },
     "reviews": [
       {
@@ -1045,14 +1405,18 @@
     ],
     "average_rating": 4.1,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["gluten", "fish", "egg"],
+    "allergens": [
+      "gluten",
+      "fish",
+      "egg"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1063,20 +1427,36 @@
     "chain": "pizza_hut",
     "name": "Pepperoni Lover's Pizza Regular",
     "description": "Classic pizza loaded with pepperoni and mozzarella cheese.",
-    "categories": ["pizza", "italian", "main_course"],
+    "categories": [
+      "pizza",
+      "italian",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 32.90,
+    "price": 32.9,
     "currency": "MYR",
-    "ingredients": ["dough", "tomato sauce", "mozzarella", "pepperoni"],
+    "ingredients": [
+      "dough",
+      "tomato sauce",
+      "mozzarella",
+      "pepperoni"
+    ],
     "options": {
-      "crust": ["classic", "cheesy_bites", "stuffed"],
-      "size": ["regular", "large"]
+      "crust": [
+        "classic",
+        "cheesy_bites",
+        "stuffed"
+      ],
+      "size": [
+        "regular",
+        "large"
+      ]
     },
     "reviews": [
       {
         "id": "rev_ph_001",
         "user": "Mike T.",
-        "rating": 4.0,
+        "rating": 4,
         "portion_score": 4,
         "taste_score": 4,
         "value_score": 3,
@@ -1084,11 +1464,11 @@
         "created_at": "2026-04-25"
       }
     ],
-    "average_rating": 4.0,
+    "average_rating": 4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [
       {
         "id": "offer_ph_001",
@@ -1101,7 +1481,10 @@
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1112,14 +1495,30 @@
     "chain": "texas_chicken",
     "name": "2pc Fried Chicken Combo",
     "description": "Crispy golden fried chicken with honey butter biscuit, fries and drink.",
-    "categories": ["fried_chicken", "combo_meal", "main_course"],
+    "categories": [
+      "fried_chicken",
+      "combo_meal",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 19.90,
+    "price": 19.9,
     "currency": "MYR",
-    "ingredients": ["chicken", "biscuit", "fries", "coleslaw"],
+    "ingredients": [
+      "chicken",
+      "biscuit",
+      "fries",
+      "coleslaw"
+    ],
     "options": {
-      "spicy_level": ["original", "spicy"],
-      "drink": ["coke", "sprite", "iced_tea"]
+      "spicy_level": [
+        "original",
+        "spicy"
+      ],
+      "drink": [
+        "coke",
+        "sprite",
+        "iced_tea"
+      ]
     },
     "reviews": [
       {
@@ -1135,14 +1534,17 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/fried-chicken.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1153,14 +1555,33 @@
     "chain": "warung_kak_ani",
     "name": "Nasi Campur Ayam Goreng",
     "description": "Fragrant rice with 2 side dishes and fried chicken. Authentic Malay home cooking.",
-    "categories": ["nasi_campur", "malaysian", "local", "main_course"],
+    "categories": [
+      "nasi_campur",
+      "malaysian",
+      "local",
+      "main_course"
+    ],
     "product_type": "food",
-    "price": 9.50,
+    "price": 9.5,
     "currency": "MYR",
-    "ingredients": ["rice", "fried chicken", "sambal", "vegetables", "egg"],
+    "ingredients": [
+      "rice",
+      "fried chicken",
+      "sambal",
+      "vegetables",
+      "egg"
+    ],
     "options": {
-      "side_1": ["sambal sotong", "ayam goreng", "daging masak merah"],
-      "side_2": ["sayur campur", "telur masin", "ikan bilis"]
+      "side_1": [
+        "sambal sotong",
+        "ayam goreng",
+        "daging masak merah"
+      ],
+      "side_2": [
+        "sayur campur",
+        "telur masin",
+        "ikan bilis"
+      ]
     },
     "reviews": [
       {
@@ -1176,9 +1597,9 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
@@ -1194,14 +1615,32 @@
     "chain": "mak_cik_nasi_lemak",
     "name": "Nasi Lemak Special Rendang",
     "description": "Coconut rice with beef rendang, sambal, egg, peanuts and ikan bilis. Family recipe.",
-    "categories": ["nasi_lemak", "malaysian", "local", "breakfast"],
+    "categories": [
+      "nasi_lemak",
+      "malaysian",
+      "local",
+      "breakfast"
+    ],
     "product_type": "food",
-    "price": 12.50,
+    "price": 12.5,
     "currency": "MYR",
-    "ingredients": ["coconut rice", "beef rendang", "sambal", "egg", "peanuts", "ikan bilis"],
+    "ingredients": [
+      "coconut rice",
+      "beef rendang",
+      "sambal",
+      "egg",
+      "peanuts",
+      "ikan bilis"
+    ],
     "options": {
-      "spicy_level": ["mild", "spicy"],
-      "add_egg": ["yes", "no"]
+      "spicy_level": [
+        "mild",
+        "spicy"
+      ],
+      "add_egg": [
+        "yes",
+        "no"
+      ]
     },
     "reviews": [
       {
@@ -1217,14 +1656,16 @@
     ],
     "average_rating": 4.9,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/nasi-lemak.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts"],
+    "allergens": [
+      "peanuts"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1235,14 +1676,32 @@
     "chain": "roti_canai_corner",
     "name": "Roti Canai Telur + Dal",
     "description": "Fluffy crispy roti with egg served with dhal curry and sambal. Mamak classic.",
-    "categories": ["roti_canai", "mamak", "malaysian", "breakfast", "local"],
+    "categories": [
+      "roti_canai",
+      "mamak",
+      "malaysian",
+      "breakfast",
+      "local"
+    ],
     "product_type": "food",
-    "price": 3.50,
+    "price": 3.5,
     "currency": "MYR",
-    "ingredients": ["flour", "egg", "dhal curry", "sambal"],
+    "ingredients": [
+      "flour",
+      "egg",
+      "dhal curry",
+      "sambal"
+    ],
     "options": {
-      "cooking": ["crispy", "soft"],
-      "extras": ["none", "double_egg", "bawang"]
+      "cooking": [
+        "crispy",
+        "soft"
+      ],
+      "extras": [
+        "none",
+        "double_egg",
+        "bawang"
+      ]
     },
     "reviews": [
       {
@@ -1258,14 +1717,17 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "egg"],
+    "allergens": [
+      "gluten",
+      "egg"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1276,14 +1738,34 @@
     "chain": "char_kuey_teow_abang_din",
     "name": "Char Kuey Teow Special",
     "description": "Wok-fried flat noodles with prawns, cockles, egg and Chinese sausage. Penang style.",
-    "categories": ["char_kuey_teow", "noodles", "malaysian", "local"],
+    "categories": [
+      "char_kuey_teow",
+      "noodles",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["flat noodles", "prawns", "cockles", "egg", "chinese sausage", "bean sprouts"],
+    "ingredients": [
+      "flat noodles",
+      "prawns",
+      "cockles",
+      "egg",
+      "chinese sausage",
+      "bean sprouts"
+    ],
     "options": {
-      "spicy_level": ["no spicy", "mild", "spicy", "extra_spicy"],
-      "extras": ["extra prawns", "extra egg"]
+      "spicy_level": [
+        "no spicy",
+        "mild",
+        "spicy",
+        "extra_spicy"
+      ],
+      "extras": [
+        "extra prawns",
+        "extra egg"
+      ]
     },
     "reviews": [
       {
@@ -1299,14 +1781,19 @@
     ],
     "average_rating": 4.9,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["gluten", "shellfish", "egg", "soy"],
+    "allergens": [
+      "gluten",
+      "shellfish",
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1317,14 +1804,30 @@
     "chain": "teh_ais_bistro",
     "name": "Teh Tarik Kurang Manis",
     "description": "Traditional pulled tea with less sugar. Creamy and frothy.",
-    "categories": ["teh_tarik", "drink", "malaysian", "local"],
+    "categories": [
+      "teh_tarik",
+      "drink",
+      "malaysian",
+      "local"
+    ],
     "product_type": "drink",
-    "price": 3.00,
+    "price": 3,
     "currency": "MYR",
-    "ingredients": ["black tea", "condensed milk", "evaporated milk"],
+    "ingredients": [
+      "black tea",
+      "condensed milk",
+      "evaporated milk"
+    ],
     "options": {
-      "temperature": ["hot", "cold"],
-      "sugar": ["kurang manis", "normal", "manis"]
+      "temperature": [
+        "hot",
+        "cold"
+      ],
+      "sugar": [
+        "kurang manis",
+        "normal",
+        "manis"
+      ]
     },
     "reviews": [
       {
@@ -1340,14 +1843,16 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1358,14 +1863,33 @@
     "chain": "ayam_gepuk_station",
     "name": "Ayam Gepuk Sambal Korek",
     "description": "Smashed fried chicken with explosive sambal korek. Indonesian-Malaysian fusion.",
-    "categories": ["ayam_gepuk", "fried_chicken", "spicy", "malaysian", "local"],
+    "categories": [
+      "ayam_gepuk",
+      "fried_chicken",
+      "spicy",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 10.50,
+    "price": 10.5,
     "currency": "MYR",
-    "ingredients": ["chicken", "rice", "sambal korek", "cabbage", "tofu"],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "sambal korek",
+      "cabbage",
+      "tofu"
+    ],
     "options": {
-      "spicy_level": ["original", "spicy", "pedas_gila"],
-      "portion": ["regular", "large"]
+      "spicy_level": [
+        "original",
+        "spicy",
+        "pedas_gila"
+      ],
+      "portion": [
+        "regular",
+        "large"
+      ]
     },
     "reviews": [
       {
@@ -1381,9 +1905,9 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/fried-chicken.jpg",
     "is_halal": true,
@@ -1399,14 +1923,35 @@
     "chain": "roti_canai_corner",
     "name": "Mee Goreng Mamak",
     "description": "Stir-fried yellow noodles with egg, vegetables, tofu and spicy sambal.",
-    "categories": ["mee_goreng", "noodles", "mamak", "malaysian", "local"],
+    "categories": [
+      "mee_goreng",
+      "noodles",
+      "mamak",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 7.50,
+    "price": 7.5,
     "currency": "MYR",
-    "ingredients": ["yellow noodles", "egg", "tofu", "vegetables", "sambal", "soy sauce"],
+    "ingredients": [
+      "yellow noodles",
+      "egg",
+      "tofu",
+      "vegetables",
+      "sambal",
+      "soy sauce"
+    ],
     "options": {
-      "spicy_level": ["no spicy", "mild", "spicy"],
-      "extras": ["none", "extra egg", "ayam goreng"]
+      "spicy_level": [
+        "no spicy",
+        "mild",
+        "spicy"
+      ],
+      "extras": [
+        "none",
+        "extra egg",
+        "ayam goreng"
+      ]
     },
     "reviews": [
       {
@@ -1422,14 +1967,18 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "egg", "soy"],
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1440,14 +1989,31 @@
     "chain": "uncle_lim_kopitiam",
     "name": "Kopi O Kaw",
     "description": "Strong traditional Malaysian black coffee. Brewed with premium beans using sock filter.",
-    "categories": ["coffee", "kopi", "drink", "malaysian", "local"],
+    "categories": [
+      "coffee",
+      "kopi",
+      "drink",
+      "malaysian",
+      "local"
+    ],
     "product_type": "drink",
-    "price": 2.80,
+    "price": 2.8,
     "currency": "MYR",
-    "ingredients": ["coffee beans", "water", "sugar"],
+    "ingredients": [
+      "coffee beans",
+      "water",
+      "sugar"
+    ],
     "options": {
-      "temperature": ["hot", "cold"],
-      "sugar": ["kosong", "kurang manis", "manis"]
+      "temperature": [
+        "hot",
+        "cold"
+      ],
+      "sugar": [
+        "kosong",
+        "kurang manis",
+        "manis"
+      ]
     },
     "reviews": [
       {
@@ -1463,9 +2029,9 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
@@ -1481,14 +2047,31 @@
     "chain": "teh_ais_bistro",
     "name": "Teh Ais Limau",
     "description": "Refreshing iced tea with lime. Perfect for hot Malaysian weather.",
-    "categories": ["teh_ais", "drink", "malaysian", "local"],
+    "categories": [
+      "teh_ais",
+      "drink",
+      "malaysian",
+      "local"
+    ],
     "product_type": "drink",
-    "price": 3.50,
+    "price": 3.5,
     "currency": "MYR",
-    "ingredients": ["black tea", "lime", "sugar", "ice"],
+    "ingredients": [
+      "black tea",
+      "lime",
+      "sugar",
+      "ice"
+    ],
     "options": {
-      "sugar": ["kurang manis", "normal"],
-      "lime": ["less lime", "normal", "extra lime"]
+      "sugar": [
+        "kurang manis",
+        "normal"
+      ],
+      "lime": [
+        "less lime",
+        "normal",
+        "extra lime"
+      ]
     },
     "reviews": [
       {
@@ -1504,9 +2087,9 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
@@ -1522,15 +2105,33 @@
     "chain": "zus_coffee",
     "name": "Matcha Latte",
     "description": "Premium Japanese matcha with fresh milk. Earthy and creamy.",
-    "categories": ["matcha", "drink", "green_tea"],
+    "categories": [
+      "matcha",
+      "drink",
+      "green_tea"
+    ],
     "product_type": "drink",
-    "price": 10.90,
+    "price": 10.9,
     "currency": "MYR",
-    "ingredients": ["matcha powder", "fresh milk", "sugar"],
+    "ingredients": [
+      "matcha powder",
+      "fresh milk",
+      "sugar"
+    ],
     "options": {
-      "size": ["regular", "large"],
-      "temperature": ["hot", "iced"],
-      "sugar": ["0%", "50%", "100%"]
+      "size": [
+        "regular",
+        "large"
+      ],
+      "temperature": [
+        "hot",
+        "iced"
+      ],
+      "sugar": [
+        "0%",
+        "50%",
+        "100%"
+      ]
     },
     "reviews": [
       {
@@ -1546,14 +2147,16 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1564,15 +2167,34 @@
     "chain": "starbucks",
     "name": "Signature Hot Chocolate",
     "description": "Rich chocolate with steamed milk, topped with whipped cream.",
-    "categories": ["chocolate_drink", "drink", "hot"],
+    "categories": [
+      "chocolate_drink",
+      "drink",
+      "hot"
+    ],
     "product_type": "drink",
-    "price": 15.50,
+    "price": 15.5,
     "currency": "MYR",
-    "ingredients": ["chocolate", "milk", "whipped cream"],
+    "ingredients": [
+      "chocolate",
+      "milk",
+      "whipped cream"
+    ],
     "options": {
-      "size": ["tall", "grande", "venti"],
-      "milk": ["whole", "low_fat", "oat"],
-      "whip": ["with whip", "no whip"]
+      "size": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "milk": [
+        "whole",
+        "low_fat",
+        "oat"
+      ],
+      "whip": [
+        "with whip",
+        "no whip"
+      ]
     },
     "reviews": [
       {
@@ -1588,14 +2210,16 @@
     ],
     "average_rating": 4.1,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1606,14 +2230,29 @@
     "chain": "mcdonalds",
     "name": "Coca-Cola Large",
     "description": "Refreshing Coca-Cola served ice cold.",
-    "categories": ["soft_drink", "drink", "beverage"],
+    "categories": [
+      "soft_drink",
+      "drink",
+      "beverage"
+    ],
     "product_type": "drink",
-    "price": 5.50,
+    "price": 5.5,
     "currency": "MYR",
-    "ingredients": ["carbonated water", "sugar", "caramel", "caffeine"],
+    "ingredients": [
+      "carbonated water",
+      "sugar",
+      "caramel",
+      "caffeine"
+    ],
     "options": {
-      "size": ["medium", "large"],
-      "ice": ["less ice", "normal"]
+      "size": [
+        "medium",
+        "large"
+      ],
+      "ice": [
+        "less ice",
+        "normal"
+      ]
     },
     "reviews": [
       {
@@ -1629,9 +2268,9 @@
     ],
     "average_rating": 3.8,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 3.0,
-    "value_score": 2.0,
+    "portion_score": 4,
+    "taste_score": 3,
+    "value_score": 2,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
@@ -1647,14 +2286,29 @@
     "chain": "teh_ais_bistro",
     "name": "Mango Smoothie",
     "description": "Fresh mango blended with ice. No added sugar.",
-    "categories": ["smoothie", "drink", "fruit", "healthy"],
+    "categories": [
+      "smoothie",
+      "drink",
+      "fruit",
+      "healthy"
+    ],
     "product_type": "drink",
-    "price": 8.00,
+    "price": 8,
     "currency": "MYR",
-    "ingredients": ["fresh mango", "ice", "water"],
+    "ingredients": [
+      "fresh mango",
+      "ice",
+      "water"
+    ],
     "options": {
-      "size": ["regular", "large"],
-      "add_milk": ["no", "yes"]
+      "size": [
+        "regular",
+        "large"
+      ],
+      "add_milk": [
+        "no",
+        "yes"
+      ]
     },
     "reviews": [
       {
@@ -1670,9 +2324,9 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
@@ -1688,14 +2342,32 @@
     "chain": "warung_kak_ani",
     "name": "Satay Ayam 10 Cucuk",
     "description": "Grilled chicken satay with peanut sauce, cucumber and ketupat. 10 sticks.",
-    "categories": ["satay", "malaysian", "grill", "local"],
+    "categories": [
+      "satay",
+      "malaysian",
+      "grill",
+      "local"
+    ],
     "product_type": "food",
-    "price": 12.00,
+    "price": 12,
     "currency": "MYR",
-    "ingredients": ["chicken", "satay sauce", "cucumber", "onion", "ketupat"],
+    "ingredients": [
+      "chicken",
+      "satay sauce",
+      "cucumber",
+      "onion",
+      "ketupat"
+    ],
     "options": {
-      "meat": ["ayam", "daging", "mix"],
-      "spicy": ["no", "yes"]
+      "meat": [
+        "ayam",
+        "daging",
+        "mix"
+      ],
+      "spicy": [
+        "no",
+        "yes"
+      ]
     },
     "reviews": [
       {
@@ -1711,14 +2383,16 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts"],
+    "allergens": [
+      "peanuts"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1729,14 +2403,36 @@
     "chain": "mak_cik_nasi_lemak",
     "name": "Laksa Penang",
     "description": "Tangy and spicy rice noodles in tamarind-based fish broth with prawns and fish cake.",
-    "categories": ["laksa", "noodles", "malaysian", "spicy", "local"],
+    "categories": [
+      "laksa",
+      "noodles",
+      "malaysian",
+      "spicy",
+      "local"
+    ],
     "product_type": "food",
-    "price": 10.00,
+    "price": 10,
     "currency": "MYR",
-    "ingredients": ["rice noodles", "fish broth", "tamarind", "prawns", "fish cake", "cucumber", "mint"],
+    "ingredients": [
+      "rice noodles",
+      "fish broth",
+      "tamarind",
+      "prawns",
+      "fish cake",
+      "cucumber",
+      "mint"
+    ],
     "options": {
-      "spicy_level": ["mild", "spicy", "extra_spicy"],
-      "extras": ["none", "extra prawns", "extra egg"]
+      "spicy_level": [
+        "mild",
+        "spicy",
+        "extra_spicy"
+      ],
+      "extras": [
+        "none",
+        "extra prawns",
+        "extra egg"
+      ]
     },
     "reviews": [
       {
@@ -1752,14 +2448,18 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["fish", "shellfish", "gluten"],
+    "allergens": [
+      "fish",
+      "shellfish",
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1770,14 +2470,31 @@
     "chain": "roti_canai_corner",
     "name": "Roti Tisu",
     "description": "Crispy thin stretched bread with sugar. Sweet mamak delight.",
-    "categories": ["roti_canai", "dessert", "mamak", "malaysian", "local"],
+    "categories": [
+      "roti_canai",
+      "dessert",
+      "mamak",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 5.00,
+    "price": 5,
     "currency": "MYR",
-    "ingredients": ["flour", "sugar", "ghee", "condensed milk"],
+    "ingredients": [
+      "flour",
+      "sugar",
+      "ghee",
+      "condensed milk"
+    ],
     "options": {
-      "topping": ["sugar only", "with condensed milk"],
-      "size": ["regular", "large"]
+      "topping": [
+        "sugar only",
+        "with condensed milk"
+      ],
+      "size": [
+        "regular",
+        "large"
+      ]
     },
     "reviews": [
       {
@@ -1793,14 +2510,17 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1811,15 +2531,34 @@
     "chain": "tealive",
     "name": "Sparkling Passion Fruit Tea",
     "description": "Refreshing passion fruit tea with sparkling water and aloe vera.",
-    "categories": ["fruit_tea", "drink", "refreshing"],
+    "categories": [
+      "fruit_tea",
+      "drink",
+      "refreshing"
+    ],
     "product_type": "drink",
-    "price": 9.50,
+    "price": 9.5,
     "currency": "MYR",
-    "ingredients": ["passion fruit", "tea", "sparkling water", "aloe vera"],
+    "ingredients": [
+      "passion fruit",
+      "tea",
+      "sparkling water",
+      "aloe vera"
+    ],
     "options": {
-      "size": ["regular", "large"],
-      "sugar": ["0%", "50%", "100%"],
-      "ice": ["less", "normal"]
+      "size": [
+        "regular",
+        "large"
+      ],
+      "sugar": [
+        "0%",
+        "50%",
+        "100%"
+      ],
+      "ice": [
+        "less",
+        "normal"
+      ]
     },
     "reviews": [
       {
@@ -1835,9 +2574,9 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
@@ -1853,15 +2592,37 @@
     "chain": "chatime",
     "name": "Roasted Milk Tea with Pearl",
     "description": "Premium roasted milk tea with chewy tapioca pearls. Classic Chatime favorite.",
-    "categories": ["milk_tea", "drink", "beverage"],
+    "categories": [
+      "milk_tea",
+      "drink",
+      "beverage"
+    ],
     "product_type": "drink",
-    "price": 9.90,
+    "price": 9.9,
     "currency": "MYR",
-    "ingredients": ["roasted black tea", "creamer", "pearls", "sugar"],
+    "ingredients": [
+      "roasted black tea",
+      "creamer",
+      "pearls",
+      "sugar"
+    ],
     "options": {
-      "size": ["regular", "large"],
-      "sugar": ["0%", "30%", "50%", "70%", "100%"],
-      "ice": ["no ice", "less ice", "normal"]
+      "size": [
+        "regular",
+        "large"
+      ],
+      "sugar": [
+        "0%",
+        "30%",
+        "50%",
+        "70%",
+        "100%"
+      ],
+      "ice": [
+        "no ice",
+        "less ice",
+        "normal"
+      ]
     },
     "reviews": [
       {
@@ -1877,9 +2638,9 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
@@ -1895,13 +2656,26 @@
     "chain": "uncle_lim_kopitiam",
     "name": "Teh Ais Kaw",
     "description": "Strong pulled tea with ice. Refreshing and perfect for hot days.",
-    "categories": ["teh_ais", "drink", "malaysian", "local"],
+    "categories": [
+      "teh_ais",
+      "drink",
+      "malaysian",
+      "local"
+    ],
     "product_type": "drink",
-    "price": 3.20,
+    "price": 3.2,
     "currency": "MYR",
-    "ingredients": ["black tea", "condensed milk", "ice"],
+    "ingredients": [
+      "black tea",
+      "condensed milk",
+      "ice"
+    ],
     "options": {
-      "sugar": ["kurang manis", "normal", "manis"]
+      "sugar": [
+        "kurang manis",
+        "normal",
+        "manis"
+      ]
     },
     "reviews": [
       {
@@ -1917,14 +2691,16 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1935,13 +2711,27 @@
     "chain": "uncle_lim_kopitiam",
     "name": "Roti Canai Kosong",
     "description": "Flaky, crispy plain roti served with dhal curry and sambal.",
-    "categories": ["roti_canai", "mamak", "malaysian", "breakfast", "local"],
+    "categories": [
+      "roti_canai",
+      "mamak",
+      "malaysian",
+      "breakfast",
+      "local"
+    ],
     "product_type": "food",
-    "price": 1.80,
+    "price": 1.8,
     "currency": "MYR",
-    "ingredients": ["flour", "ghee", "dhal curry", "sambal"],
+    "ingredients": [
+      "flour",
+      "ghee",
+      "dhal curry",
+      "sambal"
+    ],
     "options": {
-      "cooking": ["crispy", "soft"]
+      "cooking": [
+        "crispy",
+        "soft"
+      ]
     },
     "reviews": [
       {
@@ -1957,14 +2747,16 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["gluten"],
+    "allergens": [
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -1975,13 +2767,29 @@
     "chain": "uncle_lim_kopitiam",
     "name": "Char Kuey Teow Halal",
     "description": "Wok-fried flat noodles with chicken, fish cake, and egg. Halal-friendly version.",
-    "categories": ["char_kuey_teow", "noodles", "malaysian", "local"],
+    "categories": [
+      "char_kuey_teow",
+      "noodles",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 10.50,
+    "price": 10.5,
     "currency": "MYR",
-    "ingredients": ["flat noodles", "chicken", "fish cake", "egg", "bean sprouts", "chives"],
+    "ingredients": [
+      "flat noodles",
+      "chicken",
+      "fish cake",
+      "egg",
+      "bean sprouts",
+      "chives"
+    ],
     "options": {
-      "spicy_level": ["no spicy", "mild", "spicy"]
+      "spicy_level": [
+        "no spicy",
+        "mild",
+        "spicy"
+      ]
     },
     "reviews": [
       {
@@ -1997,14 +2805,18 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "egg", "soy"],
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2015,13 +2827,29 @@
     "chain": "uncle_lim_kopitiam",
     "name": "Mee Goreng Special",
     "description": "Yellow noodles stir-fried with egg, tofu, and vegetables in spicy sauce.",
-    "categories": ["mee_goreng", "noodles", "mamak", "malaysian", "local"],
+    "categories": [
+      "mee_goreng",
+      "noodles",
+      "mamak",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 7.00,
+    "price": 7,
     "currency": "MYR",
-    "ingredients": ["yellow noodles", "egg", "tofu", "vegetables", "sambal"],
+    "ingredients": [
+      "yellow noodles",
+      "egg",
+      "tofu",
+      "vegetables",
+      "sambal"
+    ],
     "options": {
-      "spicy_level": ["mild", "spicy", "extra_spicy"]
+      "spicy_level": [
+        "mild",
+        "spicy",
+        "extra_spicy"
+      ]
     },
     "reviews": [
       {
@@ -2037,14 +2865,18 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "egg", "soy"],
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2055,13 +2887,28 @@
     "chain": "uncle_lim_kopitiam",
     "name": "Curry Laksa",
     "description": "Spicy coconut curry noodles with tofu puffs, fish balls, and bean sprouts.",
-    "categories": ["laksa", "noodles", "malaysian", "spicy", "local"],
+    "categories": [
+      "laksa",
+      "noodles",
+      "malaysian",
+      "spicy",
+      "local"
+    ],
     "product_type": "food",
-    "price": 9.50,
+    "price": 9.5,
     "currency": "MYR",
-    "ingredients": ["rice noodles", "coconut curry", "tofu puffs", "fish balls", "bean sprouts"],
+    "ingredients": [
+      "rice noodles",
+      "coconut curry",
+      "tofu puffs",
+      "fish balls",
+      "bean sprouts"
+    ],
     "options": {
-      "spicy_level": ["mild", "spicy"]
+      "spicy_level": [
+        "mild",
+        "spicy"
+      ]
     },
     "reviews": [
       {
@@ -2077,14 +2924,18 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["fish", "soy", "gluten"],
+    "allergens": [
+      "fish",
+      "soy",
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2095,13 +2946,27 @@
     "chain": "uncle_lim_kopitiam",
     "name": "Satay Kajang Style 8 Sticks",
     "description": "Grilled chicken satay with rich peanut sauce, cucumber, and ketupat.",
-    "categories": ["satay", "malaysian", "grill", "local"],
+    "categories": [
+      "satay",
+      "malaysian",
+      "grill",
+      "local"
+    ],
     "product_type": "food",
-    "price": 10.00,
+    "price": 10,
     "currency": "MYR",
-    "ingredients": ["chicken", "peanut sauce", "cucumber", "onion", "ketupat"],
+    "ingredients": [
+      "chicken",
+      "peanut sauce",
+      "cucumber",
+      "onion",
+      "ketupat"
+    ],
     "options": {
-      "meat": ["ayam", "daging"]
+      "meat": [
+        "ayam",
+        "daging"
+      ]
     },
     "reviews": [
       {
@@ -2117,14 +2982,16 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts"],
+    "allergens": [
+      "peanuts"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2135,13 +3002,28 @@
     "chain": "warung_kak_ani",
     "name": "Nasi Lemak Ayam Berempah",
     "description": "Fragrant coconut rice with spiced fried chicken, sambal, peanuts, and egg.",
-    "categories": ["nasi_lemak", "malaysian", "breakfast", "local"],
+    "categories": [
+      "nasi_lemak",
+      "malaysian",
+      "breakfast",
+      "local"
+    ],
     "product_type": "food",
-    "price": 9.00,
+    "price": 9,
     "currency": "MYR",
-    "ingredients": ["coconut rice", "spiced chicken", "sambal", "peanuts", "ikan bilis", "egg"],
+    "ingredients": [
+      "coconut rice",
+      "spiced chicken",
+      "sambal",
+      "peanuts",
+      "ikan bilis",
+      "egg"
+    ],
     "options": {
-      "spicy_level": ["mild", "spicy"]
+      "spicy_level": [
+        "mild",
+        "spicy"
+      ]
     },
     "reviews": [
       {
@@ -2157,14 +3039,17 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/nasi-lemak.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts", "fish"],
+    "allergens": [
+      "peanuts",
+      "fish"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2175,14 +3060,28 @@
     "chain": "roti_canai_corner",
     "name": "Teh Tarik Original",
     "description": "Classic pulled tea with condensed milk. Sweet and creamy.",
-    "categories": ["teh_tarik", "drink", "malaysian", "local"],
+    "categories": [
+      "teh_tarik",
+      "drink",
+      "malaysian",
+      "local"
+    ],
     "product_type": "drink",
-    "price": 2.50,
+    "price": 2.5,
     "currency": "MYR",
-    "ingredients": ["black tea", "condensed milk"],
+    "ingredients": [
+      "black tea",
+      "condensed milk"
+    ],
     "options": {
-      "temperature": ["hot", "cold"],
-      "sugar": ["kurang manis", "normal"]
+      "temperature": [
+        "hot",
+        "cold"
+      ],
+      "sugar": [
+        "kurang manis",
+        "normal"
+      ]
     },
     "reviews": [
       {
@@ -2198,14 +3097,16 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2216,13 +3117,25 @@
     "chain": "roti_canai_corner",
     "name": "Milk Tea Tarik",
     "description": "Local style milk tea with condensed milk and evaporated milk.",
-    "categories": ["milk_tea", "drink", "malaysian", "local"],
+    "categories": [
+      "milk_tea",
+      "drink",
+      "malaysian",
+      "local"
+    ],
     "product_type": "drink",
-    "price": 3.80,
+    "price": 3.8,
     "currency": "MYR",
-    "ingredients": ["black tea", "condensed milk", "evaporated milk"],
+    "ingredients": [
+      "black tea",
+      "condensed milk",
+      "evaporated milk"
+    ],
     "options": {
-      "temperature": ["hot", "iced"]
+      "temperature": [
+        "hot",
+        "iced"
+      ]
     },
     "reviews": [
       {
@@ -2238,14 +3151,16 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2256,14 +3171,30 @@
     "chain": "zus_coffee",
     "name": "Teh Ais",
     "description": "Malaysian iced milk tea with a modern twist. Smooth and refreshing.",
-    "categories": ["teh_ais", "drink", "malaysian"],
+    "categories": [
+      "teh_ais",
+      "drink",
+      "malaysian"
+    ],
     "product_type": "drink",
-    "price": 7.50,
+    "price": 7.5,
     "currency": "MYR",
-    "ingredients": ["black tea", "fresh milk", "sugar", "ice"],
+    "ingredients": [
+      "black tea",
+      "fresh milk",
+      "sugar",
+      "ice"
+    ],
     "options": {
-      "size": ["regular", "large"],
-      "sugar": ["0%", "50%", "100%"]
+      "size": [
+        "regular",
+        "large"
+      ],
+      "sugar": [
+        "0%",
+        "50%",
+        "100%"
+      ]
     },
     "reviews": [
       {
@@ -2279,14 +3210,16 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/coffee.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2297,14 +3230,32 @@
     "chain": "char_kuey_teow_abang_din",
     "name": "Char Kuey Teow Basah",
     "description": "Wet-style CKT with more gravy, perfect for those who love saucy noodles.",
-    "categories": ["char_kuey_teow", "noodles", "malaysian", "local"],
+    "categories": [
+      "char_kuey_teow",
+      "noodles",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 10.00,
+    "price": 10,
     "currency": "MYR",
-    "ingredients": ["flat noodles", "egg", "prawns", "cockles", "bean sprouts"],
+    "ingredients": [
+      "flat noodles",
+      "egg",
+      "prawns",
+      "cockles",
+      "bean sprouts"
+    ],
     "options": {
-      "style": ["basah", "kering"],
-      "spicy_level": ["no spicy", "mild", "spicy"]
+      "style": [
+        "basah",
+        "kering"
+      ],
+      "spicy_level": [
+        "no spicy",
+        "mild",
+        "spicy"
+      ]
     },
     "reviews": [
       {
@@ -2320,14 +3271,19 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["gluten", "shellfish", "egg", "soy"],
+    "allergens": [
+      "gluten",
+      "shellfish",
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2338,13 +3294,29 @@
     "chain": "mak_cik_nasi_lemak",
     "name": "Laksa Sarawak",
     "description": "Creamy Sarawak laksa with coconut and sambal belacan broth.",
-    "categories": ["laksa", "noodles", "malaysian", "spicy", "local"],
+    "categories": [
+      "laksa",
+      "noodles",
+      "malaysian",
+      "spicy",
+      "local"
+    ],
     "product_type": "food",
-    "price": 11.00,
+    "price": 11,
     "currency": "MYR",
-    "ingredients": ["rice vermicelli", "coconut broth", "chicken", "prawns", "egg", "bean sprouts"],
+    "ingredients": [
+      "rice vermicelli",
+      "coconut broth",
+      "chicken",
+      "prawns",
+      "egg",
+      "bean sprouts"
+    ],
     "options": {
-      "spicy_level": ["mild", "spicy"]
+      "spicy_level": [
+        "mild",
+        "spicy"
+      ]
     },
     "reviews": [
       {
@@ -2360,14 +3332,18 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["fish", "shellfish", "gluten"],
+    "allergens": [
+      "fish",
+      "shellfish",
+      "gluten"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2378,11 +3354,22 @@
     "chain": "roti_canai_corner",
     "name": "Satay Daging 6 Sticks",
     "description": "Grilled beef satay with peanut sauce and ketupat.",
-    "categories": ["satay", "malaysian", "grill", "local"],
+    "categories": [
+      "satay",
+      "malaysian",
+      "grill",
+      "local"
+    ],
     "product_type": "food",
-    "price": 9.00,
+    "price": 9,
     "currency": "MYR",
-    "ingredients": ["beef", "peanut sauce", "cucumber", "onion", "ketupat"],
+    "ingredients": [
+      "beef",
+      "peanut sauce",
+      "cucumber",
+      "onion",
+      "ketupat"
+    ],
     "options": {},
     "reviews": [
       {
@@ -2398,14 +3385,16 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts"],
+    "allergens": [
+      "peanuts"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2416,11 +3405,21 @@
     "chain": "roti_canai_corner",
     "name": "Roti Planta",
     "description": "Sweet roti with margarine and sugar. Popular among kids.",
-    "categories": ["roti_canai", "mamak", "malaysian", "breakfast", "local"],
+    "categories": [
+      "roti_canai",
+      "mamak",
+      "malaysian",
+      "breakfast",
+      "local"
+    ],
     "product_type": "food",
-    "price": 2.50,
+    "price": 2.5,
     "currency": "MYR",
-    "ingredients": ["flour", "margarine", "sugar"],
+    "ingredients": [
+      "flour",
+      "margarine",
+      "sugar"
+    ],
     "options": {},
     "reviews": [
       {
@@ -2436,14 +3435,17 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["gluten", "dairy"],
+    "allergens": [
+      "gluten",
+      "dairy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
   },
@@ -2454,13 +3456,27 @@
     "chain": "warung_kak_ani",
     "name": "Mee Goreng Ayam",
     "description": "Stir-fried noodles with chicken, egg, and vegetables. Homemade sambal.",
-    "categories": ["mee_goreng", "noodles", "malaysian", "local"],
+    "categories": [
+      "mee_goreng",
+      "noodles",
+      "malaysian",
+      "local"
+    ],
     "product_type": "food",
-    "price": 8.50,
+    "price": 8.5,
     "currency": "MYR",
-    "ingredients": ["yellow noodles", "chicken", "egg", "vegetables", "sambal"],
+    "ingredients": [
+      "yellow noodles",
+      "chicken",
+      "egg",
+      "vegetables",
+      "sambal"
+    ],
     "options": {
-      "spicy_level": ["mild", "spicy"]
+      "spicy_level": [
+        "mild",
+        "spicy"
+      ]
     },
     "reviews": [
       {
@@ -2476,15 +3492,1096 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/placeholders/combo.jpg",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["gluten", "egg", "soy"],
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-01-01",
     "updated_at": "2026-05-01"
+  },
+  {
+    "id": "an-viet-beef-noodle-special",
+    "location_id": "loc_nearby_001",
+    "seller_name": "An Viet",
+    "chain": "nearby",
+    "name": "Beef Noodle Special",
+    "description": "A comforting bowl of traditional Vietnamese beef noodle soup with premium beef slices.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 25.9,
+    "currency": "MYR",
+    "ingredients": [
+      "beef broth",
+      "rice noodles",
+      "sliced beef",
+      "onions",
+      "coriander",
+      "bean sprouts"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_an_viet_beef_001",
+        "user": "Ahmad Razali",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "The broth was incredibly rich and authentic, easily the best beef noodles I've had in a while.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "soy",
+      "fish"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/beef-noodle-special.webp"
+  },
+  {
+    "id": "an-viet-clam-in-coconut-broth-with-vermicelli",
+    "location_id": "loc_nearby_001",
+    "seller_name": "An Viet",
+    "chain": "nearby",
+    "name": "Clam in Coconut Broth with Vermicelli",
+    "description": "Fresh clams simmered in a rich and aromatic coconut broth served with vermicelli noodles.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 19.9,
+    "currency": "MYR",
+    "ingredients": [
+      "clams",
+      "coconut milk",
+      "vermicelli",
+      "lemongrass",
+      "chili",
+      "fish sauce"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_an_viet_clam_001",
+        "user": "Samantha Lee",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Very flavorful coconut broth, and the clams were fresh. A bit heavy but satisfying.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "shellfish",
+      "fish"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/clam-in-coconut-broth-with-vermicelli.webp"
+  },
+  {
+    "id": "an-viet-grilled-lemongrass-chicken",
+    "location_id": "loc_nearby_001",
+    "seller_name": "An Viet",
+    "chain": "nearby",
+    "name": "Grilled Lemongrass Chicken",
+    "description": "Succulent chicken thigh marinated in fragrant lemongrass, grilled to a perfect char.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 18.9,
+    "currency": "MYR",
+    "ingredients": [
+      "chicken",
+      "lemongrass",
+      "garlic",
+      "fish sauce",
+      "sugar",
+      "spices"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_an_viet_chicken_001",
+        "user": "Kevin Tan",
+        "rating": 4.6,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Chicken was perfectly grilled with a great lemongrass aroma. Portion size was decent.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "fish",
+      "soy"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/grilled-lemongrass-chicken.webp"
+  },
+  {
+    "id": "an-viet-grilled-pork-chop",
+    "location_id": "loc_nearby_001",
+    "seller_name": "An Viet",
+    "chain": "nearby",
+    "name": "Grilled Pork Chop",
+    "description": "Tender and juicy pork chop marinated in savory Vietnamese spices and grilled over an open flame.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 19.9,
+    "currency": "MYR",
+    "ingredients": [
+      "pork chop",
+      "garlic",
+      "shallots",
+      "soy sauce",
+      "lemongrass",
+      "sugar"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_an_viet_pork_001",
+        "user": "Michael Chong",
+        "rating": 4.9,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "Absolutely delicious! The pork chop was tender, juicy, and packed with savory flavors.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.9,
+    "review_count": 1,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "soy"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/grilled-pork-chop.webp"
+  },
+  {
+    "id": "an-viet-coconut-coffee",
+    "location_id": "loc_nearby_001",
+    "seller_name": "An Viet",
+    "chain": "nearby",
+    "name": "Coconut Coffee",
+    "description": "A refreshing and creamy blend of strong Vietnamese coffee and sweet coconut milk.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 12.9,
+    "currency": "MYR",
+    "ingredients": [
+      "vietnamese coffee",
+      "coconut milk",
+      "condensed milk",
+      "ice"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_an_viet_coffee_001",
+        "user": "Nurul Aisyah",
+        "rating": 4.5,
+        "portion_score": 3,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "A beautiful balance of strong coffee and sweet, creamy coconut. Highly recommend for coffee lovers.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 3,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [
+      "dairy"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/coconut-coffee.webp"
+  },
+  {
+    "id": "an-viet-iced-lemongrass-ginger-drink",
+    "location_id": "loc_nearby_001",
+    "seller_name": "An Viet",
+    "chain": "nearby",
+    "name": "Iced Lemongrass Ginger Drink",
+    "description": "A cooling, aromatic iced beverage steeped with fresh lemongrass stalks and sliced ginger.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 8.9,
+    "currency": "MYR",
+    "ingredients": [
+      "lemongrass",
+      "ginger",
+      "sugar",
+      "water",
+      "ice"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_an_viet_ginger_001",
+        "user": "David Wong",
+        "rating": 4.1,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Very refreshing on a hot day. The ginger gives it a nice subtle kick.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.1,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/iced-lemongrass-ginger-drink.webp"
+  },
+  {
+    "id": "an-viet-iced-lime-mint-tea",
+    "location_id": "loc_nearby_001",
+    "seller_name": "An Viet",
+    "chain": "nearby",
+    "name": "Iced Lime & Mint Tea",
+    "description": "A zesty and revitalizing iced tea flavored with freshly squeezed lime juice and muddled mint leaves.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 8.9,
+    "currency": "MYR",
+    "ingredients": [
+      "tea",
+      "lime",
+      "mint leaves",
+      "sugar",
+      "ice"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_an_viet_lime_001",
+        "user": "Siti Aminah",
+        "rating": 4.2,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Zesty and cooling. Just the right amount of sweetness to balance the lime.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.2,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/iced-lime-mint-tea.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-half-boiled-egg",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "Half Boiled Egg",
+    "description": "Classic breakfast staple featuring perfectly half-boiled eggs with a runny yolk.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 5.9,
+    "currency": "MYR",
+    "ingredients": [
+      "egg",
+      "soy sauce",
+      "white pepper"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_001",
+        "user": "Lim Wei",
+        "rating": 4.1,
+        "portion_score": 3,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Simple but cooked to perfection. Yolk was perfectly runny.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.1,
+    "review_count": 1,
+    "portion_score": 3,
+    "taste_score": 4,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [
+      "egg",
+      "soy"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/half-boiled-egg.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-french-toast",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "French Toast",
+    "description": "Golden deep-fried Hong Kong-style French toast, served with a slab of butter and golden syrup.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 10.9,
+    "currency": "MYR",
+    "ingredients": [
+      "bread",
+      "egg",
+      "butter",
+      "peanut butter",
+      "syrup"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_002",
+        "user": "Sarah Tan",
+        "rating": 4.7,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Crispy on the outside, fluffy inside with a nice peanut butter filling!",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [
+      "wheat",
+      "egg",
+      "dairy",
+      "peanuts"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/french-toast.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-soy-sauce-chicken-rice",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "Soy Sauce Chicken Rice",
+    "description": "Tender poached chicken soaked in a rich, savory soy sauce blend, served over steamed rice.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 25.9,
+    "currency": "MYR",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "rice",
+      "ginger",
+      "scallions"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_003",
+        "user": "Jason Lee",
+        "rating": 4.5,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "The chicken is incredibly smooth and the soy sauce is perfectly balanced.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/soy-sauce-chicken-rice.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-scrambled-egg-shrimp-fried-rice",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "Scrambled Egg & Shrimp Fried Rice",
+    "description": "Silky, creamy scrambled eggs poured over fragrant shrimp fried rice.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 24.9,
+    "currency": "MYR",
+    "ingredients": [
+      "rice",
+      "egg",
+      "shrimp",
+      "scallions",
+      "oil",
+      "soy sauce"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_004",
+        "user": "Michelle Ng",
+        "rating": 4.8,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "The scrambled egg is so silky! A very comforting and hearty dish.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "egg",
+      "shellfish",
+      "soy"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/scrambled-egg-shrimp-fried-rice.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-sweet-and-sour-fish-rice",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "Sweet and Sour Fish Rice",
+    "description": "Crispy fried fish fillets tossed in a tangy sweet and sour sauce, served with white rice.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 23.9,
+    "currency": "MYR",
+    "ingredients": [
+      "fish",
+      "rice",
+      "sweet and sour sauce",
+      "bell peppers",
+      "pineapple",
+      "onions"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_005",
+        "user": "Daniel Wong",
+        "rating": 4.2,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Nice crispy fish and the sauce hits the right sweet and sour notes.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.2,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "fish",
+      "wheat",
+      "soy"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/sweet-and-sour-fish-rice.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-spam-sausage-nissin-instant-noodles",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "Spam Sausage Nissin Instant Noodles",
+    "description": "A true Cha Chaan Teng classic: springy Nissin noodles topped with pan-fried spam and sausage.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 17.9,
+    "currency": "MYR",
+    "ingredients": [
+      "nissin noodles",
+      "luncheon meat",
+      "sausage",
+      "soup broth",
+      "egg"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_006",
+        "user": "Chloe Yeoh",
+        "rating": 4.4,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 3,
+        "comment": "Ultimate comfort food! Takes me right back to Hong Kong.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 3,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": [
+      "wheat",
+      "soy",
+      "egg"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/spam-sausage-nissin-instant-noodles.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-coke-lemon-plum",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "Coke Lemon Plum",
+    "description": "An iced Coca-Cola mixed with fresh lemon slices and salted plum for a unique sweet, sour, and salty kick.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 10.9,
+    "currency": "MYR",
+    "ingredients": [
+      "coca-cola",
+      "lemon",
+      "salted plum",
+      "ice"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_007",
+        "user": "Adam Low",
+        "rating": 4.6,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Very refreshing, the salted plum gives it an interesting and delicious twist.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/coke-lemon-plum.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-honey-lemon",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "Honey Lemon",
+    "description": "A soothing blend of natural honey and fresh lemon juice served cold.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 9.9,
+    "currency": "MYR",
+    "ingredients": [
+      "honey",
+      "lemon juice",
+      "water",
+      "ice"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_008",
+        "user": "Nur Farah",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Not too sweet, exactly what I needed to quench my thirst.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 1,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/honey-lemon.webp"
+  },
+  {
+    "id": "jordan-hong-kong-restaurant-hk-ice-lemon-tea",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Jordan Hong Kong Restaurant",
+    "chain": "nearby",
+    "name": "HK Ice Lemon Tea",
+    "description": "Authentic Hong Kong style iced lemon tea, featuring strong black tea and freshly sliced lemons.",
+    "categories": [
+      "nearby"
+    ],
+    "product_type": "food",
+    "price": 9.9,
+    "currency": "MYR",
+    "ingredients": [
+      "black tea",
+      "lemon",
+      "sugar syrup",
+      "ice"
+    ],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_jordan_hk_009",
+        "user": "Desmond Teo",
+        "rating": 4.9,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Proper HK style tea, very strong and they give plenty of lemon slices to poke.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.9,
+    "review_count": 1,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
+    "offers": [],
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "image_url": "/images/nearby/hk-ice-lemon-tea.webp"
+  },
+  {
+    "id": "daves-deli-mixed-mushroom-soup",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Mixed Mushroom Soup",
+    "description": "A creamy, hearty soup made with a blend of fresh wild mushrooms and herbs.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 16.90,
+    "currency": "MYR",
+    "ingredients": ["mushrooms", "cream", "garlic", "onions", "chicken broth"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_001",
+        "user": "Elena Lim",
+        "rating": 4.3,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Very comforting and creamy. The mushroom flavor is deep and earthy.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.3,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/nearby/mixed-mushroom-soup.webp",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["dairy"],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
+  },
+  {
+    "id": "daves-deli-chicken-mushroom-pie",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Chicken & Mushroom Pie",
+    "description": "A classic pie with a flaky pastry crust filled with tender chicken chunks and mushrooms in a creamy sauce.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 22.00,
+    "currency": "MYR",
+    "ingredients": ["chicken", "mushrooms", "puff pastry", "cream", "carrots", "onions"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_002",
+        "user": "Samuel Raj",
+        "rating": 4.8,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "The pastry is perfectly flaky and the filling is so savory and rich.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.8,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/nearby/chicken-mushroom-pie.webp",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["wheat", "dairy"],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
+  },
+  {
+    "id": "daves-deli-daves-original-1-4-roast-chicken",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Dave's Original 1/4 Roast Chicken",
+    "description": "Signature roasted quarter chicken served with Dave's famous magic gravy and sides.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 30.90,
+    "currency": "MYR",
+    "ingredients": ["chicken", "special marinade", "gravy", "potatoes", "mixed vegetables"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_003",
+        "user": "Amanda Chong",
+        "rating": 4.6,
+        "portion_score": 5,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "Their signature roast chicken never disappoints. That magic gravy really is magic!",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.6,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 5.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/nearby/daves-original-1-4-roast-chicken.webp",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["soy", "wheat"],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
+  },
+  {
+    "id": "daves-deli-fish-and-chips",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Fish & Chips",
+    "description": "Golden, crispy battered fish fillet served with a generous portion of fries and tartar sauce.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 30.90,
+    "currency": "MYR",
+    "ingredients": ["white fish fillet", "batter", "potatoes", "tartar sauce", "lemon"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_004",
+        "user": "Faris Othman",
+        "rating": 4.4,
+        "portion_score": 5,
+        "taste_score": 4,
+        "value_score": 3,
+        "comment": "Huge portion of fish! Batter was crispy, although a bit oily.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.4,
+    "review_count": 1,
+    "portion_score": 5.0,
+    "taste_score": 4.0,
+    "value_score": 3.0,
+    "offers": [],
+    "image_url": "/images/nearby/fish-and-chips.webp",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["fish", "wheat", "egg"],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
+  },
+  {
+    "id": "daves-deli-tomato-beef-bolognese",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Tomato Beef Bolognese",
+    "description": "Al dente spaghetti tossed in a rich, slow-cooked minced beef and tomato ragu.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 26.90,
+    "currency": "MYR",
+    "ingredients": ["spaghetti", "minced beef", "tomato sauce", "onions", "garlic", "parmesan cheese"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_005",
+        "user": "Grace Tan",
+        "rating": 4.5,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 4,
+        "comment": "A very solid bolognese. The sauce tasted authentic and meaty.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.5,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/nearby/tomato-beef-bolognese.webp",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["wheat", "dairy"],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
+  },
+  {
+    "id": "daves-deli-aglio-olio-roast-chicken",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Aglio Olio Roast Chicken",
+    "description": "Classic spaghetti aglio olio with garlic and chili flakes, topped with tender slices of roast chicken.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 28.90,
+    "currency": "MYR",
+    "ingredients": ["spaghetti", "roast chicken", "olive oil", "garlic", "chili flakes", "parsley"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_006",
+        "user": "Kevin Dass",
+        "rating": 4.2,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Nice garlicky kick and the chicken was a great addition to a simple pasta.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.2,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/nearby/aglio-olio-roast-chicken.webp",
+    "is_halal": false,
+    "is_vegetarian": false,
+    "allergens": ["wheat"],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
+  },
+  {
+    "id": "daves-deli-fries",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Fries",
+    "description": "A generous portion of crispy, golden potato fries seasoned with salt.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 7.90,
+    "currency": "MYR",
+    "ingredients": ["potatoes", "cooking oil", "salt"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_007",
+        "user": "Lina Abdullah",
+        "rating": 4.1,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 4,
+        "comment": "Standard fries, nice and hot.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.1,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 4.0,
+    "value_score": 4.0,
+    "offers": [],
+    "image_url": "/images/nearby/fries.webp",
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": [],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
+  },
+  {
+    "id": "daves-deli-garlic-focaccia-bread",
+    "location_id": "loc_nearby_001",
+    "seller_name": "Dave's Deli",
+    "chain": "nearby",
+    "name": "Garlic Focaccia Bread",
+    "description": "Soft, oven-baked focaccia bread spread with savory garlic butter.",
+    "categories": ["nearby"],
+    "product_type": "food",
+    "price": 9.50,
+    "currency": "MYR",
+    "ingredients": ["focaccia bread", "butter", "garlic", "parsley"],
+    "options": {},
+    "reviews": [
+      {
+        "id": "rev_daves_deli_008",
+        "user": "Bryan Lee",
+        "rating": 4.7,
+        "portion_score": 4,
+        "taste_score": 5,
+        "value_score": 5,
+        "comment": "So fluffy and the garlic butter is incredible. Perfect side dish.",
+        "created_at": "2026-06-02"
+      }
+    ],
+    "average_rating": 4.7,
+    "review_count": 1,
+    "portion_score": 4.0,
+    "taste_score": 5.0,
+    "value_score": 5.0,
+    "offers": [],
+    "image_url": "/images/nearby/garlic-focaccia-bread.webp",
+    "is_halal": false,
+    "is_vegetarian": true,
+    "allergens": ["wheat", "dairy"],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02"
   }
 ]
+

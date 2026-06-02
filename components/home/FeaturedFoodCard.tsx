@@ -53,9 +53,11 @@ function FoodPlaceholder({ category }: { category: string }) {
 }
 
 export function FeaturedFoodCard({ product, sellerType, isActive = false }: FeaturedFoodCardProps) {
+  const [imageFailed, setImageFailed] = React.useState(false);
   const primaryCategory = product.categories[0] || 'food';
   const score = product.best_value_score || 0;
   const isBestValue = score >= 0.7;
+  const showImage = Boolean(product.image_url) && !imageFailed;
 
   return (
     <Link
@@ -76,7 +78,17 @@ export function FeaturedFoodCard({ product, sellerType, isActive = false }: Feat
           isActive ? 'h-[11.55rem] md:h-[13.65rem]' : 'h-[9.45rem] md:h-[10.5rem]'
         }`}
       >
-        <FoodPlaceholder category={primaryCategory} />
+        {showImage ? (
+          <img
+            src={product.image_url}
+            alt={product.name}
+            className="h-full w-full object-cover"
+            loading="lazy"
+            onError={() => setImageFailed(true)}
+          />
+        ) : (
+          <FoodPlaceholder category={primaryCategory} />
+        )}
         <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
           <Badge variant={sellerType === 'local' ? 'warning' : 'primary'} className="text-[10px]">
             {sellerType === 'local' ? 'Local' : 'Chain'}
