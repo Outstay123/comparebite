@@ -53,34 +53,34 @@ export default function Home() {
   const malaysianFoodProducts = getTopValueProducts(getMalaysianFoodProducts(allProducts), 4);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen pb-20 md:pb-0">
       {/* Hero + Featured Carousel + CTAs */}
-      <section className="bg-gradient-to-b from-primary-600 to-primary-700 text-white pt-16 pb-14 px-4">
+      <section className="bg-gradient-to-b from-primary-600 to-primary-700 text-white pt-8 md:pt-16 pb-8 md:pb-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-2xl md:text-6xl font-bold mb-3 md:mb-6">
             Find the Best Value Food
           </h1>
-          <p className="text-xl md:text-2xl mb-10 text-primary-100">
+          <p className="text-base md:text-2xl mb-6 md:mb-10 text-primary-100">
             Compare prices, ratings, and deals across restaurants
           </p>
           <button
             type="button"
             onClick={() => setCompareModalOpen(true)}
-            className="group relative inline-flex items-center justify-center gap-2.5 px-12 py-4 md:px-14 md:py-5 text-lg md:text-xl font-bold text-white rounded-2xl bg-gradient-to-b from-[#ff5a5a] via-primary-500 to-primary-700 border-2 border-[#ff8a8a]/60 shadow-[0_8px_32px_rgba(0,0,0,0.35),0_0_0_1px_rgba(255,255,255,0.15)_inset] hover:from-[#ff6b6b] hover:via-primary-400 hover:to-primary-600 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4),0_0_24px_rgba(255,90,90,0.35)] hover:scale-[1.04] active:scale-[0.98] transition-all duration-300 ease-out focus:outline-none focus:ring-4 focus:ring-white/40"
+            className="group relative inline-flex items-center justify-center gap-2.5 px-8 py-3 md:px-14 md:py-5 text-base md:text-xl font-bold text-white rounded-2xl bg-gradient-to-b from-[#ff5a5a] via-primary-500 to-primary-700 border-2 border-[#ff8a8a]/60 shadow-[0_8px_32px_rgba(0,0,0,0.35),0_0_0_1px_rgba(255,255,255,0.15)_inset] hover:from-[#ff6b6b] hover:via-primary-400 hover:to-primary-600 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4),0_0_24px_rgba(255,90,90,0.35)] hover:scale-[1.04] active:scale-[0.98] transition-all duration-300 ease-out focus:outline-none focus:ring-4 focus:ring-white/40"
           >
             Compare Now
-            <ArrowRight className="w-5 h-5 md:w-6 md:h-6 transition-transform duration-300 group-hover:translate-x-1" />
+            <ArrowRight className="w-4 h-4 md:w-6 md:h-6 transition-transform duration-300 group-hover:translate-x-1" />
           </button>
         </div>
 
         <FeaturedCarousel products={featuredProducts} />
 
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-6 md:mt-8">
           <Link href="/leaderboard">
             <Button
               variant="outline"
               size="lg"
-              className="border-2 border-white/90 text-white hover:bg-white/15 focus:ring-white/50 px-8"
+              className="border-2 border-white/90 text-white hover:bg-white/15 focus:ring-white/50 px-6 md:px-8"
             >
               View Leaderboard
             </Button>
@@ -93,41 +93,41 @@ export default function Home() {
       <SmallBusinessSpotlight products={allProducts} />
 
       {/* Features — unchanged below spotlight */}
-      <section className="py-16 px-4">
+      <section className="py-8 md:py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Utensils className="w-8 h-8 text-primary-600" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mb-8 md:mb-16">
+            <div className="text-center p-4 md:p-6">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <Utensils className="w-6 h-6 md:w-8 md:h-8 text-primary-600" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Compare Products</h3>
-              <p className="text-gray-600">
+              <h3 className="font-semibold text-base md:text-lg mb-1 md:mb-2">Compare Products</h3>
+              <p className="text-gray-600 text-sm md:text-base">
                 See side-by-side comparisons of the same dish across different sellers
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="w-8 h-8 text-success-600" />
+            <div className="text-center p-4 md:p-6">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <TrendingUp className="w-6 h-6 md:w-8 md:h-8 text-success-600" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Best Value Score</h3>
-              <p className="text-gray-600">
+              <h3 className="font-semibold text-base md:text-lg mb-1 md:mb-2">Best Value Score</h3>
+              <p className="text-gray-600 text-sm md:text-base">
                 Our algorithm finds the best bang for your buck considering taste, price, and portion
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-warning-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Store className="w-8 h-8 text-warning-600" />
+            <div className="text-center p-4 md:p-6">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-warning-100 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <Store className="w-6 h-6 md:w-8 md:h-8 text-warning-600" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Seller Insights</h3>
-              <p className="text-gray-600">
+              <h3 className="font-semibold text-base md:text-lg mb-1 md:mb-2">Seller Insights</h3>
+              <p className="text-gray-600 text-sm md:text-base">
                 Restaurants can see which products win and which need improvement
               </p>
             </div>
           </div>
 
-          <div className="mb-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl font-bold text-gray-900">Best Value Picks</h2>
+          <div className="mb-6 md:mb-8">
+            <div className="flex items-center justify-between mb-4 md:mb-6">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-900">Best Value Picks</h2>
               <Badge variant="success">Top Rated</Badge>
             </div>
             <ProductList products={bestValueProducts} />

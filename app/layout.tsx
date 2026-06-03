@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { MobileBottomNav } from '@/components/MobileBottomNav';
 
 export const metadata: Metadata = {
   title: 'CompareBite - Find the Best Value Food',
@@ -25,6 +26,7 @@ export default function RootLayout({
         </Suspense>
         {children}
         <Footer />
+        <MobileBottomNav />
       </body>
     </html>
   );

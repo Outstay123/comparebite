@@ -70,7 +70,7 @@ export function ProductCard({ product, showBestValue = true, rank }: ProductCard
       <Card hover className="h-full">
         <CardBody className="p-0">
           {/* Image */}
-          <div className="w-full h-44 relative rounded-t-lg overflow-hidden bg-gray-100">
+          <div className="w-full h-44 md:h-44 relative rounded-t-lg overflow-hidden bg-gray-100">
             {showImage ? (
               <img
                 src={product.image_url}
@@ -93,50 +93,98 @@ export function ProductCard({ product, showBestValue = true, rank }: ProductCard
             </div>
           </div>
           
-          <div className="p-4">
-            {/* Product Name */}
-          <h3 className="font-semibold text-lg text-gray-900 mb-1 line-clamp-2">
-            {product.name}
-          </h3>
+          <div className="p-4 md:p-4">
+            {/* Mobile Compact Layout */}
+            <div className="md:hidden">
+              {/* Product Name & Seller */}
+              <h3 className="font-semibold text-base text-gray-900 mb-0.5 line-clamp-1">
+                {product.name}
+              </h3>
+              <div className="flex items-center text-xs text-gray-600 mb-2">
+                <MapPin className="w-3 h-3 mr-1" />
+                {product.seller_name}
+              </div>
 
-          {/* Seller */}
-          <div className="flex items-center text-sm text-gray-600 mb-2">
-            <MapPin className="w-4 h-4 mr-1" />
-            {product.seller_name}
-          </div>
+              {/* Price & Value Score Row */}
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-lg font-bold text-primary-600">
+                  {formatPrice(product.price, product.currency)}
+                </span>
+                {showBestValue && (
+                  <div className="flex items-center gap-1">
+                    <span className="text-xs text-gray-500">Value</span>
+                    <span className="text-sm font-bold text-success-600">
+                      {Math.round((product.best_value_score || 0) * 100)}
+                    </span>
+                  </div>
+                )}
+              </div>
 
-          {/* Rating */}
-          <div className="flex items-center mb-2">
-            <div className="flex items-center mr-2">
-              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-              <span className="ml-1 font-medium text-gray-900">
-                {formatRating(product.average_rating)}
-              </span>
+              {/* Rating */}
+              <div className="flex items-center mb-2">
+                <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
+                <span className="ml-1 text-sm font-medium text-gray-900">
+                  {formatRating(product.average_rating)}
+                </span>
+                <span className="text-xs text-gray-500 ml-1">
+                  ({product.review_count * 10})
+                </span>
+              </div>
+
+              {/* Compare Button */}
+              <div className="mt-2">
+                <span className="inline-flex items-center px-3 py-1.5 bg-primary-50 text-primary-700 rounded-lg text-xs font-medium">
+                  Compare
+                </span>
+              </div>
             </div>
-            <span className="text-sm text-gray-500">
-              ({product.review_count * 10} reviews)
-            </span>
-          </div>
 
-          {/* Price */}
-          <div className="flex items-center justify-between">
-            <span className="text-xl font-bold text-primary-600">
-              {formatPrice(product.price, product.currency)}
-            </span>
-            {product.offers.length > 0 && (
-              <Badge variant="primary">
-                {product.offers[0].title}
-              </Badge>
-            )}
-          </div>
+            {/* Desktop Layout */}
+            <div className="hidden md:block">
+              {/* Product Name */}
+              <h3 className="font-semibold text-lg text-gray-900 mb-1 line-clamp-2">
+                {product.name}
+              </h3>
 
-            {/* Categories */}
-            <div className="mt-3 flex flex-wrap gap-1">
-              {product.categories.slice(0, 3).map((cat) => (
-                <Badge key={cat} variant="default">
-                  {cat.replace(/_/g, ' ')}
-                </Badge>
-              ))}
+              {/* Seller */}
+              <div className="flex items-center text-sm text-gray-600 mb-2">
+                <MapPin className="w-4 h-4 mr-1" />
+                {product.seller_name}
+              </div>
+
+              {/* Rating */}
+              <div className="flex items-center mb-2">
+                <div className="flex items-center mr-2">
+                  <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+                  <span className="ml-1 font-medium text-gray-900">
+                    {formatRating(product.average_rating)}
+                  </span>
+                </div>
+                <span className="text-sm text-gray-500">
+                  ({product.review_count * 10} reviews)
+                </span>
+              </div>
+
+              {/* Price */}
+              <div className="flex items-center justify-between">
+                <span className="text-xl font-bold text-primary-600">
+                  {formatPrice(product.price, product.currency)}
+                </span>
+                {product.offers.length > 0 && (
+                  <Badge variant="primary">
+                    {product.offers[0].title}
+                  </Badge>
+                )}
+              </div>
+
+              {/* Categories */}
+              <div className="mt-3 flex flex-wrap gap-1">
+                {product.categories.slice(0, 3).map((cat) => (
+                  <Badge key={cat} variant="default">
+                    {cat.replace(/_/g, ' ')}
+                  </Badge>
+                ))}
+              </div>
             </div>
           </div>
         </CardBody>

@@ -4,6 +4,7 @@ import { useState, useMemo, Suspense, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { SearchBar } from '@/components/search/SearchBar';
 import { FilterPanel } from '@/components/search/FilterPanel';
+import { MobileFilterDrawer } from '@/components/search/MobileFilterDrawer';
 import { ProductList } from '@/components/product/ProductList';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
@@ -102,12 +103,12 @@ function SearchContent() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-gray-50 pb-20 md:pb-0">
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center gap-4">
-            <a href="/" className="text-2xl font-bold text-primary-600">
+        <div className="max-w-7xl mx-auto px-4 py-3 md:py-4">
+          <div className="flex items-center gap-3 md:gap-4">
+            <a href="/" className="text-xl md:text-2xl font-bold text-primary-600">
               CompareBite
             </a>
             <div className="flex-1 max-w-xl">
@@ -117,24 +118,32 @@ function SearchContent() {
         </div>
       </header>
 
+      {/* Mobile Filter Drawer */}
+      <MobileFilterDrawer
+        isOpen={showFilters}
+        onClose={() => setShowFilters(false)}
+        filters={filters}
+        onFiltersChange={setFilters}
+      />
+
       {/* Results */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row gap-8">
-          {/* Sidebar Filters */}
-          <aside className={`md:w-64 ${showFilters ? 'block' : 'hidden md:block'}`}>
+      <div className="max-w-7xl mx-auto px-4 py-6 md:py-8">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+          {/* Sidebar Filters - Desktop Only */}
+          <aside className="hidden md:block md:w-64">
             <FilterPanel filters={filters} onFiltersChange={setFilters} />
           </aside>
 
           {/* Main Content */}
           <div className="flex-1">
             {/* Results Header */}
-            <div className="bg-white rounded-xl shadow-sm p-4 mb-6">
-              <div className="flex flex-wrap items-center justify-between gap-4">
-                <div>
-                  <h1 className="text-xl font-bold text-gray-900">
+            <div className="bg-white rounded-xl shadow-sm p-3 md:p-4 mb-4 md:mb-6">
+              <div className="flex flex-wrap items-center justify-between gap-3 md:gap-4">
+                <div className="flex-1">
+                  <h1 className="text-lg md:text-xl font-bold text-gray-900">
                     {query ? `Results for "${query}"` : 'All Products'}
                   </h1>
-                  <p className="text-gray-500">
+                  <p className="text-gray-500 text-sm md:text-base">
                     {filteredProducts.length} products found
                   </p>
                   {/* Active Filter Badges */}
@@ -144,7 +153,7 @@ function SearchContent() {
                         <Badge
                           key={filter.type}
                           variant="primary"
-                          className="flex items-center gap-1"
+                          className="flex items-center gap-1 text-xs"
                         >
                           {filter.label}
                           <button
@@ -175,7 +184,7 @@ function SearchContent() {
                     <select
                       value={sortBy}
                       onChange={(e) => setSortBy(e.target.value as SortOption)}
-                      className="border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      className="border border-gray-300 rounded-lg px-2 md:px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
                     >
                       <option value="best_value">Best Value</option>
                       <option value="price_low">Price: Low to High</option>

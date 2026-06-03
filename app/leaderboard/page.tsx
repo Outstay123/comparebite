@@ -79,15 +79,15 @@ export default function LeaderboardPage() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-gray-50 pb-20 md:pb-0">
       {/* Header */}
-      <section className="bg-gradient-to-b from-primary-600 to-primary-700 text-white py-16 px-4">
+      <section className="bg-gradient-to-b from-primary-600 to-primary-700 text-white py-8 md:py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <Trophy className="w-8 h-8" />
-            <h1 className="text-3xl md:text-4xl font-bold">Value Leaderboard</h1>
+          <div className="flex items-center justify-center gap-3 mb-3 md:mb-4">
+            <Trophy className="w-6 h-6 md:w-8 md:h-8" />
+            <h1 className="text-2xl md:text-4xl font-bold">Value Leaderboard</h1>
           </div>
-          <p className="text-lg text-primary-100 max-w-2xl mx-auto">
+          <p className="text-sm md:text-lg text-primary-100 max-w-2xl mx-auto">
             Helping small businesses compete based on value, not brand size.
             <br />
             Discover high-value options from both local gems and trusted chains.
@@ -96,19 +96,19 @@ export default function LeaderboardPage() {
       </section>
 
       {/* Stats Bar */}
-      <section className="bg-white border-b px-4 py-4">
+      <section className="bg-white border-b px-4 py-3 md:py-4">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-xs md:text-sm">
             <div className="flex items-center gap-2">
-              <Store className="w-4 h-4 text-success-600" />
+              <Store className="w-3 h-3 md:w-4 md:h-4 text-success-600" />
               <span className="text-gray-600">{getLocalProducts(productsToRank).length} Local Businesses</span>
             </div>
             <div className="flex items-center gap-2">
-              <Building2 className="w-4 h-4 text-primary-600" />
+              <Building2 className="w-3 h-3 md:w-4 md:h-4 text-primary-600" />
               <span className="text-gray-600">{getChainProducts(productsToRank).length} Chain Locations</span>
             </div>
             <div className="flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-amber-600" />
+              <Sparkles className="w-3 h-3 md:w-4 md:h-4 text-amber-600" />
               <span className="text-gray-600">
                 {productsToRank.filter(isHiddenGem).length} Hidden Gems
               </span>
@@ -118,10 +118,10 @@ export default function LeaderboardPage() {
       </section>
 
       {/* Tab Navigation */}
-      <section className="px-4 py-6">
+      <section className="px-4 py-4 md:py-6">
         <div className="max-w-6xl mx-auto">
           {/* Product Type Selector (Food/Drinks) */}
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center mb-4 md:mb-6">
             <div className="inline-flex bg-gray-100 rounded-full p-1">
               {productTypeTabs.map((tab) => {
                 const Icon = tab.icon;
@@ -130,13 +130,13 @@ export default function LeaderboardPage() {
                   <button
                     key={tab.id}
                     onClick={() => setProductType(tab.id)}
-                    className={`flex items-center gap-2 px-5 py-2 rounded-full text-sm font-medium transition-all ${
+                    className={`flex items-center gap-2 px-4 md:px-5 py-2 rounded-full text-xs md:text-sm font-medium transition-all ${
                       isActive
                         ? 'bg-white text-primary-700 shadow-sm'
                         : 'text-gray-600 hover:text-gray-900'
                     }`}
                   >
-                    <Icon className="w-4 h-4" />
+                    <Icon className="w-3 h-3 md:w-4 md:h-4" />
                     {tab.label}
                   </button>
                 );
@@ -145,7 +145,7 @@ export default function LeaderboardPage() {
           </div>
 
           {/* Best Overall/Local/Chain Selector */}
-          <div className="flex flex-wrap justify-center gap-2 mb-8">
+          <div className="flex flex-wrap justify-center gap-2 mb-6 md:mb-8">
             {tabs.map((tab) => {
               const Icon = tab.icon;
               const isActive = activeTab === tab.id;
@@ -153,21 +153,21 @@ export default function LeaderboardPage() {
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center gap-2 px-6 py-3 rounded-full font-medium transition-all ${
+                  className={`flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:font-medium transition-all ${
                     isActive
                       ? 'bg-primary-600 text-white shadow-lg'
                       : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
                   }`}
                 >
-                  <Icon className="w-4 h-4" />
+                  <Icon className="w-3 h-3 md:w-4 md:h-4" />
                   {tab.label}
                 </button>
               );
             })}
           </div>
 
-          {/* Leaderboard Table */}
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+          {/* Leaderboard Table - Desktop */}
+          <div className="hidden md:block bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-50 border-b border-gray-200">
@@ -321,6 +321,106 @@ export default function LeaderboardPage() {
             </div>
           </div>
 
+          {/* Mobile Horizontal Cards */}
+          <div className="md:hidden flex overflow-x-auto gap-4 pb-4 -mx-4 px-4 snap-x snap-mandatory">
+            {currentProducts.map((product, index) => {
+              const rank = index + 1;
+              const sellerType = getSellerType(product);
+              const fairScore = calculateFairOpportunityScore(product);
+
+              return (
+                <div key={product.id} className="flex-shrink-0 w-[280px] snap-start">
+                  <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4">
+                    {/* Rank Badge */}
+                    <div
+                      className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-3 ${
+                        rank === 1
+                          ? 'bg-yellow-100 text-yellow-800 border-2 border-yellow-300'
+                          : rank === 2
+                          ? 'bg-gray-100 text-gray-700 border-2 border-gray-300'
+                          : rank === 3
+                          ? 'bg-orange-100 text-orange-800 border-2 border-orange-300'
+                          : 'bg-gray-50 text-gray-500'
+                      }`}
+                    >
+                      {rank}
+                    </div>
+
+                    {/* Product Name */}
+                    <h3 className="font-semibold text-gray-900 mb-1 line-clamp-2">
+                      {product.name}
+                    </h3>
+                    <div className="mb-2">
+                      <HiddenGemBadge product={product} size="sm" />
+                    </div>
+
+                    {/* Seller */}
+                    <p className="text-sm text-gray-600 mb-2">{product.seller_name}</p>
+
+                    {/* Type Badge */}
+                    <Badge
+                      variant={sellerType === 'local' ? 'success' : 'primary'}
+                      className="mb-2"
+                    >
+                      {sellerType === 'local' ? 'Local' : 'Chain'}
+                    </Badge>
+
+                    {/* Price */}
+                    <p className="font-medium text-gray-900 mb-2">
+                      {formatCurrency(product.price)}
+                    </p>
+
+                    {/* Rating */}
+                    <div className="flex items-center gap-1 mb-3">
+                      <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
+                      <span className="text-sm font-medium text-gray-900">
+                        {product.average_rating?.toFixed(1)}
+                      </span>
+                      <span className="text-xs text-gray-500">
+                        ({product.review_count * 10})
+                      </span>
+                    </div>
+
+                    {/* Value Score */}
+                    <div className="flex items-center gap-2 mb-3">
+                      <div className="flex-1 bg-gray-200 rounded-full h-2">
+                        <div
+                          className={`h-2 rounded-full ${
+                            fairScore >= 80
+                              ? 'bg-success-500'
+                              : fairScore >= 60
+                              ? 'bg-primary-500'
+                              : 'bg-gray-400'
+                          }`}
+                          style={{ width: `${fairScore}%` }}
+                        />
+                      </div>
+                      <span
+                        className={`font-bold text-sm ${
+                          fairScore >= 80
+                            ? 'text-success-600'
+                            : fairScore >= 60
+                            ? 'text-primary-600'
+                            : 'text-gray-600'
+                        }`}
+                      >
+                        {fairScore}
+                      </span>
+                    </div>
+
+                    {/* Action */}
+                    <Link href={`/product/${product.id}`} className="block">
+                      <Button variant="outline" size="sm" className="w-full">
+                        View
+                        <ArrowRight className="w-3 h-3 ml-1" />
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
           {/* Empty State */}
           {currentProducts.length === 0 && (
             <div className="text-center py-16">
@@ -335,8 +435,8 @@ export default function LeaderboardPage() {
           )}
 
           {/* CTA */}
-          <div className="mt-12 text-center">
-            <p className="text-gray-600 mb-4">
+          <div className="mt-8 md:mt-12 text-center">
+            <p className="text-gray-600 mb-4 text-sm md:text-base">
               Discover more value-driven options
             </p>
             <Link href="/search">

@@ -70,13 +70,13 @@ export function HomeCategorySection({
   }
 
   return (
-    <section className="py-8 border-t border-gray-100">
+    <section className="py-6 md:py-8 border-t border-gray-100">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 md:gap-4 mb-4 md:mb-6">
           <div>
-            <div className="flex items-center gap-3 mb-1">
-              <h2 className="text-xl md:text-2xl font-bold text-gray-900">{title}</h2>
+            <div className="flex items-center gap-2 md:gap-3 mb-1">
+              <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900">{title}</h2>
               {badge && (
                 <span className={`px-2 py-1 rounded-full text-xs font-medium border ${getBadgeStyle()}`}>
                   {getBadgeLabel()}
@@ -84,7 +84,7 @@ export function HomeCategorySection({
               )}
             </div>
             {description && (
-              <p className="text-gray-600 text-sm">{description}</p>
+              <p className="text-gray-600 text-xs md:text-sm">{description}</p>
             )}
           </div>
           <Link href={viewMoreLink}>
