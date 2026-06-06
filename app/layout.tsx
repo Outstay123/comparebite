@@ -4,6 +4,7 @@ import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { MobileBottomNav } from '@/components/MobileBottomNav';
+import { PageLoadingOverlay } from '@/components/PageLoadingOverlay';
 
 export const metadata: Metadata = {
   title: 'CompareBite - Find the Best Value Food',
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-gray-50 flex flex-col">
+        <PageLoadingOverlay />
         <Suspense fallback={<div className="h-16 bg-white border-b border-gray-200" />}>
           <Navbar />
         </Suspense>
