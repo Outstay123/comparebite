@@ -53,7 +53,7 @@ export default function Home() {
   const malaysianFoodProducts = getTopValueProducts(getMalaysianFoodProducts(allProducts), 4);
 
   return (
-    <main className="min-h-screen pb-20 md:pb-0">
+    <main className="overflow-x-hidden min-h-screen pb-20 md:pb-0">
       {/* Hero + Featured Carousel + CTAs */}
       <section className="bg-gradient-to-b from-primary-600 to-primary-700 text-white pt-8 md:pt-16 pb-8 md:pb-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
