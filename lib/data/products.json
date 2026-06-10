@@ -3716,7 +3716,7 @@
     "categories": [
       "nearby","drinks"
     ],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 12.9,
     "currency": "MYR",
     "ingredients": [
@@ -3763,7 +3763,7 @@
     "categories": [
       "nearby","drinks"
     ],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 8.9,
     "currency": "MYR",
     "ingredients": [
@@ -3809,7 +3809,7 @@
     "categories": [
       "nearby","drinks"
     ],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 8.9,
     "currency": "MYR",
     "ingredients": [
@@ -4154,7 +4154,7 @@
     "categories": [
       "nearby","drinks"
     ],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 10.9,
     "currency": "MYR",
     "ingredients": [
@@ -4199,7 +4199,7 @@
     "categories": [
       "nearby","drinks"
     ],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 9.9,
     "currency": "MYR",
     "ingredients": [
@@ -4244,7 +4244,7 @@
     "categories": [
       "nearby","drinks"
     ],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 9.9,
     "currency": "MYR",
     "ingredients": [
@@ -4591,7 +4591,7 @@
     "name": "Taiwanese Black Tea",
     "description": "Authentic and fragrant premium black tea brewed to perfection.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 9.90,
     "currency": "MYR",
     "ingredients": ["black tea leaves", "water", "sugar", "ice"],
@@ -4629,7 +4629,7 @@
     "name": "Season Green Tea",
     "description": "Light and floral seasonal green tea served chilled.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 9.90,
     "currency": "MYR",
     "ingredients": ["green tea leaves", "water", "sugar", "ice"],
@@ -4667,7 +4667,7 @@
     "name": "Original Milk Tea",
     "description": "Classic Taiwanese milk tea with a rich, creamy texture and robust tea base.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 10.90,
     "currency": "MYR",
     "ingredients": ["black tea", "milk", "sugar syrup", "ice"],
@@ -4705,7 +4705,7 @@
     "name": "Herbal Jelly Milk Tea",
     "description": "Creamy milk tea paired with smooth and cooling traditional herbal jelly.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 11.90,
     "currency": "MYR",
     "ingredients": ["black tea", "milk", "herbal jelly", "sugar syrup", "ice"],
@@ -4743,7 +4743,7 @@
     "name": "Lemon Black Tea",
     "description": "Zesty fresh lemon juice mixed with robust Taiwanese black tea.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 11.90,
     "currency": "MYR",
     "ingredients": ["black tea", "fresh lemon", "sugar syrup", "ice"],
@@ -4781,7 +4781,7 @@
     "name": "Lemon Green Tea",
     "description": "Refreshing floral green tea infused with freshly squeezed lemon juice.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 11.90,
     "currency": "MYR",
     "ingredients": ["green tea", "fresh lemon", "sugar syrup", "ice"],
@@ -4819,7 +4819,7 @@
     "name": "Passion Fruit Green Tea",
     "description": "Tropical passion fruit puree blended with freshly brewed jasmine green tea.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 11.90,
     "currency": "MYR",
     "ingredients": ["green tea", "passion fruit puree", "sugar syrup", "ice"],
@@ -4857,7 +4857,7 @@
     "name": "Passion Fruit Black Tea",
     "description": "A bold and tangy beverage combining premium black tea with tropical passion fruit.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 11.90,
     "currency": "MYR",
     "ingredients": ["black tea", "passion fruit puree", "sugar syrup", "ice"],
@@ -4895,7 +4895,7 @@
     "name": "Real Dark Chocolate Milk",
     "description": "Decadent, rich dark chocolate melted into fresh milk for an indulgent treat.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 15.90,
     "currency": "MYR",
     "ingredients": ["dark chocolate", "milk", "cocoa powder", "ice"],
@@ -4933,7 +4933,7 @@
     "name": "Refreshing Watermelon Juice",
     "description": "100% pure, freshly blended watermelon juice to quench your thirst.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 11.90,
     "currency": "MYR",
     "ingredients": ["fresh watermelon", "ice", "sugar syrup"],
@@ -5465,7 +5465,7 @@
     "name": "Kopi O Ice",
     "description": "Iced black coffee brewed the traditional local way, sweetened with sugar.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 6.00,
     "currency": "MYR",
     "ingredients": ["local coffee beans", "sugar", "water", "ice"],
@@ -5503,7 +5503,7 @@
     "name": "Kopi Ice",
     "description": "Rich and robust traditional iced coffee mixed with sweet condensed milk.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 7.00,
     "currency": "MYR",
     "ingredients": ["local coffee beans", "condensed milk", "evaporated milk", "water", "ice"],
@@ -5541,7 +5541,7 @@
     "name": "Teh O Ice",
     "description": "Refreshing iced black tea, sweetened to perfection without milk.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 6.00,
     "currency": "MYR",
     "ingredients": ["black tea", "sugar", "water", "ice"],
@@ -5579,7 +5579,7 @@
     "name": "Barley Ice",
     "description": "A cooling, homemade iced barley drink simmered with pandan leaves and rock sugar.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 6.20,
     "currency": "MYR",
     "ingredients": ["barley grains", "water", "pandan leaves", "sugar", "ice"],
@@ -5617,7 +5617,7 @@
     "name": "Teh Ice",
     "description": "Iced pulled milk tea, a local favorite with a creamy taste.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 7.00,
     "currency": "MYR",
     "ingredients": ["black tea", "condensed milk", "evaporated milk", "ice"],
@@ -5655,7 +5655,7 @@
     "name": "Iced Lemon Tea",
     "description": "Freshly brewed iced tea infused with zesty lemon slices for a thirst-quenching experience.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 7.00,
     "currency": "MYR",
     "ingredients": ["black tea", "fresh lemon slices", "sugar", "water", "ice"],
@@ -5693,7 +5693,7 @@
     "name": "Milo Ice",
     "description": "Malaysia's beloved iced chocolate malt beverage, served rich and creamy.",
     "categories": ["nearby","drinks"],
-    "product_type": "food",
+    "product_type": "drink",
     "price": 8.00,
     "currency": "MYR",
     "ingredients": ["milo powder", "condensed milk", "water", "ice"],
