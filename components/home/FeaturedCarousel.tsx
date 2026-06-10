@@ -136,7 +136,7 @@ export function FeaturedCarousel({ products }: FeaturedCarouselProps) {
       <div className="relative">
         <div
           ref={containerRef}
-          className="relative h-[357px] sm:h-[399px] md:h-[441px] select-none touch-pan-y"
+          className="relative h-[357px] z-10 sm:h-[399px] md:h-[441px] select-none touch-pan-y"
           onPointerDown={handlePointerDown}
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerEnd}
