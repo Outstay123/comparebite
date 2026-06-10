@@ -57,16 +57,16 @@ export default function Home() {
       {/* Hero + Featured Carousel + CTAs */}
       <section className="bg-gradient-to-b from-primary-600 to-primary-700 text-white pt-8 md:pt-16 pb-8 md:pb-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-2xl md:text-6xl font-bold mb-3 md:mb-6">
-            Find the Best Value Food
+          <h1 className="text-2xl md:text-5xl font-bold mb-6 md:mb-10">
+            We rate <em>every</em> food item on the menu.
           </h1>
-          <p className="text-base md:text-2xl mb-6 md:mb-10 text-primary-100">
-            Compare prices, ratings, and deals across restaurants
-          </p>
+		  <p className="text-base md:text-2xl mb-6 md:mb-10 text-primary-100">
+			Compare food prices, taste, and deals across restaurants.
+		  </p>
           <button
             type="button"
             onClick={() => setCompareModalOpen(true)}
-            className="group relative inline-flex items-center justify-center gap-2.5 px-8 py-3 md:px-14 md:py-5 text-base md:text-xl font-bold text-white rounded-2xl bg-gradient-to-b from-[#ff5a5a] via-primary-500 to-primary-700 border-2 border-[#ff8a8a]/60 shadow-[0_8px_32px_rgba(0,0,0,0.35),0_0_0_1px_rgba(255,255,255,0.15)_inset] hover:from-[#ff6b6b] hover:via-primary-400 hover:to-primary-600 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4),0_0_24px_rgba(255,90,90,0.35)] hover:scale-[1.04] active:scale-[0.98] transition-all duration-300 ease-out focus:outline-none focus:ring-4 focus:ring-white/40"
+            className="group relative inline-flex items-center justify-center /ap-2.5 px-8 py-3 md:px-14 md:py-5 text-base md:text-xl font-bold text-primary-600 bg-white rounded-2xl border-2 border-[#ff8a8a]/60 shadow-[0_8px_32px_rgba(0,0,0,0.35),0_0_0_1px_rgba(255,255,255,0.15)_inset] hover:from-[#ff6b6b] hover:via-primary-400 hover:to-primary-600 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4),0_0_24px_rgba(255,90,90,0.35)] hover:scale-[1.04] active:scale-[0.98] transition-all duration-300 ease-out focus:outline-none focus:ring-4 focus:ring-white/40"
           >
             Compare Now
             <ArrowRight className="w-4 h-4 md:w-6 md:h-6 transition-transform duration-300 group-hover:translate-x-1" />
