@@ -121,6 +121,29 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                   ))}
                 </div>
 
+
+				<div className="mb-6">
+                    <h3 className="font-semibold text-gray-900 mb-3">Average Ratings</h3>
+					<div className="flex items-center mb-1">
+						<p className="mr-2">Taste:</p>
+						<Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+						<span className="ml-2 text-2xl font-bold">{formatRating(product.taste_score)}</span>
+						<span className="text-gray-500 ml-2">/ 5</span>
+					</div>
+					<div className="flex items-center mb-1">
+						<p className="mr-2">Price:</p>
+						<Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+						<span className="ml-2 text-2xl font-bold">{formatRating(product.value_score)}</span>
+						<span className="text-gray-500 ml-2">/ 5</span>
+					</div>
+					<div className="flex items-center mb-1">
+						<p className="mr-2">Portion:</p>
+						<Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+						<span className="ml-2 text-2xl font-bold">{formatRating(product.portion_score)}</span>
+						<span className="text-gray-500 ml-2">/ 5</span>
+					</div>
+				</div>
+
                 {/* Offers */}
                 {product.offers.length > 0 && (
                   <div className="border-t pt-4">
