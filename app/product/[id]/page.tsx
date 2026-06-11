@@ -1,14 +1,26 @@
 import Link from 'next/link';
+import { promises as fs } from 'fs';
+import path from 'path';
 import { Card, CardBody, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { BestValueBadge } from '@/components/product/BestValueBadge';
-import { getProductById, loadProducts, enrichProductsWithBestValue } from '@/lib/utils/data';
+import { loadProducts, enrichProductsWithBestValue } from '@/lib/utils/data';
 import { searchProducts } from '@/lib/utils/search';
 import { formatPrice, formatRating } from '@/lib/utils/formatters';
 import { Star, MapPin, ChevronLeft, Check, AlertCircle } from 'lucide-react';
-import { ProductReviewFlow } from '@/components/reviews/ProductReviewFlow';
+import { ProductScoreButton } from '@/components/reviews/ProductScoreButton';
+import { Product } from '@/lib/types';
 import { ProductComments } from '@/components/reviews/ProductComments';
+
+export const dynamic = 'force-dynamic';
+
+const productsPath = path.join(process.cwd(), 'lib', 'data', 'products.json');
+
+async function loadProductsFromFile(): Promise<Product[]> {
+  const contents = await fs.readFile(productsPath, 'utf8');
+  return JSON.parse(contents) as Product[];
+}
 
 // Generate static paths for all products at build time
 export function generateStaticParams() {
@@ -26,8 +38,9 @@ interface ProductDetailPageProps {
 
 export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
   const { id } = await params;
-  const product = getProductById(id);
-  const allProducts = enrichProductsWithBestValue(loadProducts());
+  const products = await loadProductsFromFile();
+  const product = products.find((item) => item.id === id);
+  const allProducts = enrichProductsWithBestValue(products);
 
   // Find similar products (same category, different seller)
   const similarProducts = product
@@ -106,7 +119,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                     <span className="ml-2 text-2xl font-bold">{formatRating(product.average_rating)}</span>
                     <span className="text-gray-500 ml-2">/ 5</span>
                   </div>
-                  <span className="text-gray-500">({product.review_count * 10} reviews)</span>
+                  <span className="text-gray-500">({product.review_count} scores)</span>
                 </div>
 
                 {/* Description */}
@@ -161,7 +174,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               </CardBody>
             </Card>
 
-            <ProductComments productId={product.id} initialReviews={product.reviews} />
+			<ProductComments productId={product.id} initialReviews={product.reviews} />
+            <ProductScoreButton productId={product.id} />
           </div>
 
           {/* Sidebar */}
@@ -195,8 +209,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 </div>
               </CardBody>
             </Card>
-
-            <ProductReviewFlow productId={product.id} />
 
             {/* Similar Products */}
             {similarProducts.length > 0 && (

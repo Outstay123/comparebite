@@ -3714,7 +3714,8 @@
     "name": "Coconut Coffee",
     "description": "A refreshing and creamy blend of strong Vietnamese coffee and sweet coconut milk.",
     "categories": [
-      "nearby","drinks"
+      "nearby",
+      "drinks"
     ],
     "product_type": "drink",
     "price": 12.9,
@@ -3761,7 +3762,8 @@
     "name": "Iced Lemongrass Ginger Drink",
     "description": "A cooling, aromatic iced beverage steeped with fresh lemongrass stalks and sliced ginger.",
     "categories": [
-      "nearby","drinks"
+      "nearby",
+      "drinks"
     ],
     "product_type": "drink",
     "price": 8.9,
@@ -3807,7 +3809,8 @@
     "name": "Iced Lime & Mint Tea",
     "description": "A zesty and revitalizing iced tea flavored with freshly squeezed lime juice and muddled mint leaves.",
     "categories": [
-      "nearby","drinks"
+      "nearby",
+      "drinks"
     ],
     "product_type": "drink",
     "price": 8.9,
@@ -4152,7 +4155,8 @@
     "name": "Coke Lemon Plum",
     "description": "An iced Coca-Cola mixed with fresh lemon slices and salted plum for a unique sweet, sour, and salty kick.",
     "categories": [
-      "nearby","drinks"
+      "nearby",
+      "drinks"
     ],
     "product_type": "drink",
     "price": 10.9,
@@ -4197,7 +4201,8 @@
     "name": "Honey Lemon",
     "description": "A soothing blend of natural honey and fresh lemon juice served cold.",
     "categories": [
-      "nearby","drinks"
+      "nearby",
+      "drinks"
     ],
     "product_type": "drink",
     "price": 9.9,
@@ -4242,7 +4247,8 @@
     "name": "HK Ice Lemon Tea",
     "description": "Authentic Hong Kong style iced lemon tea, featuring strong black tea and freshly sliced lemons.",
     "categories": [
-      "nearby","drinks"
+      "nearby",
+      "drinks"
     ],
     "product_type": "drink",
     "price": 9.9,
@@ -4286,11 +4292,19 @@
     "chain": "nearby",
     "name": "Mixed Mushroom Soup",
     "description": "A creamy, hearty soup made with a blend of fresh wild mushrooms and herbs.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 16.90,
+    "price": 16.9,
     "currency": "MYR",
-    "ingredients": ["mushrooms", "cream", "garlic", "onions", "chicken broth"],
+    "ingredients": [
+      "mushrooms",
+      "cream",
+      "garlic",
+      "onions",
+      "chicken broth"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4306,14 +4320,16 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nearby/mixed-mushroom-soup.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4324,11 +4340,20 @@
     "chain": "nearby",
     "name": "Chicken & Mushroom Pie",
     "description": "A classic pie with a flaky pastry crust filled with tender chicken chunks and mushrooms in a creamy sauce.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 22.00,
+    "price": 22,
     "currency": "MYR",
-    "ingredients": ["chicken", "mushrooms", "puff pastry", "cream", "carrots", "onions"],
+    "ingredients": [
+      "chicken",
+      "mushrooms",
+      "puff pastry",
+      "cream",
+      "carrots",
+      "onions"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4344,14 +4369,17 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nearby/chicken-mushroom-pie.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat", "dairy"],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4362,11 +4390,19 @@
     "chain": "nearby",
     "name": "Dave's Original 1/4 Roast Chicken",
     "description": "Signature roasted quarter chicken served with Dave's famous magic gravy and sides.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 30.90,
+    "price": 30.9,
     "currency": "MYR",
-    "ingredients": ["chicken", "special marinade", "gravy", "potatoes", "mixed vegetables"],
+    "ingredients": [
+      "chicken",
+      "special marinade",
+      "gravy",
+      "potatoes",
+      "mixed vegetables"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4382,14 +4418,17 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nearby/daves-original-1-4-roast-chicken.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["soy", "wheat"],
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4400,11 +4439,19 @@
     "chain": "nearby",
     "name": "Fish & Chips",
     "description": "Golden, crispy battered fish fillet served with a generous portion of fries and tartar sauce.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 30.90,
+    "price": 30.9,
     "currency": "MYR",
-    "ingredients": ["white fish fillet", "batter", "potatoes", "tartar sauce", "lemon"],
+    "ingredients": [
+      "white fish fillet",
+      "batter",
+      "potatoes",
+      "tartar sauce",
+      "lemon"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4420,14 +4467,18 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 5,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/nearby/fish-and-chips.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["fish", "wheat", "egg"],
+    "allergens": [
+      "fish",
+      "wheat",
+      "egg"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4438,11 +4489,20 @@
     "chain": "nearby",
     "name": "Tomato Beef Bolognese",
     "description": "Al dente spaghetti tossed in a rich, slow-cooked minced beef and tomato ragu.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 26.90,
+    "price": 26.9,
     "currency": "MYR",
-    "ingredients": ["spaghetti", "minced beef", "tomato sauce", "onions", "garlic", "parmesan cheese"],
+    "ingredients": [
+      "spaghetti",
+      "minced beef",
+      "tomato sauce",
+      "onions",
+      "garlic",
+      "parmesan cheese"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4458,14 +4518,17 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nearby/tomato-beef-bolognese.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat", "dairy"],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4476,11 +4539,20 @@
     "chain": "nearby",
     "name": "Aglio Olio Roast Chicken",
     "description": "Classic spaghetti aglio olio with garlic and chili flakes, topped with tender slices of roast chicken.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 28.90,
+    "price": 28.9,
     "currency": "MYR",
-    "ingredients": ["spaghetti", "roast chicken", "olive oil", "garlic", "chili flakes", "parsley"],
+    "ingredients": [
+      "spaghetti",
+      "roast chicken",
+      "olive oil",
+      "garlic",
+      "chili flakes",
+      "parsley"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4496,14 +4568,16 @@
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nearby/aglio-olio-roast-chicken.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat"],
+    "allergens": [
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4514,11 +4588,17 @@
     "chain": "nearby",
     "name": "Fries",
     "description": "A generous portion of crispy, golden potato fries seasoned with salt.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 7.90,
+    "price": 7.9,
     "currency": "MYR",
-    "ingredients": ["potatoes", "cooking oil", "salt"],
+    "ingredients": [
+      "potatoes",
+      "cooking oil",
+      "salt"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4534,9 +4614,9 @@
     ],
     "average_rating": 4.1,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nearby/fries.webp",
     "is_halal": false,
@@ -4552,11 +4632,18 @@
     "chain": "nearby",
     "name": "Garlic Focaccia Bread",
     "description": "Soft, oven-baked focaccia bread spread with savory garlic butter.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 9.50,
+    "price": 9.5,
     "currency": "MYR",
-    "ingredients": ["focaccia bread", "butter", "garlic", "parsley"],
+    "ingredients": [
+      "focaccia bread",
+      "butter",
+      "garlic",
+      "parsley"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4572,14 +4659,17 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/nearby/garlic-focaccia-bread.webp",
     "is_halal": false,
     "is_vegetarian": true,
-    "allergens": ["wheat", "dairy"],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4590,11 +4680,19 @@
     "chain": "nearby",
     "name": "Taiwanese Black Tea",
     "description": "Authentic and fragrant premium black tea brewed to perfection.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 9.90,
+    "price": 9.9,
     "currency": "MYR",
-    "ingredients": ["black tea leaves", "water", "sugar", "ice"],
+    "ingredients": [
+      "black tea leaves",
+      "water",
+      "sugar",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4610,9 +4708,9 @@
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/taiwanese-black-tea.webp",
     "is_halal": false,
@@ -4628,17 +4726,25 @@
     "chain": "nearby",
     "name": "Season Green Tea",
     "description": "Light and floral seasonal green tea served chilled.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 9.90,
+    "price": 9.9,
     "currency": "MYR",
-    "ingredients": ["green tea leaves", "water", "sugar", "ice"],
+    "ingredients": [
+      "green tea leaves",
+      "water",
+      "sugar",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "rev_mr_wu_002",
         "user": "Jasmine Teoh",
-        "rating": 4.0,
+        "rating": 4,
         "portion_score": 4,
         "taste_score": 4,
         "value_score": 3,
@@ -4646,11 +4752,11 @@
         "created_at": "2026-06-02"
       }
     ],
-    "average_rating": 4.0,
+    "average_rating": 4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/season-green-tea.webp",
     "is_halal": false,
@@ -4666,11 +4772,19 @@
     "chain": "nearby",
     "name": "Original Milk Tea",
     "description": "Classic Taiwanese milk tea with a rich, creamy texture and robust tea base.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 10.90,
+    "price": 10.9,
     "currency": "MYR",
-    "ingredients": ["black tea", "milk", "sugar syrup", "ice"],
+    "ingredients": [
+      "black tea",
+      "milk",
+      "sugar syrup",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4686,14 +4800,16 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 3.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/original-milk-tea.webp",
     "is_halal": false,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4704,11 +4820,20 @@
     "chain": "nearby",
     "name": "Herbal Jelly Milk Tea",
     "description": "Creamy milk tea paired with smooth and cooling traditional herbal jelly.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["black tea", "milk", "herbal jelly", "sugar syrup", "ice"],
+    "ingredients": [
+      "black tea",
+      "milk",
+      "herbal jelly",
+      "sugar syrup",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4724,14 +4849,16 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/herbal-jelly-milk-tea.webp",
     "is_halal": false,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4742,11 +4869,19 @@
     "chain": "nearby",
     "name": "Lemon Black Tea",
     "description": "Zesty fresh lemon juice mixed with robust Taiwanese black tea.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["black tea", "fresh lemon", "sugar syrup", "ice"],
+    "ingredients": [
+      "black tea",
+      "fresh lemon",
+      "sugar syrup",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4762,9 +4897,9 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/lemon-black-tea.webp",
     "is_halal": false,
@@ -4780,11 +4915,19 @@
     "chain": "nearby",
     "name": "Lemon Green Tea",
     "description": "Refreshing floral green tea infused with freshly squeezed lemon juice.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["green tea", "fresh lemon", "sugar syrup", "ice"],
+    "ingredients": [
+      "green tea",
+      "fresh lemon",
+      "sugar syrup",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4800,9 +4943,9 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/lemon-green-tea.webp",
     "is_halal": false,
@@ -4818,11 +4961,19 @@
     "chain": "nearby",
     "name": "Passion Fruit Green Tea",
     "description": "Tropical passion fruit puree blended with freshly brewed jasmine green tea.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["green tea", "passion fruit puree", "sugar syrup", "ice"],
+    "ingredients": [
+      "green tea",
+      "passion fruit puree",
+      "sugar syrup",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4838,9 +4989,9 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/passion-fruit-green-tea.webp",
     "is_halal": false,
@@ -4856,11 +5007,19 @@
     "chain": "nearby",
     "name": "Passion Fruit Black Tea",
     "description": "A bold and tangy beverage combining premium black tea with tropical passion fruit.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["black tea", "passion fruit puree", "sugar syrup", "ice"],
+    "ingredients": [
+      "black tea",
+      "passion fruit puree",
+      "sugar syrup",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4876,9 +5035,9 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/passion-fruit-black-tea.webp",
     "is_halal": false,
@@ -4894,11 +5053,19 @@
     "chain": "nearby",
     "name": "Real Dark Chocolate Milk",
     "description": "Decadent, rich dark chocolate melted into fresh milk for an indulgent treat.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 15.90,
+    "price": 15.9,
     "currency": "MYR",
-    "ingredients": ["dark chocolate", "milk", "cocoa powder", "ice"],
+    "ingredients": [
+      "dark chocolate",
+      "milk",
+      "cocoa powder",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4914,14 +5081,17 @@
     ],
     "average_rating": 4.9,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/real-dark-chocolate-milk.webp",
     "is_halal": false,
     "is_vegetarian": true,
-    "allergens": ["dairy", "soy"],
+    "allergens": [
+      "dairy",
+      "soy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -4932,11 +5102,18 @@
     "chain": "nearby",
     "name": "Refreshing Watermelon Juice",
     "description": "100% pure, freshly blended watermelon juice to quench your thirst.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["fresh watermelon", "ice", "sugar syrup"],
+    "ingredients": [
+      "fresh watermelon",
+      "ice",
+      "sugar syrup"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4952,9 +5129,9 @@
     ],
     "average_rating": 4.1,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/refreshing-watermelon-juice.webp",
     "is_halal": false,
@@ -4970,11 +5147,20 @@
     "chain": "nearby",
     "name": "Salted Crispy Chicken Bento",
     "description": "Traditional Taiwanese bento box featuring crispy salted chicken, braised egg, and savory side dishes over rice.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 23.90,
+    "price": 23.9,
     "currency": "MYR",
-    "ingredients": ["rice", "chicken", "sweet potato flour", "five-spice powder", "braised egg", "vegetables"],
+    "ingredients": [
+      "rice",
+      "chicken",
+      "sweet potato flour",
+      "five-spice powder",
+      "braised egg",
+      "vegetables"
+    ],
     "options": {},
     "reviews": [
       {
@@ -4990,14 +5176,18 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/salted-crispy-chicken-bento.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat", "soy", "egg"],
+    "allergens": [
+      "wheat",
+      "soy",
+      "egg"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5008,11 +5198,19 @@
     "chain": "nearby",
     "name": "Taiwanese Railway Bento",
     "description": "A nostalgic railway-style lunch box with a tender braised pork chop, pickled greens, and a braised egg.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 23.90,
+    "price": 23.9,
     "currency": "MYR",
-    "ingredients": ["rice", "pork chop", "soy sauce", "braised egg", "pickled mustard greens"],
+    "ingredients": [
+      "rice",
+      "pork chop",
+      "soy sauce",
+      "braised egg",
+      "pickled mustard greens"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5028,14 +5226,18 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/taiwanese-railway-bento.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat", "soy", "egg"],
+    "allergens": [
+      "wheat",
+      "soy",
+      "egg"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5046,11 +5248,20 @@
     "chain": "nearby",
     "name": "Salted Crispy Chicken",
     "description": "The ultimate Taiwanese street food snack: bite-sized pieces of fried chicken seasoned with pepper salt and crispy basil.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 17.00,
+    "price": 17,
     "currency": "MYR",
-    "ingredients": ["chicken", "sweet potato flour", "five-spice powder", "salt", "pepper", "basil"],
+    "ingredients": [
+      "chicken",
+      "sweet potato flour",
+      "five-spice powder",
+      "salt",
+      "pepper",
+      "basil"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5066,14 +5277,16 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/salted-crispy-chicken.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat"],
+    "allergens": [
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5084,11 +5297,19 @@
     "chain": "nearby",
     "name": "Mee Sua Kosong(Set)",
     "description": "A comforting bowl of thick, savory bonito-flavored soup with thin wheat noodles, served as a set.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 16.90,
+    "price": 16.9,
     "currency": "MYR",
-    "ingredients": ["mee sua noodles", "bonito broth", "garlic", "coriander", "black vinegar"],
+    "ingredients": [
+      "mee sua noodles",
+      "bonito broth",
+      "garlic",
+      "coriander",
+      "black vinegar"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5104,14 +5325,17 @@
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/mee-sua-kosong-set.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat", "fish"],
+    "allergens": [
+      "wheat",
+      "fish"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5122,11 +5346,20 @@
     "chain": "nearby",
     "name": "Oyster Mee Sua(Set)",
     "description": "Iconic Taiwanese noodle soup featuring plump, fresh oysters in a rich, thickened bonito broth. Served as a set.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 17.90,
+    "price": 17.9,
     "currency": "MYR",
-    "ingredients": ["mee sua noodles", "oysters", "bonito broth", "garlic", "coriander", "black vinegar"],
+    "ingredients": [
+      "mee sua noodles",
+      "oysters",
+      "bonito broth",
+      "garlic",
+      "coriander",
+      "black vinegar"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5142,14 +5375,18 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/oyster-mee-sua-set.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat", "shellfish", "fish"],
+    "allergens": [
+      "wheat",
+      "shellfish",
+      "fish"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5160,11 +5397,20 @@
     "chain": "nearby",
     "name": "Shrimp Mee Sua",
     "description": "Smooth wheat vermicelli in a rich, savory broth, topped with fresh, bouncy shrimp and fresh cilantro.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 17.90,
+    "price": 17.9,
     "currency": "MYR",
-    "ingredients": ["mee sua noodles", "shrimp", "bonito broth", "garlic", "coriander", "black vinegar"],
+    "ingredients": [
+      "mee sua noodles",
+      "shrimp",
+      "bonito broth",
+      "garlic",
+      "coriander",
+      "black vinegar"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5180,14 +5426,18 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/shrimp-mee-sua.webp",
     "is_halal": false,
     "is_vegetarian": false,
-    "allergens": ["wheat", "shellfish", "fish"],
+    "allergens": [
+      "wheat",
+      "shellfish",
+      "fish"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5198,11 +5448,21 @@
     "chain": "nearby",
     "name": "Nasi Lemak Rendang Daging",
     "description": "Fragrant coconut rice served with tender, slow-cooked beef rendang, spicy sambal, crunchy peanuts, and anchovies.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 21.50,
+    "price": 21.5,
     "currency": "MYR",
-    "ingredients": ["coconut rice", "beef rendang", "sambal", "peanuts", "anchovies", "cucumber", "hard-boiled egg"],
+    "ingredients": [
+      "coconut rice",
+      "beef rendang",
+      "sambal",
+      "peanuts",
+      "anchovies",
+      "cucumber",
+      "hard-boiled egg"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5218,14 +5478,19 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nasi-lemak-rendang-daging.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts", "fish", "egg", "tree nuts"],
+    "allergens": [
+      "peanuts",
+      "fish",
+      "egg",
+      "tree nuts"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5236,11 +5501,20 @@
     "chain": "nearby",
     "name": "Nasi Lemak Biasa",
     "description": "Classic Malaysian coconut rice served with sweet and spicy sambal, boiled egg, crunchy peanuts, and fried anchovies.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 9.50,
+    "price": 9.5,
     "currency": "MYR",
-    "ingredients": ["coconut rice", "sambal", "peanuts", "anchovies", "cucumber", "hard-boiled egg"],
+    "ingredients": [
+      "coconut rice",
+      "sambal",
+      "peanuts",
+      "anchovies",
+      "cucumber",
+      "hard-boiled egg"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5256,14 +5530,18 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/nasi-lemak-biasa.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts", "fish", "egg"],
+    "allergens": [
+      "peanuts",
+      "fish",
+      "egg"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5274,11 +5552,22 @@
     "chain": "nearby",
     "name": "Nasi Lemak Curry Chicken",
     "description": "Aromatic coconut rice paired with a hearty, rich chicken curry and traditional sambal condiments.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 19.50,
+    "price": 19.5,
     "currency": "MYR",
-    "ingredients": ["coconut rice", "chicken curry", "potatoes", "sambal", "peanuts", "anchovies", "cucumber", "egg"],
+    "ingredients": [
+      "coconut rice",
+      "chicken curry",
+      "potatoes",
+      "sambal",
+      "peanuts",
+      "anchovies",
+      "cucumber",
+      "egg"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5294,14 +5583,18 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nasi-lemak-curry-chicken.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts", "fish", "egg"],
+    "allergens": [
+      "peanuts",
+      "fish",
+      "egg"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5312,11 +5605,21 @@
     "chain": "nearby",
     "name": "Mee Siam Fried Chicken",
     "description": "Spicy, sweet, and tangy stir-fried rice vermicelli served with a piece of juicy, golden crispy fried chicken.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 21.50,
+    "price": 21.5,
     "currency": "MYR",
-    "ingredients": ["rice vermicelli", "mee siam paste", "fried chicken", "egg", "calamansi", "bean sprouts", "chives"],
+    "ingredients": [
+      "rice vermicelli",
+      "mee siam paste",
+      "fried chicken",
+      "egg",
+      "calamansi",
+      "bean sprouts",
+      "chives"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5332,14 +5635,18 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/mee-siam-fried-chicken.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["egg", "soy", "wheat"],
+    "allergens": [
+      "egg",
+      "soy",
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5350,11 +5657,18 @@
     "chain": "nearby",
     "name": "Fried Chicken",
     "description": "A generous portion of crispy, deeply marinated fried chicken with a juicy and flavorful interior.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 13.90,
+    "price": 13.9,
     "currency": "MYR",
-    "ingredients": ["chicken", "spices", "cooking oil", "flour"],
+    "ingredients": [
+      "chicken",
+      "spices",
+      "cooking oil",
+      "flour"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5370,14 +5684,16 @@
     ],
     "average_rating": 4.7,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/fried-chicken.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["wheat"],
+    "allergens": [
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5388,11 +5704,21 @@
     "chain": "nearby",
     "name": "Mee Siam",
     "description": "Classic Mee Siam featuring stir-fried rice vermicelli with a perfect balance of sweet, sour, and spicy flavors.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 11.90,
+    "price": 11.9,
     "currency": "MYR",
-    "ingredients": ["rice vermicelli", "mee siam paste", "egg", "calamansi", "bean sprouts", "tau pok", "chives"],
+    "ingredients": [
+      "rice vermicelli",
+      "mee siam paste",
+      "egg",
+      "calamansi",
+      "bean sprouts",
+      "tau pok",
+      "chives"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5408,14 +5734,17 @@
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/mee-siam.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["egg", "soy"],
+    "allergens": [
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5426,11 +5755,21 @@
     "chain": "nearby",
     "name": "Nasi Lemak Sambal Kerang",
     "description": "Traditional coconut rice served with a generous dollop of spicy and slightly sweet cockle sambal.",
-    "categories": ["nearby"],
+    "categories": [
+      "nearby"
+    ],
     "product_type": "food",
-    "price": 17.50,
+    "price": 17.5,
     "currency": "MYR",
-    "ingredients": ["coconut rice", "cockles", "sambal", "peanuts", "anchovies", "cucumber", "egg"],
+    "ingredients": [
+      "coconut rice",
+      "cockles",
+      "sambal",
+      "peanuts",
+      "anchovies",
+      "cucumber",
+      "egg"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5446,14 +5785,19 @@
     ],
     "average_rating": 4.9,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 5,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/nasi-lemak-sambal-kerang.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["peanuts", "fish", "egg", "shellfish"],
+    "allergens": [
+      "peanuts",
+      "fish",
+      "egg",
+      "shellfish"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5464,11 +5808,19 @@
     "chain": "nearby",
     "name": "Kopi O Ice",
     "description": "Iced black coffee brewed the traditional local way, sweetened with sugar.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 6.00,
+    "price": 6,
     "currency": "MYR",
-    "ingredients": ["local coffee beans", "sugar", "water", "ice"],
+    "ingredients": [
+      "local coffee beans",
+      "sugar",
+      "water",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5484,9 +5836,9 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/kopi-o-ice.webp",
     "is_halal": true,
@@ -5502,11 +5854,20 @@
     "chain": "nearby",
     "name": "Kopi Ice",
     "description": "Rich and robust traditional iced coffee mixed with sweet condensed milk.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 7.00,
+    "price": 7,
     "currency": "MYR",
-    "ingredients": ["local coffee beans", "condensed milk", "evaporated milk", "water", "ice"],
+    "ingredients": [
+      "local coffee beans",
+      "condensed milk",
+      "evaporated milk",
+      "water",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5522,14 +5883,16 @@
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/kopi-ice.webp",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5540,11 +5903,19 @@
     "chain": "nearby",
     "name": "Teh O Ice",
     "description": "Refreshing iced black tea, sweetened to perfection without milk.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 6.00,
+    "price": 6,
     "currency": "MYR",
-    "ingredients": ["black tea", "sugar", "water", "ice"],
+    "ingredients": [
+      "black tea",
+      "sugar",
+      "water",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5560,9 +5931,9 @@
     ],
     "average_rating": 4.1,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/teh-o-ice.webp",
     "is_halal": true,
@@ -5578,11 +5949,20 @@
     "chain": "nearby",
     "name": "Barley Ice",
     "description": "A cooling, homemade iced barley drink simmered with pandan leaves and rock sugar.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 6.20,
+    "price": 6.2,
     "currency": "MYR",
-    "ingredients": ["barley grains", "water", "pandan leaves", "sugar", "ice"],
+    "ingredients": [
+      "barley grains",
+      "water",
+      "pandan leaves",
+      "sugar",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5598,14 +5978,16 @@
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/barley-ice.webp",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["wheat"],
+    "allergens": [
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5616,11 +5998,19 @@
     "chain": "nearby",
     "name": "Teh Ice",
     "description": "Iced pulled milk tea, a local favorite with a creamy taste.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 7.00,
+    "price": 7,
     "currency": "MYR",
-    "ingredients": ["black tea", "condensed milk", "evaporated milk", "ice"],
+    "ingredients": [
+      "black tea",
+      "condensed milk",
+      "evaporated milk",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5636,14 +6026,16 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/teh-ice.webp",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy"],
+    "allergens": [
+      "dairy"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5654,11 +6046,20 @@
     "chain": "nearby",
     "name": "Iced Lemon Tea",
     "description": "Freshly brewed iced tea infused with zesty lemon slices for a thirst-quenching experience.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 7.00,
+    "price": 7,
     "currency": "MYR",
-    "ingredients": ["black tea", "fresh lemon slices", "sugar", "water", "ice"],
+    "ingredients": [
+      "black tea",
+      "fresh lemon slices",
+      "sugar",
+      "water",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5674,9 +6075,9 @@
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 4.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/iced-lemon-tea.webp",
     "is_halal": true,
@@ -5692,17 +6093,25 @@
     "chain": "nearby",
     "name": "Milo Ice",
     "description": "Malaysia's beloved iced chocolate malt beverage, served rich and creamy.",
-    "categories": ["nearby","drinks"],
+    "categories": [
+      "nearby",
+      "drinks"
+    ],
     "product_type": "drink",
-    "price": 8.00,
+    "price": 8,
     "currency": "MYR",
-    "ingredients": ["milo powder", "condensed milk", "water", "ice"],
+    "ingredients": [
+      "milo powder",
+      "condensed milk",
+      "water",
+      "ice"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "rev_nasi_lemak_shop_014",
         "user": "Daniel Lim",
-        "rating": 3.0,
+        "rating": 3,
         "portion_score": 4,
         "taste_score": 5,
         "value_score": 3,
@@ -5710,16 +6119,19 @@
         "created_at": "2026-06-02"
       }
     ],
-    "average_rating": 3.0,
+    "average_rating": 3,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 5.0,
-    "value_score": 3.0,
+    "portion_score": 4,
+    "taste_score": 5,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/milo-ice.webp",
     "is_halal": true,
     "is_vegetarian": true,
-    "allergens": ["dairy", "wheat"],
+    "allergens": [
+      "dairy",
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-02"
   },
@@ -5730,34 +6142,49 @@
     "chain": "nearby",
     "name": "Mushroom Chicken Chop",
     "description": "Juicy pan-seared chicken chop smothered in a rich, creamy mushroom gravy. Served with a side of crispy fries and fresh coleslaw.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 31.20,
+    "price": 31.2,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "button mushrooms", "cream", "black pepper", "garlic", "potatoes", "cabbage"],
+    "ingredients": [
+      "chicken thigh",
+      "button mushrooms",
+      "cream",
+      "black pepper",
+      "garlic",
+      "potatoes",
+      "cabbage"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "oregi1",
         "user": "Ahmad Faris",
         "rating": 4.5,
-        "portion_score": 5.0,
+        "portion_score": 5,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "The mushroom sauce is incredibly savory and the chicken is very tender. Generous portion too!",
         "created_at": "2026-06-08"
       }
     ],
     "average_rating": 4.5,
     "review_count": 1,
-    "portion_score": 5.0,
+    "portion_score": 5,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop1.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["dairy", "soy"],
+    "allergens": [
+      "dairy",
+      "soy"
+    ],
     "created_at": "2026-06-08",
     "updated_at": "2026-06-10"
   },
@@ -5768,34 +6195,49 @@
     "chain": "nearby",
     "name": "Blackpepper Chicken Chop",
     "description": "Tender grilled chicken thigh doused in a punchy, aromatic black pepper sauce. A classic Western favorite with a spicy kick.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 31.20,
+    "price": 31.2,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "black pepper", "soy sauce", "garlic", "onions", "potatoes", "cabbage"],
+    "ingredients": [
+      "chicken thigh",
+      "black pepper",
+      "soy sauce",
+      "garlic",
+      "onions",
+      "potatoes",
+      "cabbage"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "oregi2",
         "user": "Sarah Lim",
         "rating": 4.2,
-        "portion_score": 4.0,
+        "portion_score": 4,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "Nice peppery heat that doesn't overpower the chicken. Fries were perfectly crispy.",
         "created_at": "2026-06-05"
       }
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
+    "portion_score": 4,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop2.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["soy", "wheat"],
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
     "created_at": "2026-06-05",
     "updated_at": "2026-06-10"
   },
@@ -5806,29 +6248,40 @@
     "chain": "nearby",
     "name": "Cajun Chicken Chop",
     "description": "Flavorful chicken chop marinated in bold Cajun spices, grilled to perfection and served with our signature sides.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 15.00,
+    "price": 15,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "cajun seasoning", "paprika", "garlic powder", "mixed herbs", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "cajun seasoning",
+      "paprika",
+      "garlic powder",
+      "mixed herbs",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "murnidiscovery1",
         "user": "Kevin Raj",
         "rating": 4.6,
-        "portion_score": 5.0,
+        "portion_score": 5,
         "taste_score": 4.5,
-        "value_score": 5.0,
+        "value_score": 5,
         "comment": "You can't beat the price for this portion. The Cajun rub has a really nice smoky flavor.",
         "created_at": "2026-06-01"
       }
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 5.0,
+    "portion_score": 5,
     "taste_score": 4.5,
-    "value_score": 5.0,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/chicken-chop3.webp",
     "is_halal": true,
@@ -5844,34 +6297,47 @@
     "chain": "nearby",
     "name": "Grilled Chicken Chop",
     "description": "Classic grilled chicken chop with a beautiful smoky char, served with brown sauce, fries, and a simple salad.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
     "price": 12.17,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "brown sauce", "salt", "pepper", "potatoes", "salad greens"],
+    "ingredients": [
+      "chicken thigh",
+      "brown sauce",
+      "salt",
+      "pepper",
+      "potatoes",
+      "salad greens"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "murnidiscovery2",
         "user": "Nadia Zainal",
-        "rating": 4.0,
-        "portion_score": 4.0,
-        "taste_score": 4.0,
-        "value_score": 5.0,
+        "rating": 4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
         "comment": "Simple, cheap, and satisfies the Western food craving perfectly.",
         "created_at": "2026-05-28"
       }
     ],
-    "average_rating": 4.0,
+    "average_rating": 4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/chicken-chop4.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["soy"],
+    "allergens": [
+      "soy"
+    ],
     "created_at": "2026-05-28",
     "updated_at": "2026-06-10"
   },
@@ -5882,18 +6348,29 @@
     "chain": "nearby",
     "name": "Grilled Chicken Chop Special",
     "description": "An upgraded version of our classic grilled chicken chop, topped with a fried egg, melted cheese, and served with a chicken sausage on the side.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
     "price": 17.83,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "egg", "cheddar cheese", "chicken sausage", "brown sauce", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "egg",
+      "cheddar cheese",
+      "chicken sausage",
+      "brown sauce",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "murnidiscovery3",
         "user": "Daniel Wong",
         "rating": 4.8,
-        "portion_score": 5.0,
+        "portion_score": 5,
         "taste_score": 4.8,
         "value_score": 4.5,
         "comment": "The melted cheese and fried egg completely elevate the dish! Very filling.",
@@ -5902,18 +6379,21 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
+    "portion_score": 5,
     "taste_score": 4.8,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop5.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["dairy", "egg", "soy"],
+    "allergens": [
+      "dairy",
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-06-09",
     "updated_at": "2026-06-10"
   },
-
   {
     "id": "friedchickenchop",
     "location_id": "winlifewesternfood1",
@@ -5921,11 +6401,24 @@
     "chain": "nearby",
     "name": "Fried Chicken Chop",
     "description": "Crispy deep-fried chicken chop with a golden, crunchy crust. Served with a savory dipping sauce, french fries, and fresh coleslaw.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 24.90,
+    "price": 24.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "flour", "breadcrumbs", "cooking oil", "salt", "pepper", "potatoes", "cabbage"],
+    "ingredients": [
+      "chicken thigh",
+      "flour",
+      "breadcrumbs",
+      "cooking oil",
+      "salt",
+      "pepper",
+      "potatoes",
+      "cabbage"
+    ],
     "options": {},
     "reviews": [
       {
@@ -5934,7 +6427,7 @@
         "rating": 4.4,
         "portion_score": 4.5,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "Super crispy on the outside and juicy inside. Really satisfying meal!",
         "created_at": "2026-06-10"
       }
@@ -5943,12 +6436,14 @@
     "review_count": 1,
     "portion_score": 4.5,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop6.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["wheat"],
+    "allergens": [
+      "wheat"
+    ],
     "created_at": "2026-06-10",
     "updated_at": "2026-06-11"
   },
@@ -5959,34 +6454,47 @@
     "chain": "nearby",
     "name": "Grilled Chicken Chop",
     "description": "Perfectly char-grilled chicken chop glazed with our signature brown sauce, accompanied by a generous portion of fries and a fresh side salad.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 24.90,
+    "price": 24.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "brown sauce", "garlic", "black pepper", "potatoes", "salad greens"],
+    "ingredients": [
+      "chicken thigh",
+      "brown sauce",
+      "garlic",
+      "black pepper",
+      "potatoes",
+      "salad greens"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "winlifewesternfood2",
         "user": "Aina Bakar",
         "rating": 4.3,
-        "portion_score": 4.0,
+        "portion_score": 4,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "The grill marks give it a fantastic smoky taste. Meat is very tender.",
         "created_at": "2026-06-08"
       }
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
+    "portion_score": 4,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop7.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["soy"],
+    "allergens": [
+      "soy"
+    ],
     "created_at": "2026-06-08",
     "updated_at": "2026-06-11"
   },
@@ -5997,34 +6505,47 @@
     "chain": "nearby",
     "name": "Chicken Chop",
     "description": "A hearty and affordable classic chicken chop covered in a rich black pepper gravy. A beloved neighborhood favorite.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 15.00,
+    "price": 15,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "black pepper sauce", "soy sauce", "potatoes", "mixed vegetables"],
+    "ingredients": [
+      "chicken thigh",
+      "black pepper sauce",
+      "soy sauce",
+      "potatoes",
+      "mixed vegetables"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "sevenwestern1",
         "user": "Siti Nurhaliza",
-        "rating": 4.0,
-        "portion_score": 4.0,
-        "taste_score": 4.0,
-        "value_score": 5.0,
+        "rating": 4,
+        "portion_score": 4,
+        "taste_score": 4,
+        "value_score": 5,
         "comment": "Very affordable and hits the spot for a quick western food fix without breaking the bank.",
         "created_at": "2026-06-05"
       }
     ],
-    "average_rating": 4.0,
+    "average_rating": 4,
     "review_count": 1,
-    "portion_score": 4.0,
-    "taste_score": 4.0,
-    "value_score": 5.0,
+    "portion_score": 4,
+    "taste_score": 4,
+    "value_score": 5,
     "offers": [],
     "image_url": "/images/chicken-chop8.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["soy", "wheat"],
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
     "created_at": "2026-06-05",
     "updated_at": "2026-06-11"
   },
@@ -6035,19 +6556,31 @@
     "chain": "nearby",
     "name": "chicken chop buttermilk fries",
     "description": "A delicious local twist! Crispy fried chicken chop drenched in a creamy, sweet, and mildly spicy buttermilk sauce, served over a bed of hot fries.",
-    "categories": ["nearby", "food", "western", "fusion"],
+    "categories": [
+      "nearby",
+      "food",
+      "western",
+      "fusion"
+    ],
     "product_type": "food",
-    "price": 18.00,
+    "price": 18,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "evaporated milk", "butter", "curry leaves", "bird's eye chili", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "evaporated milk",
+      "butter",
+      "curry leaves",
+      "bird's eye chili",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "warungnasir1",
         "user": "Amirudin Ali",
         "rating": 4.8,
-        "portion_score": 5.0,
-        "taste_score": 5.0,
+        "portion_score": 5,
+        "taste_score": 5,
         "value_score": 4.5,
         "comment": "The buttermilk sauce is to die for! Creamy, slightly spicy from the cili padi, and pairs perfectly with the crispy chicken.",
         "created_at": "2026-06-09"
@@ -6055,14 +6588,17 @@
     ],
     "average_rating": 4.8,
     "review_count": 1,
-    "portion_score": 5.0,
-    "taste_score": 5.0,
+    "portion_score": 5,
+    "taste_score": 5,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop9.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["dairy", "wheat"],
+    "allergens": [
+      "dairy",
+      "wheat"
+    ],
     "created_at": "2026-06-09",
     "updated_at": "2026-06-11"
   },
@@ -6073,11 +6609,21 @@
     "chain": "nearby",
     "name": "Chicken Chop with Fries",
     "description": "A simple, comforting plate of battered chicken chop served with a generous mountain of crinkle-cut fries and a side of chili sauce.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 15.00,
+    "price": 15,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "batter", "cooking oil", "potatoes", "chili sauce"],
+    "ingredients": [
+      "chicken thigh",
+      "batter",
+      "cooking oil",
+      "potatoes",
+      "chili sauce"
+    ],
     "options": {},
     "reviews": [
       {
@@ -6085,7 +6631,7 @@
         "user": "Farah Liyana",
         "rating": 4.1,
         "portion_score": 4.5,
-        "taste_score": 4.0,
+        "taste_score": 4,
         "value_score": 4.5,
         "comment": "Classic simple comfort food. Portions are big for the price and the fries are nicely salted.",
         "created_at": "2026-06-07"
@@ -6094,13 +6640,15 @@
     "average_rating": 4.1,
     "review_count": 1,
     "portion_score": 4.5,
-    "taste_score": 4.0,
+    "taste_score": 4,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop10.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["wheat"],
+    "allergens": [
+      "wheat"
+    ],
     "created_at": "2026-06-07",
     "updated_at": "2026-06-11"
   },
@@ -6111,11 +6659,21 @@
     "chain": "nearby",
     "name": "Grill Chicken Chop",
     "description": "Tender and juicy grilled chicken chop with a beautiful char, served with your choice of black pepper or mushroom sauce, crispy fries, and a side of coleslaw.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 16.90,
+    "price": 16.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "black pepper sauce", "potatoes", "cabbage", "mayonnaise"],
+    "ingredients": [
+      "chicken thigh",
+      "black pepper sauce",
+      "potatoes",
+      "cabbage",
+      "mayonnaise"
+    ],
     "options": {},
     "reviews": [
       {
@@ -6123,7 +6681,7 @@
         "user": "Wong Kah Ming",
         "rating": 4.3,
         "portion_score": 4.5,
-        "taste_score": 4.0,
+        "taste_score": 4,
         "value_score": 4.5,
         "comment": "Good standard grilled chicken chop. The meat was cooked well and the sauce wasn't too salty.",
         "created_at": "2026-06-08"
@@ -6132,13 +6690,16 @@
     "average_rating": 4.3,
     "review_count": 1,
     "portion_score": 4.5,
-    "taste_score": 4.0,
+    "taste_score": 4,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop11.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["egg", "soy"],
+    "allergens": [
+      "egg",
+      "soy"
+    ],
     "created_at": "2026-06-08",
     "updated_at": "2026-06-11"
   },
@@ -6149,18 +6710,29 @@
     "chain": "nearby",
     "name": "Maryland Chicken Chop",
     "description": "A classic deep-fried Chicken Maryland featuring a golden, crispy crust, served with a fried banana, sausages, and a side of corn and fries.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 19.90,
+    "price": 19.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "breadcrumbs", "banana", "chicken sausage", "sweet corn", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "breadcrumbs",
+      "banana",
+      "chicken sausage",
+      "sweet corn",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "chefvwesternfood2",
         "user": "Rina Abdullah",
         "rating": 4.6,
-        "portion_score": 5.0,
+        "portion_score": 5,
         "taste_score": 4.5,
         "value_score": 4.5,
         "comment": "Very nostalgic! Love the addition of the fried banana. The portion is huge and very satisfying.",
@@ -6169,14 +6741,17 @@
     ],
     "average_rating": 4.6,
     "review_count": 1,
-    "portion_score": 5.0,
+    "portion_score": 5,
     "taste_score": 4.5,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop12.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["wheat", "soy"],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
     "created_at": "2026-06-05",
     "updated_at": "2026-06-11"
   },
@@ -6187,11 +6762,23 @@
     "chain": "nearby",
     "name": "Hainanese Chicken Chop",
     "description": "Authentic Hainanese-style chicken chop lightly battered and fried, drenched in a sweet and sour tomato-based onion and peas gravy. Served with potato wedges.",
-    "categories": ["nearby", "food", "western", "fusion"],
+    "categories": [
+      "nearby",
+      "food",
+      "western",
+      "fusion"
+    ],
     "product_type": "food",
-    "price": 17.90,
+    "price": 17.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "flour", "tomato sauce", "onions", "green peas", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "flour",
+      "tomato sauce",
+      "onions",
+      "green peas",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
@@ -6199,7 +6786,7 @@
         "user": "Lim Wei Jian",
         "rating": 4.8,
         "portion_score": 4.5,
-        "taste_score": 5.0,
+        "taste_score": 5,
         "value_score": 4.5,
         "comment": "The gravy is perfectly balanced between sweet and tangy. Brings back old kopitiam memories.",
         "created_at": "2026-06-10"
@@ -6208,13 +6795,16 @@
     "average_rating": 4.8,
     "review_count": 1,
     "portion_score": 4.5,
-    "taste_score": 5.0,
+    "taste_score": 5,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop13.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["wheat", "soy"],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
     "created_at": "2026-06-10",
     "updated_at": "2026-06-11"
   },
@@ -6225,34 +6815,48 @@
     "chain": "nearby",
     "name": "Black Pepper Grilled Chicken Chop",
     "description": "A juicy, well-marinated grilled chicken chop generously coated in a robust and spicy black pepper sauce. Served with daily sides.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 17.90,
+    "price": 17.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "black pepper", "garlic", "soy sauce", "potatoes", "mixed vegetables"],
+    "ingredients": [
+      "chicken thigh",
+      "black pepper",
+      "garlic",
+      "soy sauce",
+      "potatoes",
+      "mixed vegetables"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "jckanteen2",
         "user": "Syed Tariq",
         "rating": 4.2,
-        "portion_score": 4.0,
+        "portion_score": 4,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "Nice peppery kick. The chicken is tender and easy to cut through. Decent meal.",
         "created_at": "2026-06-07"
       }
     ],
     "average_rating": 4.2,
     "review_count": 1,
-    "portion_score": 4.0,
+    "portion_score": 4,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop14.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["soy", "wheat"],
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
     "created_at": "2026-06-07",
     "updated_at": "2026-06-11"
   },
@@ -6263,11 +6867,22 @@
     "chain": "nearby",
     "name": "Grilled Chicken Chop with Mushroom Sauce",
     "description": "Savory grilled chicken chop topped with a rich, creamy brown mushroom sauce packed with button mushrooms. Accompanied by fresh fries and a salad.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 19.90,
+    "price": 19.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "button mushrooms", "cream", "brown sauce", "potatoes", "salad greens"],
+    "ingredients": [
+      "chicken thigh",
+      "button mushrooms",
+      "cream",
+      "brown sauce",
+      "potatoes",
+      "salad greens"
+    ],
     "options": {},
     "reviews": [
       {
@@ -6276,7 +6891,7 @@
         "rating": 4.5,
         "portion_score": 4.5,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "The mushroom sauce is creamy and has a lot of actual mushrooms in it, not just flavor.",
         "created_at": "2026-06-09"
       }
@@ -6285,12 +6900,15 @@
     "review_count": 1,
     "portion_score": 4.5,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop15.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["dairy", "soy"],
+    "allergens": [
+      "dairy",
+      "soy"
+    ],
     "created_at": "2026-06-09",
     "updated_at": "2026-06-11"
   },
@@ -6301,11 +6919,23 @@
     "chain": "nearby",
     "name": "Salted Egg Chicken Chop",
     "description": "Crispy fried chicken chop smothered in a decadent, savory, and rich salted egg yolk sauce with curry leaves and a hint of chili.",
-    "categories": ["nearby", "food", "western", "fusion"],
+    "categories": [
+      "nearby",
+      "food",
+      "western",
+      "fusion"
+    ],
     "product_type": "food",
-    "price": 17.90,
+    "price": 17.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "salted egg yolk", "evaporated milk", "curry leaves", "chili", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "salted egg yolk",
+      "evaporated milk",
+      "curry leaves",
+      "chili",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
@@ -6313,7 +6943,7 @@
         "user": "Chong Min Hui",
         "rating": 4.9,
         "portion_score": 4.5,
-        "taste_score": 5.0,
+        "taste_score": 5,
         "value_score": 4.5,
         "comment": "Amazing salted egg flavor! Very rich and creamy but not too muak. Best dish here.",
         "created_at": "2026-06-02"
@@ -6322,13 +6952,17 @@
     "average_rating": 4.9,
     "review_count": 1,
     "portion_score": 4.5,
-    "taste_score": 5.0,
+    "taste_score": 5,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop16.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["egg", "dairy", "wheat"],
+    "allergens": [
+      "egg",
+      "dairy",
+      "wheat"
+    ],
     "created_at": "2026-06-02",
     "updated_at": "2026-06-11"
   },
@@ -6339,18 +6973,30 @@
     "chain": "nearby",
     "name": "Thai Sauce Chicken Chop",
     "description": "Crispy battered chicken chop generously drizzled with a tangy, sweet, and mildly spicy Thai chili sauce for an appetizing twist.",
-    "categories": ["nearby", "food", "western", "fusion"],
+    "categories": [
+      "nearby",
+      "food",
+      "western",
+      "fusion"
+    ],
     "product_type": "food",
-    "price": 17.90,
+    "price": 17.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "sweet thai chili sauce", "cilantro", "lime", "garlic", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "sweet thai chili sauce",
+      "cilantro",
+      "lime",
+      "garlic",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "jckanteen5",
         "user": "Nurul Huda",
         "rating": 4.4,
-        "portion_score": 4.0,
+        "portion_score": 4,
         "taste_score": 4.5,
         "value_score": 4.5,
         "comment": "Love the combination of western style chicken chop with the refreshing Thai sauce. Very appetizing.",
@@ -6359,14 +7005,17 @@
     ],
     "average_rating": 4.4,
     "review_count": 1,
-    "portion_score": 4.0,
+    "portion_score": 4,
     "taste_score": 4.5,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop17.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["wheat", "soy"],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
     "created_at": "2026-05-29",
     "updated_at": "2026-06-11"
   },
@@ -6377,11 +7026,23 @@
     "chain": "nearby",
     "name": "Fried Chicken Chop",
     "description": "A golden, crispy fried chicken chop with a juicy interior. Served with classic crinkle-cut fries, a side of creamy coleslaw, and our signature dipping gravy.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 21.80,
+    "price": 21.8,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "flour", "breadcrumbs", "secret spices", "potatoes", "cabbage", "black pepper sauce"],
+    "ingredients": [
+      "chicken thigh",
+      "flour",
+      "breadcrumbs",
+      "secret spices",
+      "potatoes",
+      "cabbage",
+      "black pepper sauce"
+    ],
     "options": {},
     "reviews": [
       {
@@ -6390,7 +7051,7 @@
         "rating": 4.5,
         "portion_score": 4.5,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "Very crispy and not too oily. The signature gravy pairs perfectly with the chicken and fries.",
         "created_at": "2026-06-08"
       }
@@ -6399,12 +7060,15 @@
     "review_count": 1,
     "portion_score": 4.5,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop18.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["wheat", "soy"],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
     "created_at": "2026-06-08",
     "updated_at": "2026-06-11"
   },
@@ -6415,34 +7079,47 @@
     "chain": "nearby",
     "name": "Grilled Classic Chicken Chop",
     "description": "A perfectly charred grilled chicken chop, seasoned to perfection and served with our classic homemade brown sauce, potato wedges, and mixed greens.",
-    "categories": ["nearby", "food", "western"],
+    "categories": [
+      "nearby",
+      "food",
+      "western"
+    ],
     "product_type": "food",
-    "price": 20.90,
+    "price": 20.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "brown sauce", "garlic", "mixed herbs", "potatoes", "salad greens"],
+    "ingredients": [
+      "chicken thigh",
+      "brown sauce",
+      "garlic",
+      "mixed herbs",
+      "potatoes",
+      "salad greens"
+    ],
     "options": {},
     "reviews": [
       {
         "id": "shakeurbarnbarnwesternfood1",
         "user": "Emily Choong",
         "rating": 4.3,
-        "portion_score": 4.0,
+        "portion_score": 4,
         "taste_score": 4.5,
-        "value_score": 4.0,
+        "value_score": 4,
         "comment": "Classic and delicious. The char on the chicken gives it a great smoky flavor!",
         "created_at": "2026-06-05"
       }
     ],
     "average_rating": 4.3,
     "review_count": 1,
-    "portion_score": 4.0,
+    "portion_score": 4,
     "taste_score": 4.5,
-    "value_score": 4.0,
+    "value_score": 4,
     "offers": [],
     "image_url": "/images/chicken-chop19.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["soy"],
+    "allergens": [
+      "soy"
+    ],
     "created_at": "2026-06-05",
     "updated_at": "2026-06-11"
   },
@@ -6453,11 +7130,23 @@
     "chain": "nearby",
     "name": "Hainanese Grilled Chicken Chop",
     "description": "A unique, healthier twist on the traditional recipe. Tender grilled chicken chop generously topped with a sweet and tangy Hainanese tomato gravy, onions, and peas.",
-    "categories": ["nearby", "food", "western", "fusion"],
+    "categories": [
+      "nearby",
+      "food",
+      "western",
+      "fusion"
+    ],
     "product_type": "food",
-    "price": 23.90,
+    "price": 23.9,
     "currency": "MYR",
-    "ingredients": ["chicken thigh", "tomato sauce", "onions", "green peas", "worcestershire sauce", "potatoes"],
+    "ingredients": [
+      "chicken thigh",
+      "tomato sauce",
+      "onions",
+      "green peas",
+      "worcestershire sauce",
+      "potatoes"
+    ],
     "options": {},
     "reviews": [
       {
@@ -6465,7 +7154,7 @@
         "user": "Kamal Ariffin",
         "rating": 4.7,
         "portion_score": 4.5,
-        "taste_score": 5.0,
+        "taste_score": 5,
         "value_score": 4.5,
         "comment": "Love that it's grilled instead of the usual deep-fried style for Hainanese chicken chop. The sauce is spot on!",
         "created_at": "2026-06-10"
@@ -6474,18 +7163,16 @@
     "average_rating": 4.7,
     "review_count": 1,
     "portion_score": 4.5,
-    "taste_score": 5.0,
+    "taste_score": 5,
     "value_score": 4.5,
     "offers": [],
     "image_url": "/images/chicken-chop20.webp",
     "is_halal": true,
     "is_vegetarian": false,
-    "allergens": ["soy"],
+    "allergens": [
+      "soy"
+    ],
     "created_at": "2026-06-10",
     "updated_at": "2026-06-11"
   }
 ]
-
-
-
-

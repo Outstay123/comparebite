@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Scale, Trophy, MapPin, User } from 'lucide-react';
+import { Home, PlusCircle, Scale, Trophy, User } from 'lucide-react';
 
 export function MobileBottomNav() {
   const pathname = usePathname();
@@ -11,8 +11,8 @@ export function MobileBottomNav() {
   const navItems = [
     { href: '/', icon: Home, label: 'Home' },
     { href: '/compare', icon: Scale, label: 'Compare' },
+    { href: '/add-food', icon: PlusCircle, label: 'Add' },
     { href: '/leaderboard', icon: Trophy, label: 'Leaderboard' },
-    { href: '/nearby', icon: MapPin, label: 'Near You' },
     { href: '/profile', icon: User, label: 'Profile' },
   ];
 

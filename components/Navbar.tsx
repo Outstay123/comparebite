@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { ProfileDropdown } from './ProfileDropdown';
-import { Search, Menu, X, Utensils } from 'lucide-react';
+import { PlusCircle, Search, Menu, X, Utensils } from 'lucide-react';
 
 interface NavbarProps {
   sellerId?: string;
@@ -100,6 +100,14 @@ export function Navbar({ sellerId = 'loc_mcd_sunway' }: NavbarProps) {
 
           {/* Right: Profile Dropdown & Mobile Menu */}
           <div className="flex items-center gap-2 flex-shrink-0">
+            <Link
+              href="/add-food"
+              className="hidden md:inline-flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors"
+            >
+              <PlusCircle className="w-4 h-4" />
+              Add Food
+            </Link>
+
             {/* Desktop: Seller mode indicator */}
             {isSellerRoute && (
               <span className="hidden md:inline-flex items-center px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-sm font-medium mr-2">
@@ -180,6 +188,18 @@ export function Navbar({ sellerId = 'loc_mcd_sunway' }: NavbarProps) {
               >
                 <Menu className="w-4 h-4" />
                 Compare
+              </Link>
+              <Link
+                href="/add-food"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className={`flex items-center justify-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  pathname?.startsWith('/add-food')
+                    ? 'bg-primary-100 text-primary-700'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                <PlusCircle className="w-4 h-4" />
+                Add Food
               </Link>
               <Link
                 href={`/seller/${sellerId}`}
