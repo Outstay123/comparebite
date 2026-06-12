@@ -2765,8 +2765,8 @@
     "location_id": "loc_uncle_lim_kopitiam",
     "seller_name": "Uncle Lim Kopitiam",
     "chain": "uncle_lim_kopitiam",
-    "name": "Char Kuey Teow Halal",
-    "description": "Wok-fried flat noodles with chicken, fish cake, and egg. Halal-friendly version.",
+    "name": "Char Kuey Teow",
+    "description": "Wok-fried flat noodles with chicken, fish cake, and egg.",
     "categories": [
       "char_kuey_teow",
       "noodles",
@@ -2794,12 +2794,12 @@
     "reviews": [
       {
         "id": "rev_ckt_kopitiam_001",
-        "user": "Aisyah M.",
+        "user": "Lee",
         "rating": 4.4,
         "portion_score": 4,
         "taste_score": 4,
         "value_score": 4,
-        "comment": "Good halal CKT! RM10.50 for big portion. Nice wok hei.",
+        "comment": "Good CKT! RM10.50 for big portion. Nice wok hei.",
         "created_at": "2026-05-13"
       }
     ],
