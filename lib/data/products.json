@@ -453,7 +453,7 @@
         "description": "25% off bucket meals every Wednesday"
       }
     ],
-    "image_url": "/images/placeholders/fried-chicken.jpg",
+    "image_url": "/images/kfc-2-pc-chicken.jpg",
     "is_halal": true,
     "is_vegetarian": false,
     "allergens": [
@@ -878,7 +878,7 @@
     "taste_score": 5,
     "value_score": 5,
     "offers": [],
-    "image_url": "/images/placeholders/nasi-lemak.jpg",
+    "image_url": "/images/uncle-lim-nasi-lemak.webp",
     "is_halal": true,
     "is_vegetarian": false,
     "allergens": [
@@ -2035,7 +2035,7 @@
     "taste_score": 5,
     "value_score": 5,
     "offers": [],
-    "image_url": "/images/placeholders/coffee.jpg",
+    "image_url": "/images/uncle-lim-kopi-o.jpg",
     "is_halal": true,
     "is_vegetarian": true,
     "allergens": [],
@@ -2698,7 +2698,7 @@
     "taste_score": 4,
     "value_score": 5,
     "offers": [],
-    "image_url": "/images/placeholders/coffee.jpg",
+    "image_url": "/images/teh-ais.jpg",
     "is_halal": true,
     "is_vegetarian": true,
     "allergens": [
