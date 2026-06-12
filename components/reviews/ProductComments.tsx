@@ -12,7 +12,7 @@ import {
   getCommentsForProduct,
   updateComment,
 } from '@/lib/utils/userComments';
-import { MessageSquare, Pencil, Trash2, X, Check } from 'lucide-react';
+import { MessageSquare, Pencil, Trash2, X, Check, Star } from 'lucide-react';
 
 interface ProductCommentsProps {
   productId: string;
@@ -26,6 +26,13 @@ type DisplayComment = {
   date: string;
   editable: boolean;
   source: 'user' | 'static';
+  // Added breakdown scores
+  scores?: {
+    rating: number;
+    value: number;
+    taste: number;
+    portion: number;
+  };
 };
 
 function mapStaticReviews(reviews: Review[]): DisplayComment[] {
@@ -36,6 +43,12 @@ function mapStaticReviews(reviews: Review[]): DisplayComment[] {
     date: review.created_at,
     editable: false,
     source: 'static' as const,
+    scores: {
+      rating: review.rating,
+      value: review.value_score,
+      taste: review.taste_score,
+      portion: review.portion_score,
+    },
   }));
 }
 
@@ -64,6 +77,7 @@ export function ProductComments({ productId, initialReviews }: ProductCommentsPr
       date: c.updatedAt || c.createdAt,
       editable: true,
       source: 'user' as const,
+      // User comments via text-input don't have explicit breakdown scores yet
     }));
     return [...userDisplay, ...staticComments].sort(
       (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
@@ -205,7 +219,28 @@ export function ProductComments({ productId, initialReviews }: ProductCommentsPr
                     </div>
                   </div>
                 ) : (
-                  <p className="text-gray-700 whitespace-pre-wrap">{comment.text}</p>
+                  <div className="space-y-3">
+                    <p className="text-gray-700 whitespace-pre-wrap">{comment.text}</p>
+                    
+                    {/* Render breakdown scores conditionally if they exist */}
+                    {comment.scores && (
+                      <div className="flex flex-wrap items-center gap-3 pt-1 text-xs font-medium">
+                        <div className="flex items-center gap-1 bg-amber-50 text-amber-700 px-2 py-1 rounded-md border border-amber-100">
+                          <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
+                          <span>Rating: {comment.scores.rating.toFixed(1)}</span>
+                        </div>
+                        <div className="bg-gray-50 text-gray-600 px-2 py-1 rounded-md border border-gray-200/60">
+                          Value: <span className="text-gray-900 font-bold">{comment.scores.value}/5</span>
+                        </div>
+                        <div className="bg-gray-50 text-gray-600 px-2 py-1 rounded-md border border-gray-200/60">
+                          Taste: <span className="text-gray-900 font-bold">{comment.scores.taste}/5</span>
+                        </div>
+                        <div className="bg-gray-50 text-gray-600 px-2 py-1 rounded-md border border-gray-200/60">
+                          Portion: <span className="text-gray-900 font-bold">{comment.scores.portion}/5</span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 )}
               </div>
             ))}
