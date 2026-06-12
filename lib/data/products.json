@@ -6132,6 +6132,7 @@
     "name": "Mushroom Chicken Chop",
     "description": "Juicy pan-seared chicken chop smothered in a rich, creamy mushroom gravy. Served with a side of crispy fries and fresh coleslaw.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6185,6 +6186,7 @@
     "name": "Blackpepper Chicken Chop",
     "description": "Tender grilled chicken thigh doused in a punchy, aromatic black pepper sauce. A classic Western favorite with a spicy kick.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6239,6 +6241,7 @@
     "description": "Flavorful chicken chop marinated in bold Cajun spices, grilled to perfection and served with our signature sides.",
     "categories": [
       "nearby",
+      "chicken_chop",
       "food",
       "western"
     ],
@@ -6287,6 +6290,7 @@
     "name": "Grilled Chicken Chop",
     "description": "Classic grilled chicken chop with a beautiful smoky char, served with brown sauce, fries, and a simple salad.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6338,6 +6342,7 @@
     "name": "Grilled Chicken Chop Special",
     "description": "An upgraded version of our classic grilled chicken chop, topped with a fried egg, melted cheese, and served with a chicken sausage on the side.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6384,110 +6389,6 @@
     "updated_at": "2026-06-10"
   },
   {
-    "id": "friedchickenchop",
-    "location_id": "winlifewesternfood1",
-    "seller_name": "Winlife Western Food",
-    "chain": "nearby",
-    "name": "Fried Chicken Chop",
-    "description": "Crispy deep-fried chicken chop with a golden, crunchy crust. Served with a savory dipping sauce, french fries, and fresh coleslaw.",
-    "categories": [
-      "nearby",
-      "food",
-      "western"
-    ],
-    "product_type": "food",
-    "price": 24.9,
-    "currency": "MYR",
-    "ingredients": [
-      "chicken thigh",
-      "flour",
-      "breadcrumbs",
-      "cooking oil",
-      "salt",
-      "pepper",
-      "potatoes",
-      "cabbage"
-    ],
-    "options": {},
-    "reviews": [
-      {
-        "id": "winlifewesternfood1",
-        "user": "Jason Tan",
-        "rating": 4.4,
-        "portion_score": 4.5,
-        "taste_score": 4.5,
-        "value_score": 4,
-        "comment": "Super crispy on the outside and juicy inside. Really satisfying meal!",
-        "created_at": "2026-06-10"
-      }
-    ],
-    "average_rating": 4.4,
-    "review_count": 1,
-    "portion_score": 4.5,
-    "taste_score": 4.5,
-    "value_score": 4,
-    "offers": [],
-    "image_url": "/images/chicken-chop6.webp",
-    "is_halal": true,
-    "is_vegetarian": false,
-    "allergens": [
-      "wheat"
-    ],
-    "created_at": "2026-06-10",
-    "updated_at": "2026-06-11"
-  },
-  {
-    "id": "grilledchickenchop",
-    "location_id": "winlifewesternfood2",
-    "seller_name": "Winlife Western Food",
-    "chain": "nearby",
-    "name": "Grilled Chicken Chop",
-    "description": "Perfectly char-grilled chicken chop glazed with our signature brown sauce, accompanied by a generous portion of fries and a fresh side salad.",
-    "categories": [
-      "nearby",
-      "food",
-      "western"
-    ],
-    "product_type": "food",
-    "price": 24.9,
-    "currency": "MYR",
-    "ingredients": [
-      "chicken thigh",
-      "brown sauce",
-      "garlic",
-      "black pepper",
-      "potatoes",
-      "salad greens"
-    ],
-    "options": {},
-    "reviews": [
-      {
-        "id": "winlifewesternfood2",
-        "user": "Aina Bakar",
-        "rating": 4.3,
-        "portion_score": 4,
-        "taste_score": 4.5,
-        "value_score": 4,
-        "comment": "The grill marks give it a fantastic smoky taste. Meat is very tender.",
-        "created_at": "2026-06-08"
-      }
-    ],
-    "average_rating": 4.3,
-    "review_count": 1,
-    "portion_score": 4,
-    "taste_score": 4.5,
-    "value_score": 4,
-    "offers": [],
-    "image_url": "/images/chicken-chop7.webp",
-    "is_halal": true,
-    "is_vegetarian": false,
-    "allergens": [
-      "soy"
-    ],
-    "created_at": "2026-06-08",
-    "updated_at": "2026-06-11"
-  },
-  {
     "id": "chickenchop",
     "location_id": "sevenwestern1",
     "seller_name": "Seven Western",
@@ -6495,6 +6396,7 @@
     "name": "Chicken Chop",
     "description": "A hearty and affordable classic chicken chop covered in a rich black pepper gravy. A beloved neighborhood favorite.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6546,6 +6448,7 @@
     "name": "chicken chop buttermilk fries",
     "description": "A delicious local twist! Crispy fried chicken chop drenched in a creamy, sweet, and mildly spicy buttermilk sauce, served over a bed of hot fries.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western",
@@ -6599,6 +6502,7 @@
     "name": "Chicken Chop with Fries",
     "description": "A simple, comforting plate of battered chicken chop served with a generous mountain of crinkle-cut fries and a side of chili sauce.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6649,6 +6553,7 @@
     "name": "Grill Chicken Chop",
     "description": "Tender and juicy grilled chicken chop with a beautiful char, served with your choice of black pepper or mushroom sauce, crispy fries, and a side of coleslaw.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6700,6 +6605,7 @@
     "name": "Maryland Chicken Chop",
     "description": "A classic deep-fried Chicken Maryland featuring a golden, crispy crust, served with a fried banana, sausages, and a side of corn and fries.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6752,6 +6658,7 @@
     "name": "Hainanese Chicken Chop",
     "description": "Authentic Hainanese-style chicken chop lightly battered and fried, drenched in a sweet and sour tomato-based onion and peas gravy. Served with potato wedges.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western",
@@ -6805,6 +6712,7 @@
     "name": "Black Pepper Grilled Chicken Chop",
     "description": "A juicy, well-marinated grilled chicken chop generously coated in a robust and spicy black pepper sauce. Served with daily sides.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6857,6 +6765,7 @@
     "name": "Grilled Chicken Chop with Mushroom Sauce",
     "description": "Savory grilled chicken chop topped with a rich, creamy brown mushroom sauce packed with button mushrooms. Accompanied by fresh fries and a salad.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -6909,6 +6818,7 @@
     "name": "Salted Egg Chicken Chop",
     "description": "Crispy fried chicken chop smothered in a decadent, savory, and rich salted egg yolk sauce with curry leaves and a hint of chili.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western",
@@ -6963,6 +6873,7 @@
     "name": "Thai Sauce Chicken Chop",
     "description": "Crispy battered chicken chop generously drizzled with a tangy, sweet, and mildly spicy Thai chili sauce for an appetizing twist.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western",
@@ -7016,6 +6927,7 @@
     "name": "Fried Chicken Chop",
     "description": "A golden, crispy fried chicken chop with a juicy interior. Served with classic crinkle-cut fries, a side of creamy coleslaw, and our signature dipping gravy.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -7069,6 +6981,7 @@
     "name": "Grilled Classic Chicken Chop",
     "description": "A perfectly charred grilled chicken chop, seasoned to perfection and served with our classic homemade brown sauce, potato wedges, and mixed greens.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western"
@@ -7120,6 +7033,7 @@
     "name": "Hainanese Grilled Chicken Chop",
     "description": "A unique, healthier twist on the traditional recipe. Tender grilled chicken chop generously topped with a sweet and tangy Hainanese tomato gravy, onions, and peas.",
     "categories": [
+      "chicken_chop",
       "nearby",
       "food",
       "western",
