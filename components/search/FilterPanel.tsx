@@ -90,7 +90,7 @@ export function FilterPanel({ filters, onFiltersChange }: FilterPanelProps) {
     if (range) {
       onFiltersChange({
         ...filters,
-        minPrice: range.min || undefined,
+        minPrice: range.min ?? undefined,
         maxPrice: range.max === Infinity ? undefined : range.max
       });
     }
