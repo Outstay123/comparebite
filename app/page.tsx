@@ -29,7 +29,7 @@ function mixFeaturedProducts(local: Product[], chain: Product[]): Product[] {
   const maxLen = Math.max(local.length, chain.length);
   for (let i = 0; i < maxLen && mixed.length < 6; i++) {
     if (local[i]) mixed.push(local[i]);
-    if (chain[i] && mixed.length < 6) mixed.push(chain[i]);
+    //if (chain[i] && mixed.length < 6) mixed.push(chain[i]);
   }
   return mixed;
 }
@@ -40,7 +40,9 @@ export default function Home() {
   const allProducts = enrichProductsWithBestValue(loadProducts());
   const bestValueProducts = getBestValueProducts(allProducts, 4);
 
-  const localFeatured = getTopValueProducts(getLocalProducts(allProducts), 3);
+  const localFeatured = getLocalProducts(allProducts)
+  	.filter((product) => product.categories.includes("nearby"));
+	console.log(localFeatured)
   const chainFeatured = getTopValueProducts(getChainProducts(allProducts), 3);
   const featuredProducts = mixFeaturedProducts(localFeatured, chainFeatured);
 
