@@ -831,6 +831,7 @@
     "name": "Special Nasi Lemak Ayam Goreng",
     "description": "Fragrant coconut rice with crispy fried chicken, sambal, peanuts, ikan bilis, egg, and cucumber. Authentic Malaysian breakfast favorite.",
     "categories": [
+      "nearby",
       "nasi_lemak",
       "malaysian",
       "breakfast",
@@ -1990,6 +1991,7 @@
     "name": "Kopi O Kaw",
     "description": "Strong traditional Malaysian black coffee. Brewed with premium beans using sock filter.",
     "categories": [
+      "nearby",
       "coffee",
       "kopi",
       "drink",
@@ -2657,6 +2659,7 @@
     "name": "Teh Ais Kaw",
     "description": "Strong pulled tea with ice. Refreshing and perfect for hot days.",
     "categories": [
+      "nearby",
       "teh_ais",
       "drink",
       "malaysian",
@@ -2712,6 +2715,7 @@
     "name": "Roti Canai Kosong",
     "description": "Flaky, crispy plain roti served with dhal curry and sambal.",
     "categories": [
+      "nearby",
       "roti_canai",
       "mamak",
       "malaysian",
@@ -2768,6 +2772,7 @@
     "name": "Char Kuey Teow",
     "description": "Wok-fried flat noodles with chicken, fish cake, and egg.",
     "categories": [
+      "nearby",
       "char_kuey_teow",
       "noodles",
       "malaysian",
@@ -2828,6 +2833,7 @@
     "name": "Mee Goreng Special",
     "description": "Yellow noodles stir-fried with egg, tofu, and vegetables in spicy sauce.",
     "categories": [
+      "nearby",
       "mee_goreng",
       "noodles",
       "mamak",
@@ -2888,6 +2894,7 @@
     "name": "Curry Laksa",
     "description": "Spicy coconut curry noodles with tofu puffs, fish balls, and bean sprouts.",
     "categories": [
+      "nearby",
       "laksa",
       "noodles",
       "malaysian",
@@ -2947,6 +2954,7 @@
     "name": "Satay Kajang Style 8 Sticks",
     "description": "Grilled chicken satay with rich peanut sauce, cucumber, and ketupat.",
     "categories": [
+      "nearby",
       "satay",
       "malaysian",
       "grill",
@@ -3511,7 +3519,7 @@
     "id": "an-viet-beef-noodle-special",
     "location_id": "loc_nearby_001",
     "seller_name": "An Viet",
-    "chain": "nearby",
+    "chain": "an_viet",
     "name": "Beef Noodle Special",
     "description": "A comforting bowl of traditional Vietnamese beef noodle soup with premium beef slices.",
     "categories": [
@@ -3561,7 +3569,7 @@
     "id": "an-viet-clam-in-coconut-broth-with-vermicelli",
     "location_id": "loc_nearby_001",
     "seller_name": "An Viet",
-    "chain": "nearby",
+    "chain": "an_viet",
     "name": "Clam in Coconut Broth with Vermicelli",
     "description": "Fresh clams simmered in a rich and aromatic coconut broth served with vermicelli noodles.",
     "categories": [
@@ -3611,7 +3619,7 @@
     "id": "an-viet-grilled-lemongrass-chicken",
     "location_id": "loc_nearby_001",
     "seller_name": "An Viet",
-    "chain": "nearby",
+    "chain": "an_viet",
     "name": "Grilled Lemongrass Chicken",
     "description": "Succulent chicken thigh marinated in fragrant lemongrass, grilled to a perfect char.",
     "categories": [
@@ -3661,7 +3669,7 @@
     "id": "an-viet-grilled-pork-chop",
     "location_id": "loc_nearby_001",
     "seller_name": "An Viet",
-    "chain": "nearby",
+    "chain": "an_viet",
     "name": "Grilled Pork Chop",
     "description": "Tender and juicy pork chop marinated in savory Vietnamese spices and grilled over an open flame.",
     "categories": [
@@ -3710,7 +3718,7 @@
     "id": "an-viet-coconut-coffee",
     "location_id": "loc_nearby_001",
     "seller_name": "An Viet",
-    "chain": "nearby",
+    "chain": "an_viet",
     "name": "Coconut Coffee",
     "description": "A refreshing and creamy blend of strong Vietnamese coffee and sweet coconut milk.",
     "categories": [
@@ -3758,7 +3766,7 @@
     "id": "an-viet-iced-lemongrass-ginger-drink",
     "location_id": "loc_nearby_001",
     "seller_name": "An Viet",
-    "chain": "nearby",
+    "chain": "an_viet",
     "name": "Iced Lemongrass Ginger Drink",
     "description": "A cooling, aromatic iced beverage steeped with fresh lemongrass stalks and sliced ginger.",
     "categories": [
@@ -3805,7 +3813,7 @@
     "id": "an-viet-iced-lime-mint-tea",
     "location_id": "loc_nearby_001",
     "seller_name": "An Viet",
-    "chain": "nearby",
+    "chain": "an_viet",
     "name": "Iced Lime & Mint Tea",
     "description": "A zesty and revitalizing iced tea flavored with freshly squeezed lime juice and muddled mint leaves.",
     "categories": [

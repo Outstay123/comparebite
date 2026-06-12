@@ -29,7 +29,7 @@ function mixFeaturedProducts(local: Product[], chain: Product[]): Product[] {
   const maxLen = Math.max(local.length, chain.length);
   for (let i = 0; i < maxLen && mixed.length < 6; i++) {
     if (local[i]) mixed.push(local[i]);
-    //if (chain[i] && mixed.length < 6) mixed.push(chain[i]);
+    if (chain[i] && mixed.length < 6) mixed.push(chain[i]);
   }
   return mixed;
 }

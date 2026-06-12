@@ -20,6 +20,7 @@ const MAJOR_CHAINS = [
   'coffee_bean',
   'tealive',
   'chatime',
+  'an_viet',
 ];
 
 /**
