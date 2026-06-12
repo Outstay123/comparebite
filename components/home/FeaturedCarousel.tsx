@@ -160,7 +160,17 @@ export function FeaturedCarousel({ products }: FeaturedCarouselProps) {
                   transition: transitionStyle,
                 }}
               >
-                <div className="pointer-events-auto">
+                <div className="pointer-events-auto relative">
+				{/* Floating Review Scores for Active Slide */}
+				{isActive && product.value_score && (
+					<div className="absolute top-3 left-3 z-30 flex items-center gap-1.5 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-lg text-[11px] font-bold text-white shadow-lg border border-white/10 animate-fade-in">
+					<span className="text-amber-400">★ {product.average_rating?.toFixed(1) || '0.0'}</span>
+					<span className="text-white/40">|</span>
+					<span>Value: {product.value_score} / 5</span>
+					<span>Taste: {product.taste_score} / 5</span>
+					<span>Portion: {product.portion_score} / 5</span>
+					</div>
+				)}
                   <FeaturedFoodCard
                     product={product}
                     sellerType={getSellerType(product)}
