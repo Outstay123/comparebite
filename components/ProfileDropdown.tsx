@@ -20,7 +20,7 @@ interface ProfileDropdownProps {
   sellerId?: string;
 }
 
-export function ProfileDropdown({ sellerId = 'loc_mcd_sunway' }: ProfileDropdownProps) {
+export function ProfileDropdown({ sellerId = 'loc_uncle_lim_kopitiam' }: ProfileDropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
@@ -236,7 +236,7 @@ export function ProfileDropdown({ sellerId = 'loc_mcd_sunway' }: ProfileDropdown
                 Seller Tools
               </p>
               <Link
-                href="/seller/loc_mcd_sunway"
+                href="/seller/loc_uncle_lim_kopitiam"
                 className="flex items-center gap-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
               >
                 <Store className="w-4 h-4" />
@@ -250,7 +250,7 @@ export function ProfileDropdown({ sellerId = 'loc_mcd_sunway' }: ProfileDropdown
                 Test Product
               </Link>
               <Link
-                href={`/seller/insights?sellerId=${sellerId}`}
+                href={`/seller/insights?sellerId=loc_uncle_lim_kopitiam`}
                 className="flex items-center gap-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
               >
                 <BarChart3 className="w-4 h-4" />
