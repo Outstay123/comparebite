@@ -831,8 +831,8 @@
     "name": "Nasi Lemak Ayam Goreng",
     "description": "Fragrant coconut rice with crispy fried chicken, sambal, peanuts, ikan bilis, egg, and cucumber.",
     "categories": [
-      "nearby",
       "nasi_lemak",
+      "nearby",
       "malaysian",
       "breakfast",
       "local"
@@ -6283,58 +6283,6 @@
     "updated_at": "2026-06-10"
   },
   {
-    "id": "grilledchickenchop",
-    "location_id": "murnidiscovery2",
-    "seller_name": "Murni Discovery",
-    "chain": "nearby",
-    "name": "Grilled Chicken Chop",
-    "description": "Classic grilled chicken chop with a beautiful smoky char, served with brown sauce, fries, and a simple salad.",
-    "categories": [
-      "chicken_chop",
-      "nearby",
-      "food",
-      "western"
-    ],
-    "product_type": "food",
-    "price": 12.17,
-    "currency": "MYR",
-    "ingredients": [
-      "chicken thigh",
-      "brown sauce",
-      "salt",
-      "pepper",
-      "potatoes",
-      "salad greens"
-    ],
-    "options": {},
-    "reviews": [
-      {
-        "id": "murnidiscovery2",
-        "user": "Nadia Zainal",
-        "rating": 4,
-        "portion_score": 4,
-        "taste_score": 4,
-        "value_score": 5,
-        "comment": "Simple, cheap, and satisfies the Western food craving perfectly.",
-        "created_at": "2026-05-28"
-      }
-    ],
-    "average_rating": 4,
-    "review_count": 1,
-    "portion_score": 4,
-    "taste_score": 4,
-    "value_score": 5,
-    "offers": [],
-    "image_url": "/images/chicken-chop4.webp",
-    "is_halal": true,
-    "is_vegetarian": false,
-    "allergens": [
-      "soy"
-    ],
-    "created_at": "2026-05-28",
-    "updated_at": "2026-06-10"
-  },
-  {
     "id": "grilledchickenchopspecial",
     "location_id": "murnidiscovery3",
     "seller_name": "Murni Discovery",
@@ -6363,19 +6311,19 @@
       {
         "id": "murnidiscovery3",
         "user": "Daniel Wong",
-        "rating": 4.8,
+        "rating": 4.0,
         "portion_score": 5,
-        "taste_score": 4.8,
-        "value_score": 4.5,
+        "taste_score": 4,
+        "value_score": 3,
         "comment": "The melted cheese and fried egg completely elevate the dish! Very filling.",
         "created_at": "2026-06-09"
       }
     ],
-    "average_rating": 4.8,
+    "average_rating": 4.0,
     "review_count": 1,
     "portion_score": 5,
-    "taste_score": 4.8,
-    "value_score": 4.5,
+    "taste_score": 4,
+    "value_score": 3,
     "offers": [],
     "image_url": "/images/chicken-chop5.webp",
     "is_halal": true,
@@ -6445,7 +6393,7 @@
     "location_id": "warungnasir1",
     "seller_name": "Warung Nasir",
     "chain": "nearby",
-    "name": "chicken chop buttermilk fries",
+    "name": "Buttermilk Chicken Chop with Fries",
     "description": "A delicious local twist! Crispy fried chicken chop drenched in a creamy, sweet, and mildly spicy buttermilk sauce, served over a bed of hot fries.",
     "categories": [
       "chicken_chop",

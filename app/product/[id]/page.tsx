@@ -214,7 +214,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             {similarProducts.length > 0 && (
               <Card>
                 <CardHeader>
-                  <h3 className="font-semibold text-gray-900">Compare with Similar</h3>
+                  <h3 className="font-semibold text-gray-900">Compare with other sellers</h3>
                 </CardHeader>
                 <CardBody className="p-0">
                   <div className="divide-y divide-gray-100">
