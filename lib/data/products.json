@@ -828,8 +828,8 @@
     "location_id": "loc_uncle_lim_sunway",
     "seller_name": "Uncle Lim Nasi Lemak",
     "chain": "uncle_lim_sunway",
-    "name": "Special Nasi Lemak Ayam Goreng",
-    "description": "Fragrant coconut rice with crispy fried chicken, sambal, peanuts, ikan bilis, egg, and cucumber. Authentic Malaysian breakfast favorite.",
+    "name": "Nasi Lemak Ayam Goreng",
+    "description": "Fragrant coconut rice with crispy fried chicken, sambal, peanuts, ikan bilis, egg, and cucumber.",
     "categories": [
       "nearby",
       "nasi_lemak",
@@ -870,12 +870,52 @@
         "value_score": 5,
         "comment": "Best nasi lemak in Sunway! Uncle Lim uses fresh ingredients daily. RM8.50 for this quality is unbeatable.",
         "created_at": "2026-04-08"
-      }
+      },
+	  {
+		  "id": "rev_uncle_lim_002",
+		  "user": "Viknesh K.",
+		  "rating": 4.0,
+		  "portion_score": 4,
+		  "taste_score": 3,
+		  "value_score": 5,
+		  "comment": "Price is incredibly cheap for Sunway area, absolute lifesaver for a student budget. Sambal is a bit too sweet for my liking, but the chicken portion is decent.",
+		  "created_at": "2026-05-12"
+		},
+		{
+		  "id": "rev_uncle_lim_003",
+		  "user": "Chong Wei J.",
+		  "rating": 4.5,
+		  "portion_score": 3,
+		  "taste_score": 5,
+		  "value_score": 5,
+		  "comment": "The basmati rice is so fragrant and perfectly fluffy. Portion is a bit small if you have a big appetite, but at this price, you can easily just order double!",
+		  "created_at": "2026-05-28"
+		},
+		{
+		  "id": "rev_uncle_lim_004",
+		  "user": "Sarah Ahmad",
+		  "rating": 3.8,
+		  "portion_score": 2,
+		  "taste_score": 4,
+		  "value_score": 5,
+		  "comment": "Taste-wise, it's a solid, comforting plate of nasi lemak. However, they ran out of extra spiced chicken when I went, so my portion felt quite small. Unbeatable value though.",
+		  "created_at": "2026-06-02"
+		},
+		{
+		  "id": "rev_uncle_lim_005",
+		  "user": "Dave S.",
+		  "rating": 4.2,
+		  "portion_score": 4,
+		  "taste_score": 4,
+		  "value_score": 5,
+		  "comment": "Clean stall, fast service, and insanely cheap. It's rare to find a place where the value score is a guaranteed full marks every time you visit.",
+		  "created_at": "2026-06-11"
+		}
     ],
-    "average_rating": 4.9,
+    "average_rating": 4.27,
     "review_count": 1,
-    "portion_score": 5,
-    "taste_score": 5,
+    "portion_score": 3.6,
+    "taste_score": 4.2,
     "value_score": 5,
     "offers": [],
     "image_url": "/images/uncle-lim-nasi-lemak.webp",
@@ -1164,7 +1204,7 @@
         "description": "Buy 2 drinks, get 1 free on Wednesdays"
       }
     ],
-    "image_url": "/images/placeholders/coffee.jpg",
+    "image_url": "/images/zus_ceo_latte.png",
     "is_halal": true,
     "is_vegetarian": true,
     "allergens": [
@@ -3158,65 +3198,6 @@
       }
     ],
     "average_rating": 4.3,
-    "review_count": 1,
-    "portion_score": 4,
-    "taste_score": 4,
-    "value_score": 4,
-    "offers": [],
-    "image_url": "/images/placeholders/coffee.jpg",
-    "is_halal": true,
-    "is_vegetarian": true,
-    "allergens": [
-      "dairy"
-    ],
-    "created_at": "2026-01-01",
-    "updated_at": "2026-05-01"
-  },
-  {
-    "id": "item_teh_ais_zus",
-    "location_id": "loc_zus_coffee_sunway",
-    "seller_name": "ZUS Coffee Sunway Pyramid",
-    "chain": "zus_coffee",
-    "name": "Teh Ais",
-    "description": "Malaysian iced milk tea with a modern twist. Smooth and refreshing.",
-    "categories": [
-      "teh_ais",
-      "drink",
-      "malaysian"
-    ],
-    "product_type": "drink",
-    "price": 7.5,
-    "currency": "MYR",
-    "ingredients": [
-      "black tea",
-      "fresh milk",
-      "sugar",
-      "ice"
-    ],
-    "options": {
-      "size": [
-        "regular",
-        "large"
-      ],
-      "sugar": [
-        "0%",
-        "50%",
-        "100%"
-      ]
-    },
-    "reviews": [
-      {
-        "id": "rev_teh_ais_zus_001",
-        "user": "Amanda W.",
-        "rating": 4.4,
-        "portion_score": 4,
-        "taste_score": 4,
-        "value_score": 4,
-        "comment": "RM7.50 for modern teh ais! Good balance of tea and milk.",
-        "created_at": "2026-05-20"
-      }
-    ],
-    "average_rating": 4.4,
     "review_count": 1,
     "portion_score": 4,
     "taste_score": 4,
